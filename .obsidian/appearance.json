@@ -2,5 +2,6 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "notes"
-  ]
+  ],
+  "theme": "moonstone"
 }
