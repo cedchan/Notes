@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LING 5250/Untitled.md",
+                "file": "LING 5250/The DFT.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LING 5250/Untitled.md",
+                "file": "LING 5250/The DFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LING 5250/Untitled.md",
+                "file": "LING 5250/The DFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LING 5250/Untitled.md"
+                "file": "LING 5250/The DFT.md"
               }
             }
           }
@@ -162,7 +162,7 @@
   "active": "b4799ea0fb869a61",
   "lastOpenFiles": [
     "CIS 1210/Union Find.md",
-    "LING 5250/Untitled.md",
+    "LING 5250/The DFT.md",
     "LING 5250",
     "CIS 1210"
   ]

@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "notes"
   ],
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "baseFontSize": 17
 }
