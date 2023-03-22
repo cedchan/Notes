@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "73ba6f4317869ec2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rule Ordering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LING 5250/The DFT.md",
+                "file": "Rule Ordering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LING 5250/The DFT.md",
+                "file": "Rule Ordering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LING 5250/The DFT.md"
+                "file": "Rule Ordering.md"
               }
             }
           }
@@ -171,11 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f81893eb4215d93a",
+  "active": "73ba6f4317869ec2",
   "lastOpenFiles": [
-    "LING 5250/Signals.md",
     "LING 5250/The DFT.md",
+    "Rule Ordering.md",
     "CIS 1210/Union Find.md",
+    "LING 5250/Signals.md",
     "LING 5250",
     "CIS 1210"
   ]
