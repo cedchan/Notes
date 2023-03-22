@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f81893eb4215d93a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LING 5250/The DFT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,10 +171,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4799ea0fb869a61",
+  "active": "f81893eb4215d93a",
   "lastOpenFiles": [
-    "CIS 1210/Union Find.md",
+    "LING 5250/Signals.md",
     "LING 5250/The DFT.md",
+    "CIS 1210/Union Find.md",
     "LING 5250",
     "CIS 1210"
   ]

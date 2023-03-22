@@ -1,11 +1,19 @@
->[!summary]
+>[!summary]+
 
 ---
 
 ## Interpretation
 
+When we apply the DFT to $x$, the resulting vector $X$ is called its **spectrum**.
+
 ### Phase and Amplitude
 
+[TK]
+
+In polar coordinates, this corresponds to
+$$X(k)=|X(k)|e^{i\angle X(k)}$$
+
+[TK]
 
 MATLAB calculates this for us. The magnitude of each complex vector is given by `abs()`, while the angle is given by `angle()`. Thus, for our DFT vector `x`, we have
 
@@ -16,7 +24,7 @@ phase = angle(x);
 
 Sometimes, it is useful to shift the samples so that the negative ones are first, which can be achieved with `fftshift()` (e.g., `fftshift(abs(x))`). 
 
-### A Graphical Representation
+### Graphical Representation
 
 When a signal is graphed in the time domain, the $y$-axis is the amplitude, and the $x$ axis is time. Consider our signal with a sampling frequency $f_s$. 
 
@@ -47,6 +55,6 @@ In MATLAB, we have
 
 ```matlab
 Nyquist = ceil(Fs/2);
-N2 = ceil(N/2);
+N2 = ceil(nfft/2);
 freq = Nyquist/N2*(0:(N2-1));
 ```
