@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 1210/Union Find.md",
+                "file": "Rule Ordering.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 1210/Union Find.md",
+                "file": "Rule Ordering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 1210/Union Find.md",
+                "file": "Rule Ordering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 1210/Union Find.md"
+                "file": "Rule Ordering.md"
               }
             }
           }
@@ -161,8 +161,11 @@
   },
   "active": "b4799ea0fb869a61",
   "lastOpenFiles": [
-    "LING 5250/Untitled.md",
+    "LING 5250/The DFT.md",
+    "LING 5250/Signals.md",
     "CIS 1210/Union Find.md",
+    "Rule Ordering.md",
+    "LING 5250/Untitled.md",
     "LING 5250",
     "CIS 1210"
   ]
