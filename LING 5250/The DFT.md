@@ -83,3 +83,11 @@ Nyquist = ceil(Fs/2);
 N2 = ceil(nfft/2);
 freq = Nyquist/N2*(0:(N2-1));
 ```
+
+## Limitations of the DFT
+
+[TK]
+
+## The STFT
+
+[TK]

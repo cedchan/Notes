@@ -25,14 +25,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rule Ordering.md",
+                "file": "LING 5250/The DFT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f81893eb4215d93a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LING 5250/The DFT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73ba6f4317869ec2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LING 5250/Signals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbf7b4f4e58ea768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LING 5250/The DFT.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -82,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rule Ordering.md",
+                "file": "LING 5250/The DFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rule Ordering.md",
+                "file": "LING 5250/The DFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rule Ordering.md"
+                "file": "LING 5250/The DFT.md"
               }
             }
           }
@@ -159,13 +195,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4799ea0fb869a61",
+  "active": "bbf7b4f4e58ea768",
   "lastOpenFiles": [
-    "LING 5250/The DFT.md",
+    "MATH 3130/Transformations.md",
+    "MATH 3130",
     "LING 5250/Signals.md",
+    "CIS 1210/Hashing.md",
+    "hi.md",
+    "LING 5250/The DFT.md",
     "CIS 1210/Union Find.md",
-    "Rule Ordering.md",
-    "LING 5250/Untitled.md",
+    "LING 2300/Distributions.md",
+    "LING 2300",
+    "LING 2300/Rule Ordering.md",
     "LING 5250",
     "CIS 1210"
   ]
