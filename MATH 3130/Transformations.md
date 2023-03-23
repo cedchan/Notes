@@ -146,8 +146,8 @@ $$
 >$$
 \begin{align}
 \langle A,B\rangle&=(A^TB) \\
-\left\langle\begin{pmatrix}a&b\\c&d\end{pmatrix},
-\begin{pmatrix}a&b\\c&d\end{pmatrix}\right\rangle&=a^2+b^2+c^2+d^2
+\left\langle\begin{pmatrix}a&b\\ c&d\end{pmatrix},
+\begin{pmatrix}a&b\\ c&d\end{pmatrix}\right\rangle&=a^2+b^2+c^2+d^2
 \end{align}$$
 
 **Example.** Space of functions on $[0, 2\pi]$.
@@ -163,4 +163,4 @@ An **orthonormal basis** of $V$ with respect to $\langle\cdot,\cdot\rangle$ is $
 2. $\langle\vec v_i, \vec v_j\rangle=0$ (i.e., each vector is orthogonal)
 
 **Example.** The Fourier Space
->$\left\{\frac{1}{\sqrt{2}},\cos x, \sin x, \cos 2x, \sin 2x, \dots\right\}$ is an orthonormal basis that spans all functions.
+>$\left\{\frac{1}{\sqrt{2}},\cos x, \sin x, \cos 2x, \sin 2x, \dots \right\}$ is an orthonormal basis that spans all functions.
