@@ -1,6 +1,6 @@
-.cm-header-1,.markdown-preview-view h1 {
+/* .cm-header-1,.markdown-preview-view h1 {
     color: red
-}
+} */
 
 .callout[data-callout="summary"] {
     --callout-color: 175, 179, 225;
@@ -20,4 +20,9 @@
 .callout[data-callout="definition"] {
     --callout-color: 175, 179, 225;
     --callout-icon: book;
+}
+
+.callout[data-callout="idea"] {
+    --callout-color: 175, 179, 225;
+    --callout-icon: star;
 }

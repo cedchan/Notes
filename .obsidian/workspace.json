@@ -13,50 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 1210/Union Find.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f81893eb4215d93a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LING 5250/The DFT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73ba6f4317869ec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LING 5250/Signals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbf7b4f4e58ea768",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "MATH 3130/Transformations.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e717785ab3fb9fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Heaps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b71b55ecaf25611",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Huffman Encoding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "037f9467748054dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Graph Traversals.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LING 5250/The DFT.md",
+                "file": "CIS 1210/Graph Traversals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LING 5250/The DFT.md",
+                "file": "CIS 1210/Graph Traversals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LING 5250/The DFT.md"
+                "file": "CIS 1210/Graph Traversals.md"
               }
             }
           }
@@ -183,18 +183,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f81893eb4215d93a",
+  "active": "037f9467748054dd",
   "lastOpenFiles": [
-    "MATH 3130/Transformations.md",
-    "LING 5250/The DFT.md",
-    "MATH 3130",
-    "LING 5250/Signals.md",
     "CIS 1210/Hashing.md",
-    "hi.md",
     "CIS 1210/Union Find.md",
-    "LING 2300/Distributions.md",
-    "LING 2300",
+    "CIS 1210/Huffman Encoding.md",
+    "CIS 1210/Heaps.md",
     "LING 2300/Rule Ordering.md",
+    "LING 2300/Distributions.md",
+    "CIS 1210/Graph Traversals.md",
+    "MATH 3130/Transformations.md",
+    "Rule Ordering.md",
+    "MATH 3130",
+    "LING 2300",
+    "LING 5250/The DFT.md",
+    "LING 5250/Signals.md",
+    "LING 5250/Untitled.md",
     "LING 5250",
     "CIS 1210"
   ]
