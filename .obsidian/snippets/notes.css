@@ -17,6 +17,11 @@
     --callout-icon: sigma;
 }
 
+.callout[data-callout="theorem"] {
+    --callout-color: 175, 179, 225;
+    --callout-icon: sigma;
+}
+
 .callout[data-callout="definition"] {
     --callout-color: 175, 179, 225;
     --callout-icon: book;
