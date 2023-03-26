@@ -67,9 +67,7 @@ In each iteration we maintain a set $S\subseteq V$, then add the minimum-weight 
 
 Kruskal's algorithm begins with a graph without edges $T$. Then it iterates through the edges in increasing weight order, and adds each edge to $T$ if adding that edge won't create a cycle.
 
-[TK links]
-
-To check if adding an edge $(u, v)$ creates a cycle, we use the Union Find (UF) data structure, which has the following methods:
+To check if adding an edge $(u, v)$ creates a cycle, we use the [Union Find](Union%20Find.md) data structure, which has the following methods:
 - `MakeSet(x)`: Creates a set with just the element $x$
 - `Find(x)`: Returns the ID of the set that contains $x$
 - `Union(x, y)`: Combines the sets containing $x$ and $y$
@@ -96,9 +94,7 @@ Kruskal(G):
 
 Kruskal's algorithm runs in $O(m\lg n)$ time, just like Prim's and Dijkstra's.
 
-Sorting the edges takes $O(m\lg m)=O(m\lg n)$ time, which dominates the other operations. (See UF notes for details.) 
-
-[Link TK]
+Sorting the edges takes $O(m\lg m)=O(m\lg n)$ time, which dominates the other operations. (See [UF](Union%20Find.md) notes for details.) 
 
 ### Correctness
 
@@ -135,3 +131,18 @@ This follows directly from the [cycle property](Minimum%20Spanning%20Trees%20(MS
 
 ## MSTs with Equal Edge Weights
 
+If edges have the same weight, we need some sort of tie breaker to apply these methods. One way we can do this is maintain the relative ordering of weights, while making small distinctions between equal weights.
+
+One way to do this: Let
+$$\delta\triangleq \min_{e,e'\in E}|w(e)-w(e')|$$
+be the smallest difference in weights between any two edges. Then we can define the weight function
+$$
+w'(e_i)\triangleq w(e_i)+i\cdot\frac{\delta}{m}
+$$
+where each edge $e\in E$ belongs to some set $\{e_0, e_1, \dots, e_k\}$ such that $w(e_0)=w(e_1)=\dots=w(e_k)$. 
+
+Then, the following are true:
+1. Relative order is maintained ($w(e)<w(e')\implies w'(e)<w'(e')$)
+2. There are no ties
+
+This arbitrarily breaks ties and allows us to apply our above algorithms. With this in mind, we need to adjust the [cut property](Minimum%20Spanning%20Trees%20(MSTs).md#Background#The%20Cut%20Property) and the [cycle property](Minimum%20Spanning%20Trees%20(MSTs).md#Background#The%20Cycle%20Property) to say "*some*" MST with the given conditions exists, not "every," because edges with equal weights can be exchanged to create different, valid MSTs.

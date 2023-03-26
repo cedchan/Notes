@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -194,16 +193,17 @@
   },
   "active": "fb50b47ef9a07ce9",
   "lastOpenFiles": [
+    "CIS 1210/Union Find.md",
+    "Untitled.md",
+    "CIS 1210/Minimum Spanning Trees (MSTs).md",
     "CIS 1210/Bipartiteness.md",
     "CIS 1210/Directed Acyclic Graphs (DAGs).md",
     "CIS 1210/Graph Traversals.md",
     "CIS 1210/Hashing.md",
     "CIS 1210/Heaps.md",
     "CIS 1210/Huffman Encoding.md",
-    "CIS 1210/Minimum Spanning Trees (MSTs).md",
     "CIS 1210/Shortest Path.md",
     "CIS 1210/Strongly Connected Components.md",
-    "CIS 1210/Union Find.md",
     "Glossary/Computer Science.md",
     "Glossary.md",
     "Glossary",
