@@ -13,54 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 3130/Transformations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e717785ab3fb9fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Heaps.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b71b55ecaf25611",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Huffman Encoding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "037f9467748054dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Graph Traversals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a1923623753a435",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "CIS 1210/Bipartiteness.md",
                 "mode": "source",
                 "source": false
@@ -68,31 +20,51 @@
             }
           },
           {
-            "id": "28de5e5540c7c5a4",
+            "id": "b4a138bca4f7b458",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 1210/Bipartiteness.md",
+                "file": "Glossary/Computer Science.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "288161a18e43aabf",
+            "id": "601126f93cc4e928",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 1210/Directed Acyclic Graphs (DAGs).md",
+                "file": "CIS 1210/Shortest Path.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "fb50b47ef9a07ce9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Minimum Spanning Trees (MSTs).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84a129c8b0d8eedf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -158,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 1210/Directed Acyclic Graphs (DAGs).md",
+                "file": "CIS 1210/Minimum Spanning Trees (MSTs).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 1210/Directed Acyclic Graphs (DAGs).md",
+                "file": "CIS 1210/Minimum Spanning Trees (MSTs).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 1210/Directed Acyclic Graphs (DAGs).md"
+                "file": "CIS 1210/Minimum Spanning Trees (MSTs).md"
               }
             }
           }
@@ -219,25 +192,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "288161a18e43aabf",
+  "active": "fb50b47ef9a07ce9",
   "lastOpenFiles": [
     "CIS 1210/Bipartiteness.md",
     "CIS 1210/Directed Acyclic Graphs (DAGs).md",
-    "CIS 1210/Union Find.md",
-    "README.md",
     "CIS 1210/Graph Traversals.md",
     "CIS 1210/Hashing.md",
-    "CIS 1210/Huffman Encoding.md",
     "CIS 1210/Heaps.md",
-    "LING 2300/Rule Ordering.md",
-    "LING 2300/Distributions.md",
+    "CIS 1210/Huffman Encoding.md",
+    "CIS 1210/Minimum Spanning Trees (MSTs).md",
+    "CIS 1210/Shortest Path.md",
+    "CIS 1210/Strongly Connected Components.md",
+    "CIS 1210/Union Find.md",
+    "Glossary/Computer Science.md",
+    "Glossary.md",
+    "Glossary",
     "MATH 3130/Transformations.md",
-    "Rule Ordering.md",
-    "MATH 3130",
-    "LING 2300",
-    "LING 5250/The DFT.md",
     "LING 5250/Signals.md",
-    "LING 5250/Untitled.md",
+    "LING 5250/The DFT.md",
+    "README.md",
+    "MATH 3130",
+    "hi.md",
+    "LING 2300/Distributions.md",
+    "LING 2300",
+    "LING 2300/Rule Ordering.md",
     "LING 5250",
     "CIS 1210"
   ]
