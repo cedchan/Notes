@@ -163,3 +163,5 @@ An **orthonormal basis** of $V$ with respect to $\langle\cdot,\cdot\rangle$ is $
 
 **Example.** The Fourier Space
 >$\left\{\frac{1}{\sqrt{2}},\cos x, \sin x, \cos 2x, \sin 2x, \dots \right\}$ is an orthonormal basis that spans all functions.
+
+An orthonormal basis, like with typical numerical vectors, can be found by using the Gram-Schmidt process. 
