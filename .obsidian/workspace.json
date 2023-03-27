@@ -182,7 +182,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "CHIN 1140.md",
+=======
+                "file": "MATH 3130/Transformations.md",
+>>>>>>> 25d7415abbede17616d94682568144b742bf2db0
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +203,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "CHIN 1140.md",
+=======
+                "file": "MATH 3130/Transformations.md",
+>>>>>>> 25d7415abbede17616d94682568144b742bf2db0
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +230,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "CHIN 1140.md"
+=======
+                "file": "MATH 3130/Transformations.md"
+>>>>>>> 25d7415abbede17616d94682568144b742bf2db0
               }
             }
           }
@@ -245,6 +257,7 @@
   },
   "active": "238fc620f3a7044a",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "MATH 3130/Transformations.md",
     "CHIN 1140.md",
     "CIS 1210/Midterm 2 Review.md",
@@ -257,6 +270,25 @@
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
     "CIS 1210/Bipartiteness.md",
     "CIS 1210/Union Find.md",
+=======
+    "CIS 1210/Shortest Path.md",
+    "CIS 1210/Minimum Spanning Trees (MSTs).md",
+    "CIS 1210/Directed Acyclic Graphs (DAGs).md",
+    "CIS 1210/Union Find.md",
+    "Untitled.md",
+    "CIS 1210/Bipartiteness.md",
+    "CIS 1210/Graph Traversals.md",
+    "CIS 1210/Hashing.md",
+    "CIS 1210/Heaps.md",
+    "CIS 1210/Huffman Encoding.md",
+    "CIS 1210/Strongly Connected Components.md",
+    "Glossary/Computer Science.md",
+    "Glossary.md",
+    "Glossary",
+    "MATH 3130/Transformations.md",
+    "LING 5250/Signals.md",
+    "LING 5250/The DFT.md",
+>>>>>>> 25d7415abbede17616d94682568144b742bf2db0
     "README.md",
     "CIS 1210/Graph Traversals.md",
     "CIS 1210/Huffman Encoding.md",

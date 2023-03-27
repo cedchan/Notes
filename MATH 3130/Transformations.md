@@ -2,7 +2,6 @@
 >
 
 --- 
-
 ## Linear Transformations
 
 ### Transformation Matrices
@@ -10,7 +9,7 @@
 Transformation matrices do a linear combination when multiplied by a vector, resulting in a new vector within the same vector speace.
 
 A transformation $T: V\rightarrow V$ is a map between vector spaces. Transformations are **linear** if they satisfy two conditions:
-1. **Superposition:** $T(\vec{v}_1+\vec{v}_2)=T(\vec{v}_1 + \vec{v}_2)$
+1. **Superposition:** $T(\vec{v}_1+\vec{v}_2)=T(\vec{v}_1) + T(\vec{v}_2)$
 2. **Homogeneity:** $T(\lambda\vec{v})=\lambda T(\vec{v})$
 
 $V$ has basis $\mathcal{B}=\{ \vec{v}_1, \vec{v}_2 \}$. Typically, a transformation might require two bases for the source and target of the mapping.
@@ -164,3 +163,5 @@ An **orthonormal basis** of $V$ with respect to $\langle\cdot,\cdot\rangle$ is $
 
 **Example.** The Fourier Space
 >$\left\{\frac{1}{\sqrt{2}},\cos x, \sin x, \cos 2x, \sin 2x, \dots \right\}$ is an orthonormal basis that spans all functions.
+
+An orthonormal basis, like with typical numerical vectors, can be found by using the Gram-Schmidt process. 
