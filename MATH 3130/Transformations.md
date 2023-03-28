@@ -6,7 +6,7 @@
 
 ### Transformation Matrices
 
-Transformation matrices do a linear combination when multiplied by a vector, resulting in a new vector within the same vector speace.
+Transformation matrices do a linear combination when multiplied by a vector, resulting in a new vector within the same [vector space](Vector%20Spaces.md).
 
 A transformation $T: V\rightarrow V$ is a map between vector spaces. Transformations are **linear** if they satisfy two conditions:
 1. **Superposition:** $T(\vec{v}_1+\vec{v}_2)=T(\vec{v}_1) + T(\vec{v}_2)$
@@ -36,10 +36,10 @@ $$\begin{gathered}T(x_1\vec{v}_1+x_2\vec{v}_2)=y_1\vec{v}_1+y_2\vec{v}_2 \\
 \end{gathered}
 $$
 
-**Example:**
+>**Example.** $P_2(\mathbb R)=\{a+bx+cx^2\}, T=\frac{d}{dx}:P_2\rightarrow P_2$. Find $A_{\mathcal B\mathcal B}$.
+
+>[!solution]+
 >$$\begin{align}
-P_2(\mathbb{R})&=\{a+bx+cx^2\} \\ 
-T&=\frac{d}{dx}:P_2\rightarrow P_2 \\ 
 T(a+bx+cx^2)&=b+2cx \\ 
 \mathcal{B}&=\{1,x,x^2\} & \text{(basis of $P_2(\mathbb{R})$)} \\ 
 T(1) &= 0 =0\cdot1+0\cdot x + 0\cdot x^2\\
@@ -68,6 +68,10 @@ $$\begin{gathered}
 	P(x_1\vec{v}_1+x_2\vec{v}_2)=y_1\vec{v}_1'+y_2\vec{v}_2' \\
 	\iff P_{\mathcal{B}_2\mathcal{B}_1}\begin{pmatrix}x_1\\x_2\end{pmatrix}=\begin{pmatrix}y_1\\y_2\end{pmatrix}
 \end{gathered}$$
+
+>[!equation]
+>We can simply write the transition matrix as $P=\mathcal B_2^{-1}\mathcal B_1$. 
+
 ### Change of Basis
 
 Suppose we have a transformation matrix $A_{\mathcal{B}_1\mathcal{B}_1}$ and we want to perform the transition in the space spanned by $\mathcal{B}_2$. We can achieve this by using our transition matrix in combination with our transformation matrix.
@@ -82,9 +86,10 @@ $$
 
 Why is this helpful? Studying a matrix in one basis is easier in some bases than other (e.g., when it's diagonal). 
 
-**Example:**
+>**Example.** $\mathcal{B}_2=\{1,x,\frac{x^2-1}{2}\}$. Find $A_{\mathcal B_2\mathcal B_2}$.
+
+>[!solution]+
 >$${\begin{gathered}
-\mathcal{B}_2=\{1,x,\frac{x^2-1}{2}\} \\
 1=1\cdot1 \\ x=1\cdot x \\
 x^2=1\cdot 1+2\cdot\frac{x^2-1}{2} \\
 P=P_{\mathcal{B}_2\mathcal{B}_1}=\begin{pmatrix}1 & 0 & 1\\0 & 1 & 0 \\ 0 & 0 & 2\end{pmatrix} \\
@@ -108,6 +113,80 @@ $$\begin{gathered}
 	W: \mathcal{C}_1, \mathcal{C}_2 \\
 	A_{\mathcal{C}_2\mathcal{B}_2}=P_{\mathcal{C}_2\mathcal{C}_1}A_{\mathcal{C}_1\mathcal{B}_1}P_{\mathcal{B}_2\mathcal{B}_2}
 \end{gathered}$$
+
+## Composition of Linear Transformations
+
+Like with functions, transformation matrices can be **composed** to create a "new" transformation. 
+
+>[!theorem]
+>The composition of linear transformations is linear.
+>
+For linear transformations $S, T$ below, $TS$ is also linear.$$
+\begin{align}
+S&:U\rightarrow V\\
+T&:V\rightarrow W\\
+TS&:U\rightarrow W
+\end{align}
+$$
+
+*Proof:* 
+**Superposition:**
+$$\begin{align}
+(TS)(\vec u_1+\vec u_2)&=T(S(\vec u_1+\vec u_2) \\
+&=T(S\vec u_1+S\vec u_2) \\
+&=T(S\vec u_1)+T(S\vec u_2) \\
+&=(TS)\vec u_1 +(TS)\vec u_2
+\end{align}$$
+**Homogeneity:** 
+$$\begin{align}
+(TS)(\lambda\vec u)=\lambda((TS)\vec u)
+\end{align}$$
+(Full steps not shown.)
+
+>**Example.** Find $TS(\vec u_1+\vec u_2)$ given$${
+\begin{align}
+S\vec u_1&=4\vec v_1-2\vec v_2 \\
+S\vec u_2&=\vec v_1 \\
+T\vec v_1&=\vec w_1+\vec w_2 \\
+T\vec v_2&=2\vec w_1+3\vec w_2
+\end{align}
+}$$
+
+>[!solution]+
+>$${\begin{align}
+TS(\vec u_1+\vec u_2)&=T(S\vec u_1+S\vec u_2) \\
+&=T(4\vec v_1-2\vec v_2+\vec v_1) \\
+&=T(5\vec v_1-2\vec v_2) \\
+&=5T(\vec v_1)-2T(\vec v_2) \\
+&=5(\vec w_1+\vec w_2)-2(2\vec w_1+3\vec w_2) \\
+&=w_1-w_2
+\end{align}}$$
+
+### Matrix of the Composition
+
+Suppose the matrix of $S=A$, and the matrix of $T=B$. Then what is the matrix of the composition $TS$?
+
+Since we apply $S$ first, then $T$, our answer is $BA$. 
+
+>**Example.** $U, V, W$ have bases $\{\vec u_1, \vec u_2\}, \{\vec v_1, \vec v_2\}, \{\vec w_1, \vec w_2\}$ (from prior example). Find the matrix of the composition $TS$. 
+
+>[!solution]+
+>$${\begin{align}
+A&=\begin{pmatrix}
+4 & 1\\
+-2 & 0
+\end{pmatrix}\\
+B&=\begin{pmatrix}
+1 & 2\\
+1 & 3
+\end{pmatrix} \\
+BA&=\begin{pmatrix}
+0 & 1 \\
+-2 & 1
+\end{pmatrix}\\
+BA\begin{pmatrix}1 \\ 1\end{pmatrix} &=\begin{pmatrix}1 \\ -1\end{pmatrix}
+\end{align}}$$
+This verifies the result we got from the previous example.
 
 ## Inner Product 
 
@@ -136,12 +215,9 @@ $$
 	$\langle\vec u, \vec v\rangle^2\leq\langle \vec u, \vec u\rangle\langle\vec v, \vec v\rangle$
 	$|\vec u \cdot \vec v| \leq ||\vec u|| \cdot ||\vec v||$
 
-**Example.** $\mathbb{R}^2$ dot product
+>**Example.** $\mathbb{R}^2$ dot product
 
-**Example.** $M_{2\times2}(\mathbb{R}), \langle\cdot,\cdot\rangle$
->[!danger]
->There was something before the $(A^TB)$ that I didn't catch.
-
+>**Example.** $M_{2\times2}(\mathbb{R}), \langle\cdot,\cdot\rangle$
 >$$
 \begin{align}
 \langle A,B\rangle&=(A^TB) \\
@@ -149,11 +225,11 @@ $$
 \begin{pmatrix}a&b\\ c&d\end{pmatrix}\right\rangle&=a^2+b^2+c^2+d^2
 \end{align}$$
 
-**Example.** Space of functions on $[0, 2\pi]$.
->$$\langle f,g\rangle=\frac{1}{\pi}\int_0^{2\pi}f(x)g(x)dx$$
-
 >[!danger]
->Not sure where this is from.
+>There was something before the $(A^TB)$ that I didn't catch.
+
+>**Example.** Space of functions on $[0, 2\pi]$.
+>$$\langle f,g\rangle=\frac{1}{\pi}\int_0^{2\pi}f(x)g(x)dx$$
 
 ## Orthonormal Basis
 
@@ -161,7 +237,7 @@ An **orthonormal basis** of $V$ with respect to $\langle\cdot,\cdot\rangle$ is $
 1. $\langle\vec{v}_i,\vec{v}_i\rangle=1$ (i.e., they each vector in a unit/normal vector)
 2. $\langle\vec v_i, \vec v_j\rangle=0$ (i.e., each vector is orthogonal)
 
-**Example.** The Fourier Space
+>**Example.** The Fourier Space
 >$\left\{\frac{1}{\sqrt{2}},\cos x, \sin x, \cos 2x, \sin 2x, \dots \right\}$ is an orthonormal basis that spans all functions.
 
 An orthonormal basis, like with typical numerical vectors, can be found by using the Gram-Schmidt process. 

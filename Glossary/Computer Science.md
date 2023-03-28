@@ -19,3 +19,9 @@ A **source vertex** has in-degree 0. That is, there are no edges that lead to so
 ### Sink Vertex
 
 A **sink vertex** has out-degree 0. That is, there are no edges that originate from sink vertices.
+
+### Full Binary Tree
+
+A binary tree such that each internal node has exactly two children.
+
+[Properties TK]

@@ -13,54 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 3130/Transformations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e717785ab3fb9fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Heaps.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b71b55ecaf25611",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Huffman Encoding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "037f9467748054dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Graph Traversals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a1923623753a435",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "CIS 1210/Bipartiteness.md",
                 "mode": "source",
                 "source": false
@@ -68,19 +20,31 @@
             }
           },
           {
-            "id": "28de5e5540c7c5a4",
+            "id": "b4a138bca4f7b458",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 1210/Bipartiteness.md",
+                "file": "Glossary/Computer Science.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "288161a18e43aabf",
+            "id": "601126f93cc4e928",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Shortest Path.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb50b47ef9a07ce9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +56,7 @@
             }
           },
           {
-            "id": "e848969f3c2d1609",
+            "id": "dcb026bf8873febb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,19 +68,63 @@
             }
           },
           {
-            "id": "f49f72cbe3278b71",
+            "id": "affa3cc6937f9559",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CHIN 1140.md",
+                "file": "MATH 3130/Transformations.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "30a22ed9a2c2f379",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Transformations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e72d463b91f0bbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Transformations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0accd6824b1595ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Transformations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84a129c8b0d8eedf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -166,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -182,11 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "CHIN 1140.md",
-=======
                 "file": "MATH 3130/Transformations.md",
->>>>>>> 25d7415abbede17616d94682568144b742bf2db0
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,11 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "CHIN 1140.md",
-=======
                 "file": "MATH 3130/Transformations.md",
->>>>>>> 25d7415abbede17616d94682568144b742bf2db0
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,11 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "CHIN 1140.md"
-=======
                 "file": "MATH 3130/Transformations.md"
->>>>>>> 25d7415abbede17616d94682568144b742bf2db0
               }
             }
           }
@@ -255,52 +251,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238fc620f3a7044a",
+  "active": "affa3cc6937f9559",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "MATH 3130/Vector Spaces.md",
+    "MATH 3130/Diagonalization.md",
     "MATH 3130/Transformations.md",
+    "MATH 3130/Eigenvectors and Eigenvalues.md",
+    "Glossary/Math.md",
+    "Glossary/Computer Science.md",
+    "Glossary/Math",
+    "CIS 1210/Hashing.md",
     "CHIN 1140.md",
-    "CIS 1210/Midterm 2 Review.md",
-    "CIS 1210/Hashing.md",
-    "CIS 1210/Directed Acyclic Graphs (DAGs).md",
-    "Glossary/Computer Science.md",
-    "Glossary",
-    "CIS 1210/Strongly Connected Components.md",
-    "CIS 1210/Shortest Path.md",
-    "CIS 1210/Minimum Spanning Trees (MSTs).md",
-    "CIS 1210/Bipartiteness.md",
-    "CIS 1210/Union Find.md",
-=======
-    "CIS 1210/Shortest Path.md",
-    "CIS 1210/Minimum Spanning Trees (MSTs).md",
-    "CIS 1210/Directed Acyclic Graphs (DAGs).md",
-    "CIS 1210/Union Find.md",
-    "Untitled.md",
-    "CIS 1210/Bipartiteness.md",
-    "CIS 1210/Graph Traversals.md",
-    "CIS 1210/Hashing.md",
-    "CIS 1210/Heaps.md",
-    "CIS 1210/Huffman Encoding.md",
-    "CIS 1210/Strongly Connected Components.md",
-    "Glossary/Computer Science.md",
-    "Glossary.md",
-    "Glossary",
-    "MATH 3130/Transformations.md",
-    "LING 5250/Signals.md",
-    "LING 5250/The DFT.md",
->>>>>>> 25d7415abbede17616d94682568144b742bf2db0
-    "README.md",
-    "CIS 1210/Graph Traversals.md",
-    "CIS 1210/Huffman Encoding.md",
-    "CIS 1210/Heaps.md",
+    "CIS 1210/Tries.md",
     "LING 2300/Rule Ordering.md",
     "LING 2300/Distributions.md",
-    "Rule Ordering.md",
-    "MATH 3130",
-    "LING 2300",
-    "LING 5250/The DFT.md",
+    "README.md",
+    "CIS 1210/Midterm 2 Review.md",
+    "CIS 1210/Shortest Path.md",
+    "CIS 1210/Minimum Spanning Trees (MSTs).md",
+    "CIS 1210/Directed Acyclic Graphs (DAGs).md",
+    "CIS 1210/Union Find.md",
+    "CIS 1210/Bipartiteness.md",
+    "CIS 1210/Graph Traversals.md",
+    "CIS 1210/Heaps.md",
+    "CIS 1210/Huffman Encoding.md",
+    "CIS 1210/Strongly Connected Components.md",
+    "Glossary.md",
+    "Glossary",
     "LING 5250/Signals.md",
-    "LING 5250/Untitled.md",
+    "LING 5250/The DFT.md",
+    "MATH 3130",
+    "hi.md",
+    "LING 2300",
     "LING 5250",
     "CIS 1210"
   ]
