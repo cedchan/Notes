@@ -234,15 +234,35 @@ e^{Jt}&=I+Jt+\frac{J^2t^2}{2!}+\frac{J^3t^3}{3!}+\dots \\
 e^{\lambda_1t} & 0 \\
 0 & e^{\lambda_2t}
 \end{pmatrix} \\
-&=\boxed{e^{\lambda}I}
+&=\boxed{e^{\lambda t}I}
 \end{align}
 $$
-Then, we can generalize $e^{\lambda}I$.
+
+>[!equation]
+>Given $${
+\begin{align}
+\frac{du_1}{dt}&=au_1+bu_2 \\
+\frac{du_2}{dt}&=cu_1+du_2
+\end{align}}$$
+>we can matricize the problem as follows:
+>$${\begin{align}
+\vec u(t)=\begin{pmatrix}u_1(t) \\ u_2(t)\end{pmatrix} &,
+A=\begin{pmatrix}
+a & c \\
+b & d
+\end{pmatrix} \\
+\implies \frac{d\vec u}{dt}&=A\vec u \\
+\vec u(t)&=e^{At}\vec u(0) \\
+&=\boxed{Pe^{Jt}P^{-1}\vec u(0)}
+\end{align}}$$
+>For a diagonal, this is
+>$${\vec u(t)=Pe^{\lambda t}IP^{-1}\vec u(0)}$$
 
 
 >**Example.** Doing this process with a Jordan block matrix $A=\begin{pmatrix}3 & 1 \\-1 & 1\end{pmatrix}$. Find $e^{At}$ (which can be used in $\vec u(t)=e^{At}\vec u(0)$). 
 
-$$\begin{align}
+>[!solution]+
+>$$\begin{align}
 A&=PJP^{-1} \\
 P&=\begin{pmatrix}
 1 & 0 \\

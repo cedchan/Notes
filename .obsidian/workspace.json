@@ -62,7 +62,7 @@
               "type": "markdown",
               "state": {
                 "file": "MATH 3130/Transformations.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -241,7 +241,9 @@
   },
   "active": "dcb026bf8873febb",
   "lastOpenFiles": [
+    "MATH 3130/Vector Spaces.md",
     "MATH 3130/Diagonalization.md",
+    "MATH 3130/Transformations.md",
     "Untitled.canvas",
     "CHIN 1140.md",
     "2023-03-30.md",
@@ -255,8 +257,6 @@
     "LING 5250/Beat Tracking.md",
     "LING 5250/The DFT.md",
     "LING 5250/Signals.md",
-    "MATH 3130/Transformations.md",
-    "MATH 3130/Vector Spaces.md",
     "MATH 3130/Eigenvectors and Eigenvalues.md",
     "Glossary/Math.md",
     "Glossary/Computer Science.md",

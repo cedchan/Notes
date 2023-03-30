@@ -188,15 +188,27 @@ BA\begin{pmatrix}1 \\ 1\end{pmatrix} &=\begin{pmatrix}1 \\ -1\end{pmatrix}
 \end{align}}$$
 This verifies the result we got from the previous example.
 
+## Common Transformations
+
 ### Rotations
 
-$\det(rot)=1$
-because rotations are area preserving
+Let $rot$ be some rotation transformation. Then,
+$$\det(rot)=1$$
+because geometrically, the determinant represents the area of the parallelogram (or in 3-D space volume), so a rotation should have no impact, as shown below:
+$$\begin{align}
+\det(A)&=x \\
+\det(rot\cdot A)&=\det(rot)\det(A) \\
+&=\det(rot)\cdot x \\
+&=x \\
+\therefore \det(rot)&=1
+
+\end{align}$$
 
 ### Reflections
 
-$\det(ref) =-1$
-also area preserving, but it's the other "face" of the thing. Imagine that the vector is on a sheet of paper. A rotation just turns that paper without changing the area, while the reflection "flips" the paper.
+Let $ref$ be some reflection transformation. Then,
+$$\det(ref) =-1$$
+Similar to rotations, reflections are also area-preserving, but it's the other "face" of the image, so the determinant is $-1$. Imagine that the vector is on a sheet of paper. A rotation just turns that paper without changing the area, while the reflection "flips" the paper. The steps for showing why this holds are essentially the same as in the rotations example.
 
 ### Projections
 
@@ -204,11 +216,26 @@ also area preserving, but it's the other "face" of the thing. Imagine that the v
 
 ### Common Compositions
 
-$(rot)(ref) = (ref) det(rot)det(ref)=det(ref)$ (holds for below, fill in)
-$(ref)(ref) = (rot)$
-(rot)(rot) = (rot)
+>[!equation]
+>Note the following common compositions:
+>$$\begin{align}
+(rot)(ref) &= (ref) \\ 
+(ref)(ref) &= (rot) \\
+(rot)(rot) &= (rot) \\
+\end{align}$$
 
-
+*Proof:* The proof directly follows the previous determinant calculations. 
+$$\begin{align}
+\det(rot)\det(ref)&=1(-1) \\
+&=-1 \\
+&=\det(ref) \\
+\det(ref)\det(ref)&=(-1)(-1) \\
+&=1\\
+&=\det(rot) \\
+\det(rot)\det(rot)&=1(1) \\
+&=1 \\
+&=\det(rot)
+\end{align}$$
 
 ## Inner Product 
 
