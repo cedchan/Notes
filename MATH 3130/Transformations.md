@@ -162,7 +162,7 @@ TS(\vec u_1+\vec u_2)&=T(S\vec u_1+S\vec u_2) \\
 &=w_1-w_2
 \end{align}}$$
 
-### Matrix of the Composition
+### Compositions of Transformations
 
 Suppose the matrix of $S=A$, and the matrix of $T=B$. Then what is the matrix of the composition $TS$?
 
@@ -187,6 +187,28 @@ BA&=\begin{pmatrix}
 BA\begin{pmatrix}1 \\ 1\end{pmatrix} &=\begin{pmatrix}1 \\ -1\end{pmatrix}
 \end{align}}$$
 This verifies the result we got from the previous example.
+
+### Rotations
+
+$\det(rot)=1$
+because rotations are area preserving
+
+### Reflections
+
+$\det(ref) =-1$
+also area preserving, but it's the other "face" of the thing. Imagine that the vector is on a sheet of paper. A rotation just turns that paper without changing the area, while the reflection "flips" the paper.
+
+### Projections
+
+[TK]
+
+### Common Compositions
+
+$(rot)(ref) = (ref) det(rot)det(ref)=det(ref)$ (holds for below, fill in)
+$(ref)(ref) = (rot)$
+(rot)(rot) = (rot)
+
+
 
 ## Inner Product 
 
