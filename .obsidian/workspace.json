@@ -61,19 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 3130/Transformations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "affa3cc6937f9559",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MATH 3130/Transformations.md",
+                "file": "MATH 3130/Diagonalization.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -190,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MATH 3130/Transformations.md",
+                "file": "MATH 3130/Diagonalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MATH 3130/Transformations.md",
+                "file": "MATH 3130/Diagonalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MATH 3130/Transformations.md"
+                "file": "MATH 3130/Diagonalization.md"
               }
             }
           }
@@ -251,37 +239,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "affa3cc6937f9559",
+  "active": "dcb026bf8873febb",
   "lastOpenFiles": [
-    "MATH 3130/Vector Spaces.md",
+    "Untitled.canvas",
+    "CHIN 1140.md",
+    "2023-03-30.md",
+    "CIS 1210/Directed Acyclic Graphs (DAGs).md",
+    "CIS 1210/Graph Traversals.md",
+    "CIS 1210/Bipartiteness.md",
+    "CIS 1210/Heaps.md",
+    "CIS 1210/Huffman Encoding.md",
+    "CIS 1210/Minimum Spanning Trees (MSTs).md",
+    "CIS 1210/Strongly Connected Components.md",
+    "LING 5250/Beat Tracking.md",
     "MATH 3130/Diagonalization.md",
+    "LING 5250/The DFT.md",
+    "LING 5250/Signals.md",
     "MATH 3130/Transformations.md",
+    "MATH 3130/Vector Spaces.md",
     "MATH 3130/Eigenvectors and Eigenvalues.md",
     "Glossary/Math.md",
     "Glossary/Computer Science.md",
     "Glossary/Math",
     "CIS 1210/Hashing.md",
-    "CHIN 1140.md",
     "CIS 1210/Tries.md",
     "LING 2300/Rule Ordering.md",
     "LING 2300/Distributions.md",
     "README.md",
     "CIS 1210/Midterm 2 Review.md",
     "CIS 1210/Shortest Path.md",
-    "CIS 1210/Minimum Spanning Trees (MSTs).md",
-    "CIS 1210/Directed Acyclic Graphs (DAGs).md",
-    "CIS 1210/Union Find.md",
-    "CIS 1210/Bipartiteness.md",
-    "CIS 1210/Graph Traversals.md",
-    "CIS 1210/Heaps.md",
-    "CIS 1210/Huffman Encoding.md",
-    "CIS 1210/Strongly Connected Components.md",
-    "Glossary.md",
     "Glossary",
-    "LING 5250/Signals.md",
-    "LING 5250/The DFT.md",
     "MATH 3130",
-    "hi.md",
     "LING 2300",
     "LING 5250",
     "CIS 1210"

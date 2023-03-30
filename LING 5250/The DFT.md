@@ -22,21 +22,24 @@ And conversely,
 $$A_s\sin(\omega t)+A_c\cos(\omega t)=\sqrt{A_s^2+A_c^2}\cdot\sin\left(\omega t+\tan^{-1}\middle(\frac{B}{A}\middle)\right)$$
 where $A_s, A_c$ are the sine and cosine weights, respectively. Thus, the sum of sinusoids of the same frequency is written as a single sinusoid with period $\sqrt{A_s^2+A_c^2}$ and phase $\tan^{-1}\left(\frac{B}{A}\right)$. We will revisit the importance of this later.
 
+>[!hint]
+>When sampling sinusoids, it's helpful to divide a single period among the samples. That is, divide $2\pi$ among $n$ samples, like shown below.
+>```matlab
+>time = 2*pi*(0:(N-1))/N
+>sin(t)
+>cos(t)
+>```
+
 ## Interpretation
 
 When we apply the DFT to $x$, the resulting vector $X$ is called its **spectrum**.
 
 ### Phase and Amplitude
 
-[TK]
+Each element of the DFT vector, when broken down, represents the phase and amplitude of a given frequency's component in the source signal. From the equation [above](The%20DFT.md#Background#Basic%20Sinusoids), we can see that the amplitude is $\sqrt{A_s^2+A_c^2}$ and the phase is $\tan^{-1}\frac{A_c}{A_s}$, where $A_s$ is the sine weight and $A_c$ is the cosine component in $A_s\sin(\omega t)+A_c\cos(\omega t)$. 
 
-In polar coordinates, this corresponds to
+In the complex polar coordinate form that the DFT actually gives us, this corresponds to
 $$X(k)=|X(k)|e^{i\angle X(k)}$$
-
-[TK]
-
-The Fourier magnitude is given by
-$$|F(k)=\left|\frac{N}{2}-k\right|$$
 
 [TK]
 
@@ -47,7 +50,7 @@ amplitude = abs(x);
 phase = angle(x);
 ```
 
-Sometimes, it is useful to shift the samples so that the negative ones are first, which can be achieved with `fftshift()` (e.g., `fftshift(abs(x))`). 
+Sometimes, it is useful to shift the samples so that the 0 frequency is at the center, which can be achieved with `fftshift()` (e.g., `fftshift(abs(x))`). 
 
 ### Graphical Representation
 
