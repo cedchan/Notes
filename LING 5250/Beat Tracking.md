@@ -20,10 +20,13 @@ $$
 \end{align}
 $$
 
- 
+## Scoring
+
+### Gaussian Weight
+
+http://people.csail.mit.edu/hasinoff/320/sliding-notes.pdf
+
 ## Terminology
-
-
 
 ### Isochronous
 

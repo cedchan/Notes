@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 1210/Huffman Encoding.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 1210/Huffman Encoding.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 1210/Huffman Encoding.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 1210/Huffman Encoding.md"
+                "file": "LING 5250/Beat Tracking.md"
               }
             }
           }
@@ -233,6 +233,7 @@
   },
   "active": "84a129c8b0d8eedf",
   "lastOpenFiles": [
+    "CIS 1210/Huffman Encoding.md",
     "CIS 1210/Hashing.md",
     "MATH 3130/Diagonalization.md",
     "MATH 3130/Vector Spaces.md",
@@ -246,7 +247,6 @@
     "CIS 1210/Graph Traversals.md",
     "CIS 1210/Bipartiteness.md",
     "CIS 1210/Heaps.md",
-    "CIS 1210/Huffman Encoding.md",
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
     "CIS 1210/Strongly Connected Components.md",
     "LING 5250/The DFT.md",
