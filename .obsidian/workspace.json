@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 1210/Bipartiteness.md",
+                "file": "CIS 1210/Midterm 2 Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -234,11 +234,13 @@
   },
   "active": "84a129c8b0d8eedf",
   "lastOpenFiles": [
+    "CIS 1210/Midterm 2 Review.md",
+    "CIS 1210/Bipartiteness.md",
+    "CHIN 1140.md",
     "MATH 3130/Diagonalization.md",
     "MATH 3130/Transformations.md",
     "MATH 3130/Eigenvectors and Eigenvalues.md",
     "MATH 3130/Vector Spaces.md",
-    "CHIN 1140.md",
     "LING 5250/Beat Tracking.md",
     "LING 5250/Signals.md",
     "LING 5250/The DFT.md",
@@ -249,7 +251,6 @@
     "2023-03-30.md",
     "CIS 1210/Directed Acyclic Graphs (DAGs).md",
     "CIS 1210/Graph Traversals.md",
-    "CIS 1210/Bipartiteness.md",
     "CIS 1210/Heaps.md",
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
     "CIS 1210/Strongly Connected Components.md",
@@ -259,7 +260,6 @@
     "CIS 1210/Tries.md",
     "LING 2300/Rule Ordering.md",
     "LING 2300/Distributions.md",
-    "CIS 1210/Midterm 2 Review.md",
     "CIS 1210/Shortest Path.md",
     "Glossary",
     "MATH 3130",
