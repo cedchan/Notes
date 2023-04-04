@@ -8,79 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "226d0582c1058fbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Midterm 2 Review.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4a138bca4f7b458",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Glossary/Computer Science.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "601126f93cc4e928",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Shortest Path.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb50b47ef9a07ce9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 1210/Hashing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcb026bf8873febb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CHIN 1140.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30a22ed9a2c2f379",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MATH 3130/Diagonalization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0accd6824b1595ab",
+            "id": "e848969f3c2d1609",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,19 +20,91 @@
             }
           },
           {
-            "id": "84a129c8b0d8eedf",
+            "id": "8af665c7427586d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CHIN 1140.md",
+                "file": "CIS 1210/Minimum Spanning Trees (MSTs).md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c34c242d16a9fd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Complex Matrices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "909a9d630a94881f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Transformations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76395e8b5cf6e42f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Inner Product.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cb75c527df7c012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Diagonalization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a69eb1d737091eb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Heaps.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ec3fa64ec052105",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributional Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CHIN 1140.md",
+                "file": "MATH 3130/Complex Matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CHIN 1140.md",
+                "file": "MATH 3130/Complex Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +199,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
@@ -211,16 +210,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CHIN 1140.md"
+                "file": "MATH 3130/Complex Matrices.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,35 +231,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84a129c8b0d8eedf",
+  "active": "1c34c242d16a9fd0",
   "lastOpenFiles": [
-    "CIS 1210/Midterm 2 Review.md",
-    "CIS 1210/Bipartiteness.md",
-    "CHIN 1140.md",
     "MATH 3130/Diagonalization.md",
     "MATH 3130/Transformations.md",
-    "MATH 3130/Eigenvectors and Eigenvalues.md",
+    "MATH 3130/Inner Product.md",
     "MATH 3130/Vector Spaces.md",
-    "LING 5250/Beat Tracking.md",
-    "LING 5250/Signals.md",
     "LING 5250/The DFT.md",
-    "CIS 1210/Huffman Encoding.md",
-    "CIS 1210/Hashing.md",
-    "README.md",
-    "Untitled.canvas",
-    "2023-03-30.md",
+    "MATH 3130/Complex Matrices.md",
+    "CIS 1210/Minimum Spanning Trees (MSTs).md",
+    "CIS 1210/Heaps.md",
+    "MATH 3130/Eigenvectors and Eigenvalues.md",
+    "LING 2300/Distributions.md",
+    "Distributional Learning.md",
+    "CIS 1210/Union Find.md",
+    "CIS 1210/Midterm 2 Review.md",
+    "CIS 1210/Strongly Connected Components.md",
+    "CIS 1210/Shortest Path.md",
+    "CIS 1210/Tries.md",
     "CIS 1210/Directed Acyclic Graphs (DAGs).md",
     "CIS 1210/Graph Traversals.md",
-    "CIS 1210/Heaps.md",
-    "CIS 1210/Minimum Spanning Trees (MSTs).md",
-    "CIS 1210/Strongly Connected Components.md",
-    "Glossary/Math.md",
+    "CIS 1210/Huffman Encoding.md",
+    "CIS 1210/Bipartiteness.md",
+    "LING 2300/Hierarchical Hypotheses for Length.md",
+    "CHIN 1140.md",
+    "LING 5250/Perception.md",
     "Glossary/Computer Science.md",
-    "Glossary/Math",
-    "CIS 1210/Tries.md",
-    "LING 2300/Rule Ordering.md",
-    "LING 2300/Distributions.md",
-    "CIS 1210/Shortest Path.md",
+    "Glossary/Math.md",
+    "LING 5250/Beat Tracking.md",
     "Glossary",
     "MATH 3130",
     "LING 2300",

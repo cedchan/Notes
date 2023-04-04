@@ -107,7 +107,7 @@ J_i&=\begin{pmatrix}
 0 & 0
 \end{pmatrix}
 \end{align}}$$
->We see for $J_i$ that the diagonals are the eigenvalues. Here, we have $\lambda=0$, with geometric multiplicity 1 (we could only get 1 eigenvector from it) but algebraic multiplicity 2 (in the [characteristic polynomial](Math.md#Linear%20Algebra#Characteristic%20Polynomial), the term corresponding to this eigenvalue is to the power of two, $\lambda^2$). The $1$ appears above the second one because it was used to derive a generalized eigenvector.
+>We see for $J_i$ that the diagonals are the eigenvalues. Here, we have $\lambda=0$, with geometric multiplicity 1 (we could only get 1 eigenvector from it) but algebraic multiplicity 2 (in the characteristic polynomial, the term corresponding to this eigenvalue is to the power of two, $\lambda^2$). The $1$ appears above the second one because it was used to derive a generalized eigenvector.
 
 ## Finding a Diagonal Basis
 

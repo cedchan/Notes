@@ -22,6 +22,10 @@ $$
 
 ## Scoring
 
+I use a slighly modified version of the Miguel model's scoring mechanism. In their implementation, the number of hits is calculated by calling the weight function on non-overlapping pairs of closest projected beats and onsets.
+
+
+
 ### Gaussian Weight
 
 http://people.csail.mit.edu/hasinoff/320/sliding-notes.pdf

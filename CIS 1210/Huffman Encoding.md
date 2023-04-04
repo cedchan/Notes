@@ -7,7 +7,7 @@ But some characters are used more frequently then others. This is the crux of Hu
 >[!idea]
 The idea behind Huffman encoding is that frequent characters use fewer bits than other characters.
 
-But there's ambiguity: What if a smaller encoding is the prefix of a larger one? We need our encodings to be **prefix free**
+But there's ambiguity: What if a smaller encoding is the prefix of a larger one? We need our encodings to be **prefix free**.
 
 >[!definition]
 >A **prefix code** for a set of $S$ letters is a function $\gamma$ that maps each letter $x\in S$ to some binary sequence, such that for any distinct $x, y\in S$, $\gamma(x)$ isn't a prefix of $\gamma(y)$.
@@ -35,9 +35,9 @@ $$
 ## Huffman's Algorithm
 
 >[!lemma]
->There is an optimal prefix code corresponding to tree $T*$ where the two lowest frequency letters are assigned to leaves that are siblings in $T*$.
+>There is an optimal prefix code corresponding to tree $T^*$ where the two lowest frequency letters are assigned to leaves that are siblings in $T^*$.
 
-*Proof:* If we are given $T*$, the tree structure of $T$, but not the character-to-leaf mappings, we can construct a valid $T$ by adding leaves in decreasing order of depth. Then, the highest frequency letters will have the greatest depth. It follows that the order of leaves at a certain depth doesn't matter, and since $T$ is full, we conclude that some ordering has the lowest two frequency letters are siblings in some $T*$. 
+*Proof:* If we are given $T^*$, the tree structure of $T$, but not the character-to-leaf mappings, we can construct a valid $T$ by adding leaves in decreasing order of depth. Then, the highest frequency letters will have the greatest depth. It follows that the order of leaves at a certain depth doesn't matter, and since $T$ is full, we conclude that some ordering has the lowest two frequency letters are siblings in some $T^*$. 
 
 A [priority queue](Heaps.md#Priority%20Queues) implementation of Huffman:
 
