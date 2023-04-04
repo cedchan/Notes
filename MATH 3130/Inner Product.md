@@ -43,6 +43,7 @@ $$
 
 The definition of the inner product of functions on $[0, 2\pi]$.
 $$\langle f,g\rangle=\frac{1}{2\pi}\int_0^{2\pi}f(x)g(x)dx$$
+(Note that this can be generalized to replace $0$ and $2\pi$ with the range of any function.)
 
 ## Orthonormal Basis
 
