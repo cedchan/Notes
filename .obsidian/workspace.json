@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 3130/Inner Product.md",
+                "file": "CIS 1210/Hashing.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CIS 1210/Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CIS 1210/Hashing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CIS 1210/Hashing.md"
+              }
             }
           }
         ],
@@ -195,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,34 +212,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "909a9d630a94881f",
+  "active": "76395e8b5cf6e42f",
   "lastOpenFiles": [
+    "CIS 1210/Tries.md",
     "MATH 3130/Complex Matrices.md",
+    "Untitled.md",
+    "LING 5250/Beat Tracking.md",
+    "LING 5250/The DFT.md",
     "MATH 3130/Inner Product.md",
     "Distributional Learning.md",
+    "LING 5250/Signals.md",
+    "LING 5250/Perception.md",
     "MATH 3130/Transformations.md",
     "CIS 1210/Heaps.md",
     "MATH 3130/Diagonalization.md",
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
     "MATH 3130/Vector Spaces.md",
-    "LING 5250/The DFT.md",
     "MATH 3130/Eigenvectors and Eigenvalues.md",
     "LING 2300/Distributions.md",
     "CIS 1210/Union Find.md",
     "CIS 1210/Midterm 2 Review.md",
     "CIS 1210/Strongly Connected Components.md",
     "CIS 1210/Shortest Path.md",
-    "CIS 1210/Tries.md",
     "CIS 1210/Directed Acyclic Graphs (DAGs).md",
     "CIS 1210/Graph Traversals.md",
     "CIS 1210/Huffman Encoding.md",
     "CIS 1210/Bipartiteness.md",
     "LING 2300/Hierarchical Hypotheses for Length.md",
     "CHIN 1140.md",
-    "LING 5250/Perception.md",
-    "Glossary/Computer Science.md",
-    "Glossary/Math.md",
-    "LING 5250/Beat Tracking.md",
     "Glossary",
     "MATH 3130",
     "LING 2300",

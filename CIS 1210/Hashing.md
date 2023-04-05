@@ -123,13 +123,12 @@ Each probe sequence is determined by $(h_1(k),h_2(k))$, so there are $m^2$ possi
 
 They should be relatively prime. One easy way to achieve this is to just make the length of the table prime.
 
-**Example.** $h_1(k)=k\mod 13, h_2(k)=2+k\mod 7$. Input: $[12, 25, 54, 36, 18, 75, 80, 44, 20]$. 
+>**Example.** $h_1(k)=k\mod 13, h_2(k)=2+k\mod 7$. Input: $[12, 25, 54, 36, 18, 75, 80, 44, 20]$. 
 
-> Output:
-> 
-> | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-> | - | - | - | - | - | - | - | - | - | - | - | - | - |
-> | 20 | | 54 | | 75 | 25 | | 80 | 44 | 36 | 18 | 12 |
+Output:
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| - | - | - | - | - | - | - | - | - | - | - | - | - |
+| 20 | | 54 | | 75 | 25 | | 80 | 44 | 36 | 18 | 12 |
 
 #### Unsuccessful Search
 

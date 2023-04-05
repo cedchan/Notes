@@ -135,7 +135,7 @@ Again note that this means $1\perp e^{ix}$.
 ### An Orthogonal Basis
 
 >[!theorem]
->$\{e^{nix}\}$ is an orthogonal basis.
+>$\{e^{nix}\mid n\in [-\infty..\infty]\}$ is an orthogonal basis.
 
 *Proof:* We prove this by showing generally that $\langle e^{aix}, e^{bix} \rangle=0$ when $a\neq b$. 
 $$\begin{align}
