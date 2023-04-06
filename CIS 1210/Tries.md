@@ -56,8 +56,45 @@ We call a chain of edges $(v_0, v_1)(v_1, v_2)(v_2, v_3)\dots(v_{k-1},v_k)$ redu
 
 ### Properties
 - Every internal node has between 2 and $d$ children (where $d$ is the alphabet size).
-- $T$ has $s$ leaf nodes. The number of nodes of $T$ is $O(s)$.
+- $T$ has $s$ leaf nodes. 
+- The number of nodes of $T$ is $O(s)$
 
-Number of internal nodes: $O(|S|)$
-Total number of nodes: $O(|S|)$
+Compression is offset by increasing node sizes, so compressed tries are only useful as an **auxiliary index structure** over a primary structure that actually stores primary structure.
+
+That is, instead of actually storing substrings of concatenated letters, we store indices of the stored substring. For example, if our strings are stored in an array $S[0..s-1]$, our trie would store a triple $(i, j, k)$, which corresponds to the string $S[i]$, from character $j$ to $k$.
+
+This allows us to decrease our total space from $O(n)$ from the standard trie to $O(s)$.
+
+Note that searching for strings in a compressed trie is not faster than in a standard trie.
+
+
+## Suffix Tries
+
+>[!definition]
+>A **suffix trie** of a string $X$, also known as a **suffix tree** or **position tree**, is a trie over a collection $S$ that consists of all suffixes of $X$. That is, for $|X|=n$, $S=\{X[i..n]\mid1\leq i\leq n\}$.
+
+The compressed representation can thus be further simplified to just store pairs $(j,k)$ similarly representing the starting and ending indices of the desired substring. We don't need $i$ because all members of $S$ are substrings of $X$. 
+
+### Saving Space
+
+Using compression techniques, a suffix tree uses $O(n)$ space.
+
+The total length of suffixes is $1+2+\dots+n=\frac{n(n+1)}{2}$, so explicitly storing all suffixes requires $O(n^2)$ space. But with this compression technique, we can represent strings in $O(n)$ space.
+
+### Construction
+
+The normal incremental algorithm to construct a standard trie can be used to construct a suffix trie. It similarly requires $O(|\Sigma|\cdot n^2)$ time because the total length of all suffixes is quadratic, as shown previously.
+
+The compact suffix tree, can be constructed in $O(n)$ time using Ukkonen's Algorithm, but that is beyond the scope of this course.
+
+### Using a Suffix Trie
+
+One of the most useful applications of a suffix trie $T$ is to check if a pattern $P$ is a substring of $X$. We do this by tracing $P$ down in $T$. 
+
+This search assumes that if node $v$ has label $(j,k)$ and $Y$ is the string of length $y$ associated with the path from root to $v$ (inclusive), then $X[k-y+1..k]=Y$.
+
+[TK HUH ^^^??]
+
+Thus, the match can be done in $O(m)$ time. 
+
 

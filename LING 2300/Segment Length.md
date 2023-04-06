@@ -44,13 +44,50 @@ The question then becomes, what happens to the empty time unit? One option is th
 
 **Moraic theory** states that long segments must appear in the rhyme. Onsets are weightless in Moraic theory.  
 
-Similar to X-slots, lengths of segments can be represented by different symbols. Here, there are light, heavy, and superheavy segments called Moras ($\mu$). 
+Similar to X-slots, lengths of segments can be represented by different symbols. Here, there are light, heavy, and superheavy segments called moras ($\mu$). 
 - **Light:** A short vowel
 - **Heavy:** A short vowel followed by a consonant *or* a long vowel
 - **Superheavy:** A long vowel followed by a consonant
+
+Stressed segments must be heavy.
 
 ### Underlying Forms
 
 Short vowels have a mora, and long vowels have two.
 
 Short consonants don't have a mora underlyingly, but may be given one from being in the coda. Long consonants do have moras. Thus, if a consonant has a mora, it is likely either in the coda or is geminate.
+
+### Syllabification Rules
+
+Moraic theory interacts in a specific way with the [syllabification rules](Syllable%20Structure.md#Syllabification%20Algorithm).
+
+#### Nucleus Rule
+
+Projects $\sigma$ from the leftmost mora attached to each sonority peak. To **project** is to insert $\sigma$ to the $\sigma$-tier and attach it to the leftmost mora.
+
+#### Onset Rule
+
+Adjoin an unsyllabified segment to the onset of a syllable that contains a syllabified segment.
+
+#### Coda Rule
+
+The Coda Rule is split into two parts: weight by position and coda formation.
+
+In **weight by position**, a mora is projected from any unsyllabified segment immediately to the right of a moraic syllabified segment.
+
+Then in **coda formation**, an unsyllabified mora is adjoined to the syllable of a syllabified mora to its immediate left. 
+
+### Syllabic Prespecification
+
+Some irregulars can't be derived entirely from syllabic rules. In these cases, we may sometimes have to **prespecify** the some parts of the syllable structure in the UR.
+
+Prespecification is typically used to encode unpredictable properties in URs.
+
+Note that irregulars are typically exceptional in only some small detail, rather than the entire word.
+
+### Consequences of Multi-Tiered Representations
+
+One argument for multi-tiered representations are **stability effects**: elements on one tier can be deleted without necessarily delting the elements they are associated with on another tier.
+
+Further, elements on one tier can be linked to one, multiple, or no elements on another tier. **Floating** or **unassociated** elements (i.e., not linked with any element on another tier) have no phonetic realization. They are notated with an apostrophe or by surrounded by a circle. 
+

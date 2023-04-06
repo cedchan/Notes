@@ -3,7 +3,6 @@
 
 The inner product is a generalization of the dot product. It multiplies two vectors to result in a scalar. The notation is shown below:
 $$\langle \cdot,\cdot\rangle: V\times V \rightarrow \mathbb{R}$$
-
 Properties for a real vector space:
 1. $\langle\vec{u}, \vec{v}\rangle=\langle\vec{v},\vec{u}\rangle$
 2. $\langle\vec{u},\lambda_1\vec{v}_1+\lambda_2\vec{v}_2\rangle=\lambda_1\langle\vec{u},\vec{v}_1\rangle+\lambda_2\langle\vec{u},\vec{v}_2\rangle$
@@ -11,7 +10,7 @@ Properties for a real vector space:
 
 (Note that property 2 can be expanded into two properties: scalar multiplication and linearity.)
 
-Extensions:
+Corollaries:
 1. $\langle\vec{v},\vec{0}\rangle=\vec{0}$ 
 	Proof:
 $$
@@ -25,6 +24,7 @@ $$
 3. Cauchy's Inequality
 	$\langle\vec u, \vec v\rangle^2\leq\langle \vec u, \vec u\rangle\langle\vec v, \vec v\rangle$
 	$|\vec u \cdot \vec v| \leq ||\vec u|| \cdot ||\vec v||$
+4. $\langle \vec u, \vec v \rangle = \vec 0 \implies \vec u \perp \vec v$
 
 >**Example.** $\mathbb{R}^2$ dot product
 
@@ -39,11 +39,54 @@ $$
 >[!danger]
 >There was something before the $(A^TB)$ that I didn't catch.
 
-## Functions
+### Functions
 
-The definition of the inner product of functions on $[0, 2\pi]$.
-$$\langle f,g\rangle=\frac{1}{2\pi}\int_0^{2\pi}f(x)g(x)dx$$
-(Note that this can be generalized to replace $0$ and $2\pi$ with the range of any function.)
+The definition of the inner product of functions on the domain $[a, b]$.
+$$\langle f,g\rangle=\int_a^{b}f(x)g(x)dx$$
+
+## Inner Product on Complex Vector Spaces
+
+Recall the definition of the [inner product](Transformations.md#Inner%20Product). For complex vector spaces, we say
+$$\langle\cdot , \cdot \rangle:V\times V\rightarrow \mathbb C$$
+
+Consider the complex vector space $\mathbb C^n$, and two vectors in it 
+$$
+\vec u=\begin{pmatrix} z_1 \\ \vdots \\ z_n \end{pmatrix}, 
+\vec v=\begin{pmatrix} w_1 \\ \vdots \\ w_n \end{pmatrix}
+$$
+Then we have the following inner products
+$$
+\begin{align}
+\langle\vec u, \vec v\rangle&=\overline{z_1}w_1+\overline{z_2}w_2+\dots+\overline{z_n}w_n \\
+\langle\vec u,\vec u\rangle&=\overline{z_1}z_1+\overline{z_2}z_2+\dots+\overline{z_n}z_n \\
+&=|z_1|^2+|z_2|^2+\dots+|z_n|^2
+\end{align}
+$$
+From this, we can conclude that the magnitude (norm) of $\vec u$ is given by
+$$||\vec u||=\sqrt{\langle\vec u, \vec u\rangle}\geq 0$$
+### Properties
+
+1. $\langle\vec u, \vec v\rangle = \overline{\langle\vec v, \vec u\rangle}$
+2. $\langle\vec u,\lambda_1\vec v_1+\lambda_2\vec v_2\rangle=\lambda_1\langle\vec u,\vec v_1\rangle+\lambda_2\langle\vec u,\vec v_2\rangle$
+3. $\vec u \neq \vec 0\implies\langle \vec u,\vec u\rangle>0$
+
+(Note that the inner product of any vector with $\vec 0$ is $\vec 0$.)
+
+>**Example.** $\vec v_1=(i, 1)^T, \vec v_2=(-i, 1)^T$.
+>$${\begin{align}
+\langle\vec v_1,\vec v_1\rangle&=\overline{i}\cdot i+\overline 1\cdot 1 \\
+&=(-i)i+1\cdot 1 \\
+&=2 \\
+||\vec v_1||&=\sqrt{2} \\
+\langle\vec v_1,\vec v_2\rangle&=\overline{i}(-i)+\overline1\cdot 1 \\
+&=(-i)^2+1=0 \\
+\therefore \vec v_1 &\perp \vec v_2
+\end{align}}$$
+
+### Complex Functions
+
+The definition of the inner product of complex functions on the domain $[a, b]$.
+$$\langle f,g\rangle=\int_a^{b}\overline{f(x)}g(x)dx$$
 
 ## Orthonormal Basis
 

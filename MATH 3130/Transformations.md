@@ -1,7 +1,3 @@
->[!summary]+
->
-
---- 
 ## Linear Transformations
 
 ### Transformation Matrices
