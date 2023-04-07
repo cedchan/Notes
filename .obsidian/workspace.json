@@ -25,31 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 1210/AVL Trees.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a7e5bbb2912af57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MATH 3130/Special Matrices.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c07980c43b87d32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MATH 3130/Complex Matrices.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -170,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MATH 3130/Inner Product.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MATH 3130/Inner Product.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MATH 3130/Inner Product.md"
+                "file": "LING 5250/Beat Tracking.md"
               }
             }
           }
@@ -231,21 +208,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b023181d564afd0e",
+  "active": "e848969f3c2d1609",
   "lastOpenFiles": [
-    "MATH 3130/The Fourier Series.md",
-    "MATH 3130/Complex Matrices.md",
-    "MATH 3130/Special Matrices.md",
     "CIS 1210/AVL Trees.md",
+    "Untitled 1.md",
+    "MATH 3130/Special Matrices.md",
+    "MATH 3130/The Fourier Series.md",
+    "MATH 3130/Inner Product.md",
+    "MATH 3130/Complex Matrices.md",
+    "LING 2300/Syllable Structure.md",
     "LING 2300/Segment Length.md",
     "Distributional Learning.md",
     "MATH 3130/Vector Spaces.md",
     "MATH 3130/Transformations.md",
     "Untitled.md",
-    "MATH 3130/Inner Product.md",
     "MATH 3130/Diagonalization.md",
     "MATH 3130/Eigenvectors and Eigenvalues.md",
-    "LING 2300/Syllable Structure.md",
     "LING 5250/Perception.md",
     "CIS 1210/Tries.md",
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
@@ -258,7 +236,6 @@
     "CIS 1210/Union Find.md",
     "CIS 1210/Midterm 2 Review.md",
     "CIS 1210/Strongly Connected Components.md",
-    "CIS 1210/Shortest Path.md",
     "Glossary",
     "MATH 3130",
     "LING 2300",

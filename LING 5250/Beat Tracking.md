@@ -22,8 +22,24 @@ $$
 
 ## Scoring
 
-I use a slighly modified version of the Miguel model's scoring mechanism. In their implementation, the number of hits is calculated by calling the weight function on non-overlapping pairs of closest projected beats and onsets.
+I use a slighly modified version of the Miguel model's scoring mechanism. In their implementation, the number of hits is calculated by calling the weight function on non-overlapping pairs of closest projected beats and onsets, iterating from left to right. 
 
+For mine, I search for the closest onset to each projected beat, first irrespective of overlap. Then I resolve any shared closest pairs by choosing the closer projection. The losing projection then searches for neighboring onsets, so long as they don't "cross." Sequences are truncated if there aren't enough.
+
+## Correction
+
+Idea is that when projection and onset are simultaneous, $ce$ is 0. It then gets bigger as the distance increases, and goes back to 0 once the distance gets too far (to correct for too-far distances).
+$$ce_k=m\cdot(r_k-p_k^h)\cdot d^\frac{|p_k^h-r_k|}{\delta}$$
+We define
+- $m$: The multiplier that determines how sensitive to error the correction  is
+- $d$: The decay factor, for how far we must go before the error disappears.
+
+Linear regression of $ce$ gives $\Delta h$, where $y$-intercept is phase and slope is period, since projections are linear functions. In this way, minimizes the error. 
+
+Orig. uses $m= 2, d= 0.0001$.
+
+>[!danger]
+>With this implementation, I may have to go back to the original implementation of closest pairs, since the interceding pulse divisions will be ignored. But the score function should work to overcome, hopefully.
 
 
 ### Gaussian Weight

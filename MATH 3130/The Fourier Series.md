@@ -109,7 +109,7 @@ F_n=\frac{1}{\sqrt{n}}\begin{pmatrix}
 \end{pmatrix}
 $$
 
-This corresponds directly to the **Discrete Fourier Transform**. The columns of $F_n$ can be written as $F_n=\begin{pmatrix}\vec e_0 & \vec e_1 & \cdots & \vec e_{n-1}\end{pmatrix}$. Note that $\{\vec e_0, \vec e_1, \dots, \vec e_{n-1}\}$ forms an orthonormal basis, as shown [. 
+This corresponds directly to the **Discrete Fourier Transform**. The columns of $F_n$ can be written as $F_n=\begin{pmatrix}\vec e_0 & \vec e_1 & \cdots & \vec e_{n-1}\end{pmatrix}$. Note that $\{\vec e_0, \vec e_1, \dots, \vec e_{n-1}\}$ forms an orthonormal basis, as shown [above](The%20Fourier%20Series.md#An%20Orthogonal%20Basis). 
 
 The DFT represents any vector $\vec v$ as a linear combination of the columns of $F_n$. 
 $$\begin{align}

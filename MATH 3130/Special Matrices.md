@@ -14,36 +14,6 @@
 ### Properties
 1. Symmetric matrices are always diagonizable by an orthogonal matrix
 
-## The Conjugate Transpose
-
->[!definition]
->The **conjugate transpose** $A^H$ (also denoted as $\overline{A}^T, A^*, A^+$) of a matrix $A$ is the element-wise complex conjugate of $A^T$. 
->
->For a $2\times2$ matrix $A=\begin{pmatrix}a & b \\ c & d\end{pmatrix}$,
->$$A^H=\begin{pmatrix}\overline a & \overline c \\ \overline d & \overline d\end{pmatrix}$$
-
-### Properties
-1. $(A^H)^H=A$
-2. $\langle \vec u, A\vec v\rangle=\langle A^H\vec u, \vec v\rangle$
-	*Proof:* 
-	$$\begin{align}
-	\text{LHS}=\left\langle\begin{pmatrix}z_1 \\ z_2\end{pmatrix},
-	\begin{pmatrix}aw_1+bw_2 \\ cw_1+dw_2 \end{pmatrix}\right\rangle
-	&=a\overline{z_1}w_1+b\overline{z_1}w_2+c\overline{z_2}w_1+d\overline{z_2}w_2 \\
-	\text{RHS}=\left\langle\begin{pmatrix}\overline az_1+\overline cz_2 \\
-	\overline bz_1+\overline dz_2\end{pmatrix},
-	\begin{pmatrix}w_1,w_2\end{pmatrix}
-	\right\rangle &= a\overline{z_1}w_1+c\overline{z_2}w_1+b\overline{z_1}w_2+d\overline{z_2}w_2
-	\end{align}$$
-3. $\langle\vec u, A^H\vec v\rangle=\langle A\vec u, \vec v\rangle$.
-	*Proof:*
-	$$\begin{align}
-	B&=A^H \\
-	\langle \vec u, A^H\vec v\rangle &= \langle B^H\vec u, \vec v\rangle \\
-	&=\langle(A^H)^H\vec u, \vec v\rangle \\
-	&=\langle A\vec u, \vec v\rangle
-	\end{align}$$
-
 ## Hermitian Matrices
 
 >[!definition]
