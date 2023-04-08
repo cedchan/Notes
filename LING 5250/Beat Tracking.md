@@ -42,6 +42,9 @@ Orig. uses $m= 2, d= 0.0001$.
 >With this implementation, I may have to go back to the original implementation of closest pairs, since the interceding pulse divisions will be ignored. But the score function should work to overcome, hopefully.
 
 
+## Ideas
+- Automatically resizing window
+
 ### Gaussian Weight
 
 http://people.csail.mit.edu/hasinoff/320/sliding-notes.pdf
