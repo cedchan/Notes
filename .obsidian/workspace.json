@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 3130/The Fourier Series.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -231,11 +231,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bf13549d9012618",
+  "active": "15e10bae901c00f9",
   "lastOpenFiles": [
     "MATH 3130/The Fourier Series.md",
-    "MATH 3130/Complex Matrices.md",
     "LING 5250/Beat Tracking.md",
+    "MATH 3130/Complex Matrices.md",
     "CIS 1210/AVL Trees.md",
     "Untitled 1.md",
     "MATH 3130/Special Matrices.md",
