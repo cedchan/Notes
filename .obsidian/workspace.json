@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LING 5250/Beat Tracking.md",
+                "file": "CHIN 1140.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LING 5250/Beat Tracking.md",
+                "file": "CHIN 1140.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LING 5250/Beat Tracking.md",
+                "file": "CHIN 1140.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LING 5250/Beat Tracking.md"
+                "file": "CHIN 1140.md"
               }
             }
           }
@@ -233,8 +233,8 @@
   },
   "active": "15e10bae901c00f9",
   "lastOpenFiles": [
-    "MATH 3130/The Fourier Series.md",
     "LING 5250/Beat Tracking.md",
+    "MATH 3130/The Fourier Series.md",
     "MATH 3130/Complex Matrices.md",
     "CIS 1210/AVL Trees.md",
     "Untitled 1.md",
