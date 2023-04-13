@@ -21,3 +21,14 @@ ONLY SUBDIVIDE IF NO RULE GENERALIZES. after stopping subdivision, can still gen
 - ditransitive, 2 words after lexical frame
 
 - efficiency if we have to remake lexical frames every time we generalize
+
+
+### Algo
+
+1. Find lexical frames of each word
+2. Create hypotheses based on frames
+3. If a hypothesis generalizes by TP, its members are a category. Reprocess lexical frames to replace its members with that class
+
+### Questions
+
+1. When you preprocess lexical frames with categories

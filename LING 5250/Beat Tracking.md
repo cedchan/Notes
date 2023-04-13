@@ -1,6 +1,9 @@
 
 https://ieeexplore.ieee.org/abstract/document/1495485
 
+Klapuri et al. Onsets
+https://ieeexplore.ieee.org/abstract/document/757494
+
 ## Miguel Model
 
 Agent-model

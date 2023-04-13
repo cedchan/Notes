@@ -20,7 +20,7 @@ $$
 >[!equation]
 >$$e^{i\theta}=\cos\theta+i\sin\theta$$
 
-**Euler's formula** is helpful in calculating the complex conjugate of numbers in the form $e^{nix}$, which will later be used to show that can form orthonormal bases. 
+**Euler's formula** is helpful in calculating the complex conjugate of numbers in the  form $e^{nix}$, which will later be used to show that can form orthonormal bases. 
 
 The complex conjugate of $re^{nix}$:
 $$\begin{align}
@@ -161,40 +161,6 @@ If $a\equiv b\pmod n, c\equiv d\pmod n$, then
 1. $a+c\equiv (b+d)\pmod n$
 2. $ac\equiv bd\pmod n$
 
-### Convolution Product
-
->[!definition]
->Consider $x, y\in L^2(\mathbb Z_n, \mathbb C)$. Then, $x*y\in L^2(\mathbb Z_n, \mathbb C)$, where $*$ denotes the **convolution product**. We define $x*y$ as follows:
->$$(x*y)_k=\sum_{l\in\mathbb Z_n}x_l\cdot y_{k-l}$$
-
->**Example.** In $\mathbb Z_3$, let $x=(1,2,3), y=(-2,3,5)$. Find $(x*y)_k$.
-
->[!solution]+
->$$\begin{align}
-x=(1,2,3)&=(x_0,x_1,x_2) \\
-y=(-2,3,5)&=(y_0,y_1,y_2) \\
-(x*y)_0&=x_0y_0+x_1y_{-1}+x_2y_{-2} \\
-&=\boxed{x_0y_0 +x_1y_2+x_2y_1} \\
-(x*y)_1&=x_0y_1+x_1y_0+x_2y_{-1} \\
-&=\boxed{x_0y_1+x_1y_0+x_2y_2} \\
-(x*y)_2&=\boxed{x_0y_2+x_1y_1+x_2y_0}
-\end{align}$$
-
-Note that convolution is commutative. That is, $f*g=g*f$.
-
-#### Convolution Theorem
-
->[!theorem]
->The **Convolution Theorem** of $L^2(\mathbb Z_n, \mathbb C)$ states that if $X=F(x), Y=F(y)$, then 
->$$XY=F(x*y)$$ where $XY$ represents the element-wise (point-wise) product of $X$ and $Y$. 
-
-The Convolution Theorem allows us to perform certain operations quickly. 
-
-*Proof:*
-$$\begin{align}
-XY&=T()
-\end{align}$$
-
 ### The Fourier Matrix
 
 >[!definition]
@@ -218,10 +184,151 @@ $$
 
 This corresponds directly to the DFT. The columns of $F_n$ can be written as $F_n=\begin{pmatrix}\vec e_0 & \vec e_1 & \cdots & \vec e_{n-1}\end{pmatrix}$. Note that $\{\vec e_0, \vec e_1, \dots, \vec e_{n-1}\}$ forms an orthonormal basis, as shown [above](The%20Fourier%20Series.md#An%20Orthogonal%20Basis). 
 
-The DFT represents any vector $\vec v$ as a linear combination of the columns of $F_n$. 
+The DFT represents any vector $x$ as a linear combination of the columns of $F_n$. We represent $x$ in the Fourier domain as $Fx$. 
 $$\begin{align}
-\vec v&=c_0\vec e_0+c_1\vec e_1+\dots+\vec e_{n-1} \\
+(Fx)_k&=\frac1{\sqrt n}\sum_{l\in\mathbb Z_n}\omega^{kl}x_l\\
+x&=c_0\vec e_0+c_1\vec e_1+\dots+\vec e_{n-1} \\
 \begin{pmatrix}
 c_0 \\ c_1 \\ \vdots \\ c_{n-1}
-\end{pmatrix}&=F_n^{-1}\vec v
+\end{pmatrix}&=F_n^{-1}x
+\end{align}$$
+
+
+Practically, calculating this matrix multiplication takes $O(n^2)$ time, but the **Fast Fourier Transform (FFT)** can efficiently calculate it in $O(n\lg n)$ time. 
+
+#### Properties
+1. $F^4=I$
+
+2. $(F^2x)_k=x_{-k}=x_{n-k}$
+	That is, applying the Fourier transform twice "flips" the vector. 
+	$$\begin{align}
+	x&=(x_0,x_1,x_2) \\
+	F^2x&=(x_2,x_1,x_0)
+\end{align}$$
+	
+3. The eigenvalues ($\lambda$) of $F$ are in $\{1,-1,i,-i\}$.
+	*Proof:*
+$$\begin{align}
+Fv&=\lambda v \\
+FFv&=F\lambda v \\
+&=\lambda Fv \\
+&=\lambda^2 v \\
+v&=F^4v \\
+&=\lambda^4v \\
+\lambda^4&=1 \\
+\lambda&=1,-1,i,-i
+\end{align}$$
+
+### Inverse Discrete Fourier Transform
+
+The **Inverse Discrete Fourier Transform (IDFT)** is defined as 
+$$\begin{align}
+F^{-1}:L^2(\mathbb Z_n,\mathbb C)&\rightarrow L^2(\mathbb Z_n, \mathbb C) \\
+y&\mapsto F^{-1}y \\
+(F^{-1}y)_k&=\frac{1}{\sqrt{n}}\sum_{l\in\mathbb Z_n}\omega^{-kl}y_l
+\end{align}$$
+which corresponds with the matrix
+$$F^{-1}=\frac1{\sqrt n}\begin{pmatrix}
+1 & 1 & 1 & 1 & \cdots & 1 \\
+1 & \omega^{-1} & \omega^{-2} & \omega^{-3} & \cdots & \omega^{-(n-1)} \\
+1 & \omega^{-2} & \omega^{-4} & \omega^{-6} &\cdots & \omega^{-2(n-1)} \\
+1 & \omega^{-3} & \omega^{-6} & \omega^{-9} & \cdots & \omega^{-3(n-1)} \\
+\vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+1 & \omega^{-(n-1)} & \omega^{-2(n-1)} & \omega^{-3(n-1)} & \cdots & \omega^{-(n-1)(n-1)}
+\end{pmatrix}$$
+
+## Convolution Product
+
+>[!definition]
+>Consider $x, y\in L^2(\mathbb Z_n, \mathbb C)$. Then, $x*y\in L^2(\mathbb Z_n, \mathbb C)$, where $*$ denotes the **convolution product**. We define $x*y$ as follows:
+>$$(x*y)_k=\sum_{l\in\mathbb Z_n}x_l\cdot y_{k-l}$$
+
+>**Example.** In $\mathbb Z_3$, let $x=(1,2,3), y=(-2,3,5)$. Find $(x*y)_k$.
+
+>[!solution]+
+>$$\begin{align}
+x=(1,2,3)&=(x_0,x_1,x_2) \\
+y=(-2,3,5)&=(y_0,y_1,y_2) \\
+(x*y)_0&=x_0y_0+x_1y_{-1}+x_2y_{-2} \\
+&=\boxed{x_0y_0 +x_1y_2+x_2y_1} \\
+(x*y)_1&=x_0y_1+x_1y_0+x_2y_{-1} \\
+&=\boxed{x_0y_1+x_1y_0+x_2y_2} \\
+(x*y)_2&=\boxed{x_0y_2+x_1y_1+x_2y_0}
+\end{align}$$
+
+Note that convolution is commutative. That is, $f*g=g*f$.
+
+### Convolution Theorem
+
+>[!theorem]
+>The **Convolution Theorem** of $L^2(\mathbb Z_n, \mathbb C)$ states that if $X=F(x), Y=F(y)$, then 
+>$$XY=F(x*y)$$ where $XY$ represents the element-wise (point-wise) product of $X$ and $Y$. 
+>
+>The inverse is also true. That is,
+>$$x*y=F^{-1}(Fx)(Fy)$$
+
+The Convolution Theorem allows us to perform certain operations quickly. 
+
+### Efficient Convolution
+
+From the Convolution Theorem, we know that we can a perform a convolution through a Fourier transform: $x*y=F^{-1}(Fx)(Fy)$. As it turns out, using the Fast Fourier Transform, calculating the righthand side is actually more efficient. 
+
+### Polynomial Multiplication
+
+Consider the polynomial multiplication here:
+$$\begin{align}
+p&=a_0+a_1t+a_2t^2 \\
+q&=b_0+b_1t+b_2t^2 \\
+pq&=a_0b_0+(a_0b_1+a_1b_0)t+(a_0b_2+a_1b_1+a_2b_0)t^2\\
+&\qquad +(a_1b_2+a_2b_1)t^3+a_2b_2t^4
+\end{align}$$
+Notice that this looks oddly similar to convolution. Let's vectorize the problem as follows:
+$$\begin{align}
+a&=(a_0,a_1,a_2,0,0,0)\in L^2(\mathbb Z_b, \mathbb C) \\
+b&=(b_0, b_1,b_2,0,0,0)\in L^2(\mathbb Z_b, \mathbb C) \\
+a*b&=(a_0b_0,a_0b_1+a_1b_0,a_0b_2+a_1b_1+a_2b_0,a_1b_2+a_0b_1,a_2b_2,0)
+\end{align}$$
+We have to add the $0$s to have enough space for the "wraparound" effects.
+
+This generalizes to all polynomial multiplication.
+
+Integer Multiplication
+
+In the same manner as polynomial multiplication, integer multiplication for large numbers can be computed as a convolution. Applying the efficient algorithm, this becomes an application of the DFT (specifically the FFT).
+
+
+### Something
+
+
+
+When $m \nmid n$, 
+$$\begin{align}
+\sum_{k=0}^{n-1}e^\frac{2\pi i mk}{n}&=\sum_{k=0}^{n-1}r^k, r=e^\frac{2\pi im}{n} \\
+&=\frac{1-r^n}{1-r} \\
+&=\frac{1-e^{2\pi im}}{1-e^\frac{2\pi im}{n}} \\
+&=\boxed0
+\end{align}$$
+
+When $n\mid m$,
+$$\begin{align}
+\sum_{k=0}^{n-1}e^\frac{2\pi imk}{n}&=\sum_{k=0}^{n-1}1 \\
+&=\boxed n
+\end{align}$$
+
+$$\begin{align}
+(Fy)_k&=\sum_{l\in\mathbb Z_n}\omega^{lk}y_l \\
+(F^2x)_k&=(F(Fx))_k \\
+&=\frac1{\sqrt n}\sum_{l\in\mathbb Z_n}\omega^{kl}(Fx)_l \\
+&=\frac1{\sqrt n}\sum_{l\in\mathbb Z_n}\omega^{kl}\left(\frac1{\sqrt n} \sum_{m\in\mathbb Z_n}\omega^{lm}x_m\right)\\
+&=\frac1n\sum_{l\in\mathbb Z_n}\sum_{m\in\mathbb Z_n}\omega^{l(k+m)}x_m \\
+&=\frac1n\sum_{m\in\mathbb Z_n}\sum_{l\in\mathbb Z_n}\omega^{l(k+m)}x_m \\
+&=\frac1n\sum_{m\in\mathbb Z_n}\sum_{l\in\mathbb Z_n}e^\frac{2\pi il(k+m)}{n}x_m \\
+&=\frac1{\cancel n}\sum_{m\in\mathbb Z_n}\cancel n\cdot\delta_{k+m}x_m & \left(\delta_a=\begin{cases}1 & a=0 \\ 0 & a\neq 0\end{cases}\right) \\
+&=x_{-k}=x_{n-k}
+\end{align}$$
+
+Applying this process again, we get
+$$\begin{align}
+(F^4x)_k&=x_k \\
+\implies F^4&=I
 \end{align}$$
