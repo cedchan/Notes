@@ -196,18 +196,68 @@ c_0 \\ c_1 \\ \vdots \\ c_{n-1}
 
 Practically, calculating this matrix multiplication takes $O(n^2)$ time, but the **Fast Fourier Transform (FFT)** can efficiently calculate it in $O(n\lg n)$ time. 
 
-#### Properties
-1. $F^4=I$
+#### Square of the Fourier Matrix
 
-2. $(F^2x)_k=x_{-k}=x_{n-k}$
-	That is, applying the Fourier transform twice "flips" the vector. 
-	$$\begin{align}
-	x&=(x_0,x_1,x_2) \\
-	F^2x&=(x_2,x_1,x_0)
+>[!theorem]
+>$$(F^2x)_k=x_{-k}=x_{n-k}$$
+>That is, applying the Fourier transform twice "flips" the vector. 
+>$$\begin{align}
+x&=(x_0,x_1,x_2) \\
+F^2x&=(x_2,x_1,x_0)
 \end{align}$$
-	
-3. The eigenvalues ($\lambda$) of $F$ are in $\{1,-1,i,-i\}$.
-	*Proof:*
+
+*Proof:*
+
+>[!lemma]
+>$$\sum_{k=0}^{n-1}e^\frac{2\pi imk}{n}=\begin{cases}0 & m\nmid n \\ n & n\mid m\end{cases}$$
+
+*Proof:*
+When $m \nmid n$, 
+$$\begin{align}
+\sum_{k=0}^{n-1}e^\frac{2\pi i mk}{n}&=\sum_{k=0}^{n-1}r^k, r=e^\frac{2\pi im}{n} \\
+&=\frac{1-r^n}{1-r} \\
+&=\frac{1-e^{2\pi im}}{1-e^\frac{2\pi im}{n}} \\
+&=\boxed0
+\end{align}$$
+
+When $n\mid m$,
+$$\begin{align}
+\sum_{k=0}^{n-1}e^\frac{2\pi imk}{n}&=\sum_{k=0}^{n-1}1 \\
+&=\boxed n \\
+& & \square
+\end{align}$$
+Main proof, continued:
+$$\begin{align}
+(Fx)_k&=\sum_{l\in\mathbb Z_n}\omega^{lk}x_l \\
+(F^2x)_k&=(F(Fx))_k \\
+&=\frac1{\sqrt n}\sum_{l\in\mathbb Z_n}\omega^{kl}(Fx)_l \\
+&=\frac1{\sqrt n}\sum_{l\in\mathbb Z_n}\omega^{kl}\left(\frac1{\sqrt n} \sum_{m\in\mathbb Z_n}\omega^{lm}x_m\right)\\
+&=\frac1n\sum_{l\in\mathbb Z_n}\sum_{m\in\mathbb Z_n}\omega^{l(k+m)}x_m \\
+&=\frac1n\sum_{m\in\mathbb Z_n}\sum_{l\in\mathbb Z_n}\omega^{l(k+m)}x_m \\
+&=\frac1n\sum_{m\in\mathbb Z_n}\sum_{l\in\mathbb Z_n}e^\frac{2\pi il(k+m)}{n}x_m \\
+&=\frac1{\cancel n}\sum_{m\in\mathbb Z_n}\cancel n\cdot\delta_{k+m}x_m & \left(\delta_a=\begin{cases}1 & a=0 \\ 0 & a\neq 0\end{cases}\right) \\
+&=x_{-k}=x_{n-k} \\
+& & \square
+\end{align}$$
+
+#### Eigenvalues
+
+>[!theorem]
+>$$F^4=I$$
+
+*Proof:*
+$$\begin{align}
+F^4x&=F^2F^2x \\
+&=F^2x_{-k} \\
+&=x \\
+\implies F^4&=I \\
+& & \square
+\end{align}$$
+
+>[!theorem]
+>The eigenvalues ($\lambda$) of $F$ are in $\{1,-1,i,-i\}$.
+
+*Proof:*
 $$\begin{align}
 Fv&=\lambda v \\
 FFv&=F\lambda v \\
@@ -216,7 +266,8 @@ FFv&=F\lambda v \\
 v&=F^4v \\
 &=\lambda^4v \\
 \lambda^4&=1 \\
-\lambda&=1,-1,i,-i
+\lambda&=1,-1,i,-i \\
+& & \square
 \end{align}$$
 
 ### Inverse Discrete Fourier Transform
@@ -295,40 +346,3 @@ This generalizes to all polynomial multiplication.
 Integer Multiplication
 
 In the same manner as polynomial multiplication, integer multiplication for large numbers can be computed as a convolution. Applying the efficient algorithm, this becomes an application of the DFT (specifically the FFT).
-
-
-### Something
-
-
-
-When $m \nmid n$, 
-$$\begin{align}
-\sum_{k=0}^{n-1}e^\frac{2\pi i mk}{n}&=\sum_{k=0}^{n-1}r^k, r=e^\frac{2\pi im}{n} \\
-&=\frac{1-r^n}{1-r} \\
-&=\frac{1-e^{2\pi im}}{1-e^\frac{2\pi im}{n}} \\
-&=\boxed0
-\end{align}$$
-
-When $n\mid m$,
-$$\begin{align}
-\sum_{k=0}^{n-1}e^\frac{2\pi imk}{n}&=\sum_{k=0}^{n-1}1 \\
-&=\boxed n
-\end{align}$$
-
-$$\begin{align}
-(Fy)_k&=\sum_{l\in\mathbb Z_n}\omega^{lk}y_l \\
-(F^2x)_k&=(F(Fx))_k \\
-&=\frac1{\sqrt n}\sum_{l\in\mathbb Z_n}\omega^{kl}(Fx)_l \\
-&=\frac1{\sqrt n}\sum_{l\in\mathbb Z_n}\omega^{kl}\left(\frac1{\sqrt n} \sum_{m\in\mathbb Z_n}\omega^{lm}x_m\right)\\
-&=\frac1n\sum_{l\in\mathbb Z_n}\sum_{m\in\mathbb Z_n}\omega^{l(k+m)}x_m \\
-&=\frac1n\sum_{m\in\mathbb Z_n}\sum_{l\in\mathbb Z_n}\omega^{l(k+m)}x_m \\
-&=\frac1n\sum_{m\in\mathbb Z_n}\sum_{l\in\mathbb Z_n}e^\frac{2\pi il(k+m)}{n}x_m \\
-&=\frac1{\cancel n}\sum_{m\in\mathbb Z_n}\cancel n\cdot\delta_{k+m}x_m & \left(\delta_a=\begin{cases}1 & a=0 \\ 0 & a\neq 0\end{cases}\right) \\
-&=x_{-k}=x_{n-k}
-\end{align}$$
-
-Applying this process again, we get
-$$\begin{align}
-(F^4x)_k&=x_k \\
-\implies F^4&=I
-\end{align}$$

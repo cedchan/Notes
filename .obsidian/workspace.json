@@ -140,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MATH 3130/The Fourier Series.md",
+                "file": "Distributional Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MATH 3130/The Fourier Series.md",
+                "file": "Distributional Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MATH 3130/The Fourier Series.md"
+                "file": "Distributional Learning.md"
               }
             }
           }
@@ -268,14 +268,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66052be503558af6",
+  "active": "e848969f3c2d1609",
   "lastOpenFiles": [
+    "MATH 3130/Vector Spaces.md",
+    "MATH 3130/The Fourier Series.md",
     "MATH 3130/Complex Matrices.md",
     "MATH 3130/Special Matrices.md",
-    "MATH 3130/The Fourier Series.md",
     "Distributional Learning.md",
     "LING 5250/Beat Tracking.md",
-    "MATH 3130/Vector Spaces.md",
     "LING 2300/Syllable Structure.md",
     "LING 2300/Rule Ordering.md",
     "MATH 3130/Inner Product.md",
