@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "e848969f3c2d1609",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~PRIV/Distributional Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "75e97e0493ac9a32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~PRIV/Untitled.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~PRIV/Untitled.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~PRIV/Untitled.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~PRIV/Untitled.md"
+                "file": "LING 5250/Beat Tracking.md"
               }
             }
           }
@@ -280,11 +268,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238fc620f3a7044a",
+  "active": "75e97e0493ac9a32",
   "lastOpenFiles": [
+    "~PRIV/Untitled.md",
     "Untitled",
     "~PRIV/Distributional Learning.md",
-    "~PRIV/Untitled.md",
     "CHIN 1140.md",
     "README.md",
     "Untitled 2.md",
