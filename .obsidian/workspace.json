@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "75e97e0493ac9a32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~PRIV/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "66052be503558af6",
             "type": "leaf",
             "state": {
@@ -140,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~PRIV/Distributional Learning.md",
+                "file": "~PRIV/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~PRIV/Distributional Learning.md",
+                "file": "~PRIV/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~PRIV/Distributional Learning.md"
+                "file": "~PRIV/Untitled.md"
               }
             }
           }
@@ -270,12 +282,13 @@
   },
   "active": "238fc620f3a7044a",
   "lastOpenFiles": [
+    "Untitled",
+    "~PRIV/Distributional Learning.md",
+    "~PRIV/Untitled.md",
     "CHIN 1140.md",
     "README.md",
-    "Untitled.md",
     "Untitled 2.md",
     "Untitled 1.md",
-    "~PRIV/Distributional Learning.md",
     "~PRIV",
     "CIS 1210/Hashing.md",
     "!PRIV/Distributional Learning.md",
@@ -298,7 +311,6 @@
     "LING 5250/Perception.md",
     "CIS 1210/Tries.md",
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
-    "LING 5250/The DFT.md",
     "Glossary",
     "MATH 3130",
     "LING 2300",
