@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Distributional Learning.md",
+                "file": "CIS 1210/Hashing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51f15923a32f75ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!PRIV/Distributional Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributional Learning.md",
+                "file": "!PRIV/Distributional Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributional Learning.md",
+                "file": "!PRIV/Distributional Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distributional Learning.md"
+                "file": "!PRIV/Distributional Learning.md"
               }
             }
           }
@@ -268,13 +280,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e848969f3c2d1609",
+  "active": "238fc620f3a7044a",
   "lastOpenFiles": [
+    "!PRIV",
+    "LING 5250/Fisher Linear Discriminant.md",
+    "CIS 1210/Hashing.md",
+    "!PRIV/Distributional Learning.md",
     "MATH 3130/Vector Spaces.md",
     "MATH 3130/The Fourier Series.md",
     "MATH 3130/Complex Matrices.md",
     "MATH 3130/Special Matrices.md",
-    "Distributional Learning.md",
     "LING 5250/Beat Tracking.md",
     "LING 2300/Syllable Structure.md",
     "LING 2300/Rule Ordering.md",
@@ -290,12 +305,9 @@
     "LING 5250/Perception.md",
     "CIS 1210/Tries.md",
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
-    "CIS 1210/Hashing.md",
     "LING 5250/The DFT.md",
     "LING 5250/Signals.md",
     "CIS 1210/Heaps.md",
-    "LING 2300/Distributions.md",
-    "CIS 1210/Union Find.md",
     "Glossary",
     "MATH 3130",
     "LING 2300",

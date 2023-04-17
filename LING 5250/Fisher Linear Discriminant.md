@@ -1,0 +1,1 @@
+https://sthalles.github.io/fisher-linear-discriminant/
