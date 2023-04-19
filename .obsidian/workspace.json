@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -270,10 +271,10 @@
   },
   "active": "75e97e0493ac9a32",
   "lastOpenFiles": [
-    "~PRIV/Untitled.md",
-    "Untitled",
     "~PRIV/Distributional Learning.md",
     "CHIN 1140.md",
+    "LING 5250/Beat Tracking.md",
+    "Untitled",
     "README.md",
     "Untitled 2.md",
     "Untitled 1.md",
@@ -287,7 +288,6 @@
     "MATH 3130/The Fourier Series.md",
     "MATH 3130/Complex Matrices.md",
     "MATH 3130/Special Matrices.md",
-    "LING 5250/Beat Tracking.md",
     "LING 2300/Syllable Structure.md",
     "LING 2300/Rule Ordering.md",
     "MATH 3130/Inner Product.md",

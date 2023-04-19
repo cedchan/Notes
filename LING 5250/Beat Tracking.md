@@ -2,6 +2,17 @@ https://ieeexplore.ieee.org/abstract/document/1300607
 
 https://ieeexplore.ieee.org/abstract/document/1495485
 
+$$\begin{align}
+\zeta(n)&=\sum_{k\geq 0}\Gamma_k(n) \\
+S_k(n)&=X_k(n)e^{i\varphi_k(n)} \\
+\Gamma_k(n)&=\left\{|\hat X_k(n)|^2+|X_k(n)|^2+\right. \\
+&\qquad\left.-2|\hat X_k(n)||X_k(n)|\cos(\Delta\varphi_k(n))\right\}^\frac12 \\
+\hat X_k(n)&=X_k(n-1)\\
+\Delta\varphi_k(n)&=\varphi_k(n)-2\varphi_k(n-1)+\varphi_k(n-2)
+\end{align}$$
+
+
+
 Klapuri et al. Onsets
 https://ieeexplore.ieee.org/abstract/document/757494
 
