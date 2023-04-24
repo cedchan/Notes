@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LING 5250/Beat Tracking.md",
+                "file": "MATH 3130/The Fourier Series.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LING 5250/Beat Tracking.md",
+                "file": "MATH 3130/The Fourier Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LING 5250/Beat Tracking.md",
+                "file": "MATH 3130/The Fourier Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LING 5250/Beat Tracking.md"
+                "file": "MATH 3130/The Fourier Series.md"
               }
             }
           }
@@ -282,12 +282,17 @@
   },
   "active": "2c0a67063ec04729",
   "lastOpenFiles": [
-    "~PRIV/Distributional Learning.md",
+    "MATH 3130/Special Matrices.md",
+    "MATH 3130/Inner Product.md",
+    "MATH 3130/Eigenvectors and Eigenvalues.md",
     "MATH 3130/Complex Matrices.md",
+    "MATH 3130/Vector Spaces.md",
+    "MATH 3130/Transformations.md",
+    "LING 5250/Beat Tracking.md",
+    "~PRIV/Distributional Learning.md",
     "MATH 3130/The Fourier Series.md",
     "CHIN 1140.md",
     "~PRIV/Music ChatGPT.md",
-    "LING 5250/Beat Tracking.md",
     "LING 5250/Signals.md",
     "Untitled",
     "README.md",
@@ -299,16 +304,11 @@
     "New Text Document.txt",
     "!PRIV",
     "LING 5250/Fisher Linear Discriminant.md",
-    "MATH 3130/Vector Spaces.md",
-    "MATH 3130/Special Matrices.md",
     "LING 2300/Syllable Structure.md",
     "LING 2300/Rule Ordering.md",
-    "MATH 3130/Inner Product.md",
     "CIS 1210/AVL Trees.md",
     "LING 2300/Segment Length.md",
-    "MATH 3130/Transformations.md",
     "MATH 3130/Diagonalization.md",
-    "MATH 3130/Eigenvectors and Eigenvalues.md",
     "LING 5250/Perception.md",
     "CIS 1210/Tries.md",
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
