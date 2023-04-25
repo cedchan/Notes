@@ -9,7 +9,7 @@ All basic operations on binary trees run in $O(h)$ time. In the worst case, each
 ## Definition of an AVL Tree
 
 >[!definition]
->The **height-balance property** states the for every internal node $v$ of $T$, the hieghts of the children of $v$ differ by at most 1. 
+>The **height-balance property** states the for every internal node $v$ of $T$, the heights of the children of $v$ differ by at most 1. 
 >
 >An **AVL tree** is any tree that satisfies the height-balance property. (It is named after its inventors Adel'son-Vel'skii and Landis.)
 
@@ -53,7 +53,7 @@ Adding a node $w$ to $T$ may imbalance all nodes on the path from the root to $w
 We define the following:
 - $z$: The unbalanced first node going up from $w$ to the root
 - $y$: The child of $z$ with greater height
-- $x$: The child of $y$ with higher height
+- $x$: The child of $y$ with greater height
 
 We rebalance the subtree by calling the **trinode restructuring** function `Restructure()`. This temporarily relabels $x, y, z$ as $a, b, c$ such that an inorder traversal of $T$ would go to $a$ first, then $b$, then $c$. The restructuring then makes $b$ the root with $a$ and $c$ as its children. The children of $a$ and $c$ are the four previous children of $x, y, z$ that aren't $x, y$. 
 

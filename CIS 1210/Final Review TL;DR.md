@@ -51,3 +51,19 @@ Prefix free encodings that utilize a heap. A greedy algorithm
 ### Kruskal's
 - $O(n\lg^*n)$
 - Uses UF data structure
+
+## Hashing
+- $\alpha=\frac{n}{m}$, $n$ is the number of elements, $m$ is the number of slots
+- Open Addressing
+	- Unsuccessful search $O(\frac{1}{1-\alpha})$
+	- Successful search $O(\frac1\alpha\lg\frac1{1-\alpha})$
+- Simple Uniform Hashing ($m!$ equally likely probe sequences)
+	- Unsuccessful search $\Theta(1+\alpha)$
+	- Successful search $\Theta(1+\alpha)$
+- Linear probing: $h(x)=(h'(x)+i)\mathrm{\ mod\ }m$
+	- $m$ probe sequences
+- Quadratic probing: $h(x)=(h'(x)+c_1i+c_2i^2){\rm\ mod \ }m$
+	- $m$ probe sequences
+- Double hashing: $h(x)=(h_1'(x)+ih_2'(x)){\rm\ mod \ }m$
+	- $m^2$ probe sequences
+
