@@ -13,13 +13,134 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Red-Black Trees.md",
+                "file": "CIS 1210/Red-Black Trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5f20c1e883756d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Gram-Schmidt Process.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54da030bf1a1c016",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/QR Decomposition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b2ddc16d7ac0d25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/MATH 3130 Final Review.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de5113cbe66505eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/LU Decomposition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aefc8173565c2186",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Skip Lists.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38e83536f2bc96c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Testing Sortedness.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2094e63e60e938fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Minimum Cut.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3dfd07081e7cce0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 1210/Testing Sortedness.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c43b238d1d16386",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Singular Value Decomposition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "588e0a7cb2d3d1e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MATH 3130/Special Matrices.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -86,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Red-Black Trees.md",
+                "file": "CIS 1210/Testing Sortedness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Red-Black Trees.md",
+                "file": "CIS 1210/Testing Sortedness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Red-Black Trees.md"
+                "file": "CIS 1210/Testing Sortedness.md"
               }
             }
           }
@@ -148,15 +269,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78f8c1da2fc32d4c",
+  "active": "3dfd07081e7cce0c",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "CIS 1210/Minimum Cut.md",
+    "CIS 1210/Testing Sortedness.md",
+    "CIS 1210/Skip Lists.md",
+    "MATH 3130/LU Decomposition.md",
+    "MATH 3130/MATH 3130 Final Review.md",
+    "MATH 3130/Singular Value Decomposition.md",
+    "MATH 3130/QR Decomposition.md",
+    "MATH 3130/Special Matrices.md",
+    "MATH 3130/Gram-Schmidt Process.md",
+    "CIS 1210/CIS 1210 Final Review.md",
+    "CIS 1210/Red-Black Trees.md",
     "CIS 1210/Tries.md",
-    "Red-Black Trees.md",
     "CIS 1210/2-SAT.md",
     "LING 5250/Beat Tracking.md",
     "MATH 3130/The Fourier Series.md",
     "CIS 1210/Union Find.md",
-    "CIS 1210/Final Review TL;DR.md",
     "CIS 1210/Hashing.md",
     "CIS 1210/Bloom Filters.md",
     "CIS 1210/Bipartiteness.md",
@@ -165,18 +296,8 @@
     "LING 2300/Rule Ordering.md",
     "LING 2300/Distributions.md",
     "CIS 1210/AVL Trees.md",
-    "MATH 3130/Special Matrices.md",
     "MATH 3130/Inner Product.md",
-    "MATH 3130/Transformations.md",
-    "MATH 3130/Eigenvectors and Eigenvalues.md",
-    "MATH 3130/Complex Matrices.md",
-    "MATH 3130/Vector Spaces.md",
-    "~PRIV/Distributional Learning.md",
-    "CHIN 1140.md",
-    "~PRIV/Music ChatGPT.md",
-    "LING 5250/Signals.md",
     "Untitled",
-    "README.md",
     "~PRIV",
     "New Text Document.txt",
     "!PRIV",

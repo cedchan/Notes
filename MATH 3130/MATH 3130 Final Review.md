@@ -1,0 +1,15 @@
+- [ ] Matrix with coefficients in $Z_n$
+- [ ] Solving linear equation
+	- [ ] (5130) $LU$ decomposition
+- [ ] Fourier series
+- [ ] Discrete Fourier transformations
+- [ ] Convolution product
+- [ ] Abstract linear transformations
+- [ ] Hill cipher
+- [ ] Jordan Form
+- [ ] Ordinary differential equations
+	- [ ] Taylor Series
+- [ ] SVD
+- [ ] PCA
+- [x] Gram-Schmidt
+- [x] $QR$ decomposition
