@@ -67,3 +67,47 @@ Prefix free encodings that utilize a heap. A greedy algorithm
 - Double hashing: $h(x)=(h_1'(x)+ih_2'(x)){\rm\ mod \ }m$
 	- $m^2$ probe sequences
 
+
+
+## Todo
+- [ ] GS Algorithm
+- [ ] Greates Common Divisor
+- [ ] Insertion Sort
+- [ ] Running time
+- [ ] Code snippets
+- [ ] Powers of 2
+- [ ] Linear and binary search
+- [ ] MergeSort
+- [ ] Recurrence practice
+- [ ] Quicksort
+- [x] Counting inversions
+- [ ] Selection problem
+- [ ] Closest pair
+- [ ] Stacks and queues
+- [ ] Binary heaps
+- [ ] Huffman coding
+- [ ] BFS and DFS
+- [ ] Bipartiteness
+- [ ] DAGs and Toposort
+- [ ] SCCs
+- [ ] Shortest path
+	- [ ] Dijkstra
+	- [ ] Shortest path in a DAG
+- [ ] MST
+	- [ ] Prim's
+	- [ ] Kruskal's
+	- [ ] Reverse-delete
+- [ ] Union find
+- [x] Hashing
+- [x] Tries
+- [x] AVL trees
+- [x] Skip lists
+- [x] Bloom filters
+- [x] Red-black trees
+	- [ ] Review
+- [x] Min cut
+	- [ ] Review
+- [x] 2-SAT
+	- [ ] Review
+- [x] Checking sortedness
+	- [ ] Review

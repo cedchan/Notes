@@ -6,6 +6,9 @@
 >1. Normalized (i.e., have a norm of 1)
 >2. Mutually orthogonal
 
+### Properties
+1. $\det A=\pm 1$ 
+
 ## Symmetric Matrices
 
 >[!definition]

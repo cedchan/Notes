@@ -97,3 +97,41 @@ That is, a binary search is consistent if it returns the desired value.
 
 >[!lemma] Lemma 5
 >The binary search tester outputs the wrong answer, no, with probability 0 whenever $A$ is sorted. It outputs the wrong answer, yes, with probability at most $1-\varepsilon$ whenever $A$ is $\varepsilon$-far. 
+
+*Proof.* When $A$ is sorted, the algorithm clearly always outputs yes. 
+
+Now suppose $A$ is $\varepsilon$-far. We define a set $C(A)=\{i_1,i_2,\cdot,i_t\}$ of all indices on which the binary search is inconsistent. Observe that $t\leq(1-\varepsilon)n$, as we can change $\varepsilon\cdot n$ of the elements and the $(1-\varepsilon)\cdot n$ unchanged elements would now be consistent.
+
+Our algorithm outputs the wrong answer if we pick an element in $C(A)$, which we do with probability
+$$\Pr[{\rm incorrect}]\leq\frac{(1-\varepsilon)n}n=1-\varepsilon$$
+
+### Final Algorithm
+
+We decrease the probability of an incorrect answer by repeatedly running the algorithm. 
+
+1. Run binary search tester $k$ times independently
+2. Output yes if all runs output yes and output no otherwise
+
+#### Analysis
+
+The correct answer case is trivial.
+
+In the case where $A$ is $\varepsilon$-far, since we need every independent run to be correct,
+$$\begin{align}
+\Pr[{\rm incorrect}]&\leq(1-\varepsilon)^k \\
+&\leq e^{-\varepsilon k} & (1+x\leq e^x)
+\end{align}$$
+
+Bounding this probability by $\delta$, we get
+$$\begin{align}
+e^{-\varepsilon k}&\leq \delta \\
+e^{\varepsilon k}&\geq \frac1\delta\\
+\varepsilon k&\geq \ln\frac1\delta \\
+k&\geq\frac1\varepsilon\ln\frac1\delta
+\end{align}$$
+
+##### Runtime
+
+Since our search runs $k$ times on array size $n$, our overall runtime is $O(k\lg n)$. 
+
+Thus, we output the correct answer with probability $1-\delta$ in $O(k\lg n)$ time. 

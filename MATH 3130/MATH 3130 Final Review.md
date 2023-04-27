@@ -9,7 +9,7 @@
 - [ ] Jordan Form
 - [ ] Ordinary differential equations
 	- [ ] Taylor Series
-- [ ] SVD
-- [ ] PCA
+- [x] SVD
+- [x] PCA
 - [x] Gram-Schmidt
 - [x] $QR$ decomposition
