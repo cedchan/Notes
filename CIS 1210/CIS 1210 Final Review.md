@@ -71,19 +71,19 @@ Prefix free encodings that utilize a heap. A greedy algorithm
 
 ## Todo
 - [ ] GS Algorithm
-- [ ] Greates Common Divisor
-- [ ] Insertion Sort
+- [x] Greates Common Divisor
+- [x] Insertion Sort
 - [ ] Running time
 - [ ] Code snippets
 - [ ] Powers of 2
-- [ ] Linear and binary search
+- [x] Linear and binary search
 - [ ] MergeSort
 - [ ] Recurrence practice
 - [ ] Quicksort
 - [x] Counting inversions
 - [ ] Selection problem
 - [ ] Closest pair
-- [ ] Stacks and queues
+- [x] Stacks and queues
 - [ ] Binary heaps
 - [ ] Huffman coding
 - [ ] BFS and DFS

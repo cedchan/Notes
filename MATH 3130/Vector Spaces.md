@@ -1,4 +1,4 @@
-Initially, we discussed vector spaces as linear combinations of numerical vectors. We can also do the same with our bases as functions. E.g., $\{1, x, x^2\}$. 
+ Initially, we discussed vector spaces as linear combinations of numerical vectors. We can also do the same with our bases as functions. E.g., $\{1, x, x^2\}$. 
 
 **Example.** $P_n$, the vector space of a polynomial up to $x^n$.
 > $\{x^0, x^1, x^2, \dots, x^n\}$

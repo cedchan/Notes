@@ -1,4 +1,3 @@
-
 >[!definition]
 >Any matrix $A$ can be decomposed into a diagonal matrix of its singular values and two orthonormal matrices. This factorization, known as the **singular value decomposition (SVD)** is given by
 >$$A=U\Sigma V^T$$
@@ -23,13 +22,17 @@ $$A=\sum_{i=1}^r\sigma_i\vec u_i\vec v_i^T$$where $u_i, v_i^T$ are respectively 
 
 ## Process
 
-First find the singular values. Since the eigenvalues (up to the possible rank) of $A^TA$ and $AA^T$  are the same, choose to calculate the one of the smaller dimension, for simplicity. 
+1. Find the singular values. Since the eigenvalues (up to the rank of $A$) of $A^TA$ and $AA^T$  are the same, choose to calculate the one of the smaller dimension, for simplicity. 
 
-Then, using the given eigenvalues, solve for $V$ first by finding the eigenvectors of the found eigenvalues. In the case that we calculated $AA^T$ before, we will have a missing eigenvector. We can find this from the property that our eigenvector will be orthogonal to the other ones. 
+2. Then, using the given eigenvalues, solve for $V$ first by finding the eigenvectors of the found eigenvalues. 
 
-For example, in the case of a $3\times 3$, we can solve $\vec v_1, \vec v_2$ from the found eigenvalues. Then we find $\vec v_3=\vec v_1\times \vec v_2$ (scaled).
+	If in step step one we calculated $AA^T$, we might have a missing eigenvector. We can find this from the property that our eigenvector will be orthogonal to the other ones. 
+	
+	For example, in the case of a $3\times 3$, we can solve $\vec v_1, \vec v_2$ from the found eigenvalues. Then we find $\vec v_3=\vec v_1\times \vec v_2$ (scaled).
 
-Then using the relation $A\vec v_i=\sigma_i\vec u_i$ from above, we can solve for $U$ with the relation $\vec u_i=\frac1{\sigma_i}A\vec v_i$. 
+3. Using $A\vec v_i=\sigma_i\vec u_i$ from above, we can solve for $U$ with the relation $\vec u_i=\frac1{\sigma_i}A\vec v_i$.
+
+	Again, if there are missing eigenvectors, we can use the cross product to find the missing ones.
 
 ## Inverse with SVD
 

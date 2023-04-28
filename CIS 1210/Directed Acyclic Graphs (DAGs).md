@@ -53,7 +53,7 @@ TopoSort(G):
 
 	while L is not empty do
 		v = L.dequeue()
-		OUT.append(v)
+		out.append(v)
 		for each u in Adj[v]
 			in[u] = in[u] - 1
 			if in[u] = 0 then
