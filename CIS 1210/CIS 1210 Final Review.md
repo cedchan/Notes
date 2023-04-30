@@ -111,3 +111,11 @@ Prefix free encodings that utilize a heap. A greedy algorithm
 	- [ ] Review
 - [x] Checking sortedness
 	- [ ] Review
+
+Huffman question
+
+We first note that there must be four or more characters (or there must be an encoding of length 1). Further, the top of the Huffman tree must be a full binary tree with four leaves (which could represent individual or )
+
+Case 1: There exists a frequency $f_4>0.44$. Since $f_1>0.44$, $f_2+f_3<0.12$. Thus, $f_2, f_3$ would merge first, then merge with the smaller of $f_1, f_4$, leaving an encoding of length 1.
+
+Case 2: There doesn't exist another frequency $>0.44$. Let $f_3, f_4$ be the djkf
