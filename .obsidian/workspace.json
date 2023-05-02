@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 3130/The Fourier Series.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "mode": "source",
                 "source": false
               }
@@ -314,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MATH 3130/The Fourier Series.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +331,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MATH 3130/The Fourier Series.md",
+                "file": "LING 5250/Beat Tracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MATH 3130/The Fourier Series.md"
+                "file": "LING 5250/Beat Tracking.md"
               }
             }
           }
@@ -377,11 +377,11 @@
   },
   "active": "62bbdf8daa438f84",
   "lastOpenFiles": [
+    "MATH 3130/The Fourier Series.md",
     "CIS 1210/CIS 1210 Final Review.md",
     "LING 2300/Segment Length.md",
     "MATH 3130/Diagonalization.md",
     "MATH 3130/Gram-Schmidt Process.md",
-    "MATH 3130/The Fourier Series.md",
     "MATH 3130/Singular Value Decomposition.md",
     "CIS 1210/Minimum Spanning Trees (MSTs).md",
     "CIS 1210/Shortest Path.md",
