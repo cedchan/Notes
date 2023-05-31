@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d5f16ca50273e588",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3f56ad9dcd48fa7",
+  "active": "d5f16ca50273e588",
   "lastOpenFiles": [
     "MATH 3130/Special Matrices.md",
     "MATH 3130/Singular Value Decomposition.md",
