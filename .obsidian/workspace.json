@@ -23,9 +23,11 @@
             "id": "d5f16ca50273e588",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.8"
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LING 5250/Beat Tracking.md",
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LING 5250/Beat Tracking.md",
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LING 5250/Beat Tracking.md"
+                "file": "~PRIV/Orthography-to-Pronunciation.md"
               }
             }
           }
@@ -167,6 +169,9 @@
   },
   "active": "d5f16ca50273e588",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "~PRIV/Orthography-to-Pronunciation.md",
+    "~PRIV/Distributional Learning.md",
     "MATH 3130/Special Matrices.md",
     "MATH 3130/Singular Value Decomposition.md",
     "MATH 3130/Diagonalization.md",
@@ -190,9 +195,6 @@
     "MATH 3130/Complex Matrices.md",
     "MATH 3130/Convolution Product.md",
     "MATH 3130/Transformations.md",
-    "MATH 3130/Vector Spaces.md",
-    "CIS 1210/Bipartiteness.md",
-    "LING 5250/The DFT.md",
     "Untitled",
     "~PRIV",
     "New Text Document.txt",
