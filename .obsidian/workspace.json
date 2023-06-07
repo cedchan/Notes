@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -155,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,16 +169,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5f16ca50273e588",
+  "active": "238fc620f3a7044a",
   "lastOpenFiles": [
+    "mindCORE Research Tools.md",
+    "~PRIV/Orthography-to-Pronunciation.md",
     "~PRIV/Pasted image 20230605142646.png",
     "~PRIV/Amotions.md",
     "~PRIV/Pasted image 20230605144149.png",
     "~PRIV/Pasted image 20230605143725.png",
     "~PRIV/Pasted image 20230605143231.png",
-    "mindCORE Research Tools.md",
     "Spring 2023",
-    "~PRIV/Orthography-to-Pronunciation.md",
     "Untitled 1.md",
     "~PRIV/Distributional Learning.md",
     "Spring 2023/MATH 3130/Special Matrices.md",
