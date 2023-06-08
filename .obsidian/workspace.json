@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f8bd70f9e600e5d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mindCORE Research Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "mindCORE Research Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "mindCORE Research Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md"
+                "file": "mindCORE Research Tools.md"
               }
             }
           }
@@ -169,10 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238fc620f3a7044a",
+  "active": "f8bd70f9e600e5d2",
   "lastOpenFiles": [
-    "mindCORE Research Tools.md",
     "~PRIV/Orthography-to-Pronunciation.md",
+    "mindCORE Research Tools.md",
     "~PRIV/Pasted image 20230605142646.png",
     "~PRIV/Amotions.md",
     "~PRIV/Pasted image 20230605144149.png",
