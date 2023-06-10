@@ -69,3 +69,30 @@ Dataframes can be seen as 2-D vectors.
 For 2-D datasets, the `$` character can be used to view named columns. For example, `data$col1` would return the column labeled `col1` of the dataframe `data`. Similarly, `$` can be used to create new columns.
 
 Assigning a value to a column assigns the value to each element in the column. Simple arithmetic operations between columns are done element-wise.
+
+## Research Process
+- **Statistical power**: Probability that phenomenon will show if it's present
+- **Pre-analysis plan**: Publicly filed plan of research & analysis to prevent p-hacking, which is exploiting analysis techniques to get desired result
+- Formal feedback
+	- Journal sent to 2–4 reviewers for peer review
+		- Reviewers submit recommendation on publication or not
+	- Decisions
+		- Accepted (rare)
+		- Conditional accept with minor revision
+		- Major revise and resubmit
+		- Reject
+	- For revisions, must include memo on changes made
+- Replication materials
+	- Dataverse Project, Code Ocean
+
+analytics accelarator
+
+## Presenting
+- Consider different stakeholders
+- Elements of storytelling
+	- Characters
+	- Setting
+	- Conflict
+	- Resolution
+
+WAIAB
