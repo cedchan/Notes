@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -183,6 +182,7 @@
   },
   "active": "d5f16ca50273e588",
   "lastOpenFiles": [
+    "Spring 2023/CHIN 1140.md",
     "mindCORE Research Tools.md",
     "~PRIV/Orthography-to-Pronunciation.md",
     "~PRIV/Pasted image 20230605142646.png",
