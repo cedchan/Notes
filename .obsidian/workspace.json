@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c0cceb88341f9784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -180,7 +193,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5f16ca50273e588",
+  "active": "c0cceb88341f9784",
   "lastOpenFiles": [
     "Spring 2023/CHIN 1140.md",
     "mindCORE Research Tools.md",
