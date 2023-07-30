@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -195,9 +194,11 @@
   },
   "active": "c0cceb88341f9784",
   "lastOpenFiles": [
+    "Spring 2023/MATH 3130/Convolution Product.md",
+    "~PRIV/Music ChatGPT.md",
+    "~PRIV/Orthography-to-Pronunciation.md",
     "Spring 2023/CHIN 1140.md",
     "mindCORE Research Tools.md",
-    "~PRIV/Orthography-to-Pronunciation.md",
     "~PRIV/Pasted image 20230605142646.png",
     "~PRIV/Amotions.md",
     "~PRIV/Pasted image 20230605144149.png",
@@ -224,8 +225,6 @@
     "Spring 2023/LING 2300/Segment Length.md",
     "Spring 2023/CIS 1210/Minimum Spanning Trees (MSTs).md",
     "Spring 2023/CIS 1210/Shortest Path.md",
-    "Spring 2023/CIS 1210/Directed Acyclic Graphs (DAGs).md",
-    "Spring 2023/CIS 1210/Graph Traversals.md",
     "~PRIV",
     "New Text Document.txt",
     "!PRIV",
