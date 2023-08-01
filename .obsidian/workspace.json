@@ -54,9 +54,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b52b704918161476",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -192,7 +202,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0cceb88341f9784",
+  "active": "b52b704918161476",
   "lastOpenFiles": [
     "Spring 2023/MATH 3130/Convolution Product.md",
     "~PRIV/Music ChatGPT.md",
