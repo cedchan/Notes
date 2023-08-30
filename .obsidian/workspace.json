@@ -8,67 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3f56ad9dcd48fa7",
+            "id": "b1c970d95d20d2d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring 2023/LING 5250/Beat Tracking.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d5f16ca50273e588",
+            "id": "a14c30598665e326",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8bd70f9e600e5d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mindCORE Research Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0cceb88341f9784",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b52b704918161476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "Spring 2023/CIS 1210/Huffman Encoding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md"
+                "file": "KORN 0001/Intro to Korean.md"
               }
             }
           }
@@ -204,11 +167,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b52b704918161476",
+  "active": "b1c970d95d20d2d7",
   "lastOpenFiles": [
+    "Spring 2023/MATH 3130/The Fourier Series.md",
+    "KORN 0001/Intro to Korean.md",
+    "Fall 2023/LING 2210/Untitled.md",
+    "Spring 2023/CIS 1210/Huffman Encoding.md",
+    "Spring 2023/CIS 1210/Hashing.md",
+    "CIS 2620/Introduction.md",
+    "KORN 0001",
+    "Spring 2023/LING 5250/The DFT.md",
+    "Spring 2023/LING 5250/Signals.md",
+    "Spring 2023/LING 5250/Perception.md",
+    "Spring 2023/LING 5250/Fisher Linear Discriminant.md",
+    "Spring 2023/LING 5250/Beat Tracking.md",
+    "CIS 2620",
+    "Fall 2023/LING 2210",
+    "~PRIV/Orthography-to-Pronunciation.md",
+    "Fall 2023",
     "Spring 2023/MATH 3130/Convolution Product.md",
     "~PRIV/Music ChatGPT.md",
-    "~PRIV/Orthography-to-Pronunciation.md",
     "Spring 2023/CHIN 1140.md",
     "mindCORE Research Tools.md",
     "~PRIV/Pasted image 20230605142646.png",
@@ -226,24 +204,10 @@
     "Spring 2023/CIS 1210/Minimum Cut.md",
     "Spring 2023/CIS 1210/Skip Lists.md",
     "Spring 2023/MATH 3130/LU Decomposition.md",
-    "Spring 2023/CIS 1210/Red-Black Trees.md",
-    "Spring 2023/MATH 3130/Gram-Schmidt Process.md",
-    "Spring 2023/MATH 3130/QR Decomposition.md",
-    "Spring 2023/MATH 3130/MATH 3130 Final Review.md",
-    "Spring 2023/MATH 3130/The Fourier Series.md",
-    "Spring 2023/LING 2300/Distributions.md",
-    "Spring 2023/LING 5250/Beat Tracking.md",
-    "Spring 2023/CIS 1210/CIS 1210 Final Review.md",
-    "Spring 2023/LING 2300/Segment Length.md",
-    "Spring 2023/CIS 1210/Minimum Spanning Trees (MSTs).md",
-    "Spring 2023/CIS 1210/Shortest Path.md",
     "~PRIV",
     "New Text Document.txt",
     "!PRIV",
     "Glossary",
-    "Spring 2023/MATH 3130",
-    "Spring 2023/LING 2300",
-    "Spring 2023/LING 5250",
-    "Spring 2023/CIS 1210"
+    "Spring 2023/MATH 3130"
   ]
 }
