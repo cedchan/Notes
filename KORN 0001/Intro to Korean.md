@@ -1,6 +1,6 @@
 ## Basic Vowels (모음)
 
-|Vowel|Pronunciation|
+|Symbol|Pronunciation|
 |-|-|
 |ㅏ|/a/|
 |ㅓ|/ʌ, əː/|
@@ -19,8 +19,8 @@
 Adding another stroke to the basic vowels adds a /y/ before the vowel: ㅑ,ㅕ,ㅛ,ㅠ,ㅒ,ㅖ
 ## Consonants (자음)
 
-|Vowel|Pronunciation|Name|
-|-|-|-|
+|Symbol|Pronunciation|
+|-|-|
 |ㄱ|/k g/|
 |ㄴ|/n/|
 |ㄷ|/t/ (unaspirated)|
@@ -30,6 +30,16 @@ Adding another stroke to the basic vowels adds a /y/ before the vowel: ㅑ,ㅕ,�
 |ㅅ|/ɕ/|
 |ㅇ|Silent word-initial, /ŋ/ word-final|
 |ㅈ|/tɕ/|
+
+>[!note]
+>Nasal consonants tend to sound closer to their plosive counterparts.
+>- /n/ → /d/
+>- /m/ → /b/
+
+### Aspirated Consonants
+
+|Symbol|Pronunciation|
+|-|-|
 |ㅊ|/tɕʰ/|
 |ㅋ|/kʰ/|
 |ㅌ|/tʰ/|
@@ -39,10 +49,45 @@ Adding another stroke to the basic vowels adds a /y/ before the vowel: ㅑ,ㅕ,�
 >[!note]
 >Aspirated consonants like ㅊ, ㅋ, ㅌ, and ㅍ are pronounced with a higher tone than their unaspirated counterparts (ㅈ, ㄱ, ㄷ, ㅂ)
 
+### Tensed Sounds
+
+|Symbol|Pronunciation|
+|-|-|
+|ㄲ|/k͈/|
+|ㄸ|/t͈/|
+|ㅃ|/p͈/|
+|ㅆ|/s͈/|
+|ㅉ|/tɕ͈/|
+
 >[!note]
->Nasal consonants tend to sound closer to their plosive counterparts.
->- /n/ → /d/
->- /m/ → /b/
+>Tensed sounds tend to be more voiced and toward the front of the mouth.
+
+## Common Phrases
+
+|Korean|English|
+|-|-|
+|안녕히 가세요|Goodbye (to a person who's going) (i.e., be well)|
+|안녕히 계세요|Goodbye (to a person who's staying) (i.e., stay well)|
+|감사함니다|Thank you.|
+|아니에요|Not at all.|
+|죄송합니다|Sorry (formal)|
+|미안|Sorry (informal)|
+|괜찮아요 |It's okay, are you okay?|
+|실례합니다|Excuse me.|
+|(내일/이따가) 봐요|See you (tomorrow/later).|
+|ㅠ|"Emoji" for sad/tears|
+
+### Classroom Phrases
+
+|Korean| English|
+|-|-|
+|따라하세요|Please repeat after me.|
+|날씨가 좋아요|The weather is good today|
+|읽으세요|Please read.|
+|쓰세요| Please write.|
+|이야기하세요|Please talk. (이야기 = story)|
+|질문 있어요?|Do you have a question?|
+|잘 했어요|Great job!|
 
 ## CV Syllable Structure
 

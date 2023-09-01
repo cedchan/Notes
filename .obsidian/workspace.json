@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "240fb272b621a79a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LING 2210/Articulatory Phonetics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a14c30598665e326",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring 2023/CIS 1210/Huffman Encoding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LING 2210/Articulatory Phonetics.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LING 2210/Articulatory Phonetics.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LING 2210/Articulatory Phonetics.md"
+                "file": "KORN 0001/Intro to Korean.md"
               }
             }
           }
@@ -180,16 +155,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "240fb272b621a79a",
+  "active": "b1c970d95d20d2d7",
   "lastOpenFiles": [
-    "CIS 5500/Intro (mayb).md",
+    "CIS 2620/Introduction.md",
+    "Spring 2023/CIS 1210/Huffman Encoding.md",
+    "Spring 2023/MATH 3130/Inner Product.md",
+    "CIS 2620/Deterministic Finite Automata (DFA).md",
+    "Glossary/Computer Science.md",
+    "Summer.md",
+    "Summer 2023",
+    "Summer 2023/mindCORE Research Tools.md",
+    "README.md",
     "KORN 0001/Intro to Korean.md",
+    "CIS 2620/Images/Pasted image 20230831131249.png",
+    "CIS 2620/Images/Pasted image 20230831125626.png",
+    "CIS 2620/Images/Pasted image 20230831125154.png",
+    "CIS 2620/Images",
+    "CIS 2620/Images/Pasted image 20230831130423.png",
+    "CIS 2620/Images/Pasted image 20230831130018.png",
+    "CIS 2620/Images/Pasted image 20230831125214.png",
+    "Spring 2023/MATH 3130/Gram-Schmidt Process.md",
+    "LING 2210/Articulatory Phonetics.md",
+    "CIS 5500/Intro (mayb).md",
     "CIS 5500",
     "Spring 2023/MATH 3130/The Fourier Series.md",
-    "LING 2210/Articulatory Phonetics.md",
-    "Spring 2023/CIS 1210/Huffman Encoding.md",
     "Spring 2023/CIS 1210/Hashing.md",
-    "CIS 2620/Introduction.md",
     "KORN 0001",
     "Spring 2023/LING 5250/The DFT.md",
     "Spring 2023/LING 5250/Signals.md",
@@ -203,7 +193,6 @@
     "Spring 2023/MATH 3130/Convolution Product.md",
     "~PRIV/Music ChatGPT.md",
     "Spring 2023/CHIN 1140.md",
-    "mindCORE Research Tools.md",
     "~PRIV/Pasted image 20230605142646.png",
     "~PRIV/Amotions.md",
     "~PRIV/Pasted image 20230605144149.png",
@@ -212,15 +201,7 @@
     "Spring 2023",
     "Untitled 1.md",
     "~PRIV/Distributional Learning.md",
-    "Spring 2023/MATH 3130/Special Matrices.md",
-    "Spring 2023/MATH 3130/Singular Value Decomposition.md",
-    "Spring 2023/MATH 3130/Diagonalization.md",
-    "Spring 2023/CIS 1210/Testing Sortedness.md",
-    "Spring 2023/CIS 1210/Minimum Cut.md",
-    "Spring 2023/CIS 1210/Skip Lists.md",
     "~PRIV",
-    "New Text Document.txt",
-    "!PRIV",
-    "Glossary"
+    "New Text Document.txt"
   ]
 }
