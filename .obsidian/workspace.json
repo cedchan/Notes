@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5ad4b7b54761461",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1c970d95d20d2d7",
+  "active": "a5ad4b7b54761461",
   "lastOpenFiles": [
     "CIS 2620/Introduction.md",
     "Spring 2023/CIS 1210/Huffman Encoding.md",
