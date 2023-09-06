@@ -60,7 +60,7 @@ Adding another stroke to the basic vowels adds a /y/ before the vowel: ㅑ,ㅕ,�
 |ㅉ|/tɕ͈/|
 
 >[!note]
->Tensed sounds tend to be more voiced and toward the front of the mouth.
+>Tensed sounds tend to be more voiced and toward the front of the mouth (indicated by the diacritic). For example, /t/ would be pronounced more dentally.
 
 ## Common Phrases
 
@@ -89,13 +89,19 @@ Adding another stroke to the basic vowels adds a /y/ before the vowel: ㅑ,ㅕ,�
 |질문 있어요?|Do you have a question?|
 |잘 했어요|Great job!|
 
-## CV Syllable Structure
+## Syllable-Final Consonants
 
+Syllable-final consonants are called 받침.
 
-## Complex Vowels
-
-## CVC Syllable Structure
-
+|Symbol in 받침 Position|Pronunciation|
+|-|-|
+|ㄱ,ㅋ,ㄲ|/k̚/|
+|ㄴ|/n/|
+|ㄷ,ㅌ,ㅅ,ㅆ,ㅈ,ㅊ,ㅎ|/t̚/|
+|ㄹ|/l/|
+|ㅁ|/m/|
+|ㅂ,ㅍ|/p̚/
+|ㅇ|/ŋ/|
 ## Numbers
 
 

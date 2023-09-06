@@ -99,12 +99,143 @@ A_1&=\{w\mid count(w, \mathrm{a})>0 \land count(w, \mathrm e)>0 \land count(w, \
 The **syntax** of a DFA includes its states, alphabet, transitions, initial state, and accepting states. Syntactic questions include: How many states does $M$ have?
 
 The **semantics** of a DFA is the mathematical set that captures what it computes/solves—that is, its language $L(M)$. Semantic questions include: Is $w$ in $L(M)$? Is $L(M)$ finite?
+## Extended Transition Function
 
-## Regular Languages
+Let $M=(Q, \Sigma, q_0, F, \delta)$ be a DFA
+
+$\delta: Q \times \Sigma \rightarrow Q$ is a **one-step** transition function:
+- Maps a state and a single symbol to a state
+- $\delta(q, \sigma)$: If $M$ starting in state $q$ reads a symbol $\sigma$, where will it be?
+
+$\delta^*: Q\times \Sigma^*\rightarrow Q$ is a **multi-step** transition function:
+- Maps a state and a string $w$ to a state
+- $\delta^*(q, w)$: If $M$ starting in state $q$ processes the entire string $w$, where will it be?
+
+### Inductive Definition
+
+How do we define $\delta^*$ in terms of $\delta$?
+
+>[!definition] 
+>A string $w$ is either the empty string $\varepsilon$ or is of the form $x\sigma$, where $x$ is a string (of length one shorter than $w$) and $\sigma$ is a symbol.$$\begin{align}
+\delta^*(q, \varepsilon)&=q \\
+\delta^*(q, x\sigma)&=\delta(\delta^*(q, x), \sigma)
+\end{align}$$
+>
+
+Above, the first clause says how strings of length 0 are processed and second says how strings of length $n+1$ are processed by relying on processing of strings of length $n$.
+
+>**Example.** $$\begin{align}
+\delta^*(q, ab) &= \delta(\delta^*(q, a), b)) \\
+&=\delta(\delta(\delta^*(q, \varepsilon),a),b) \\
+&=\delta(\delta(q,a),b)
+\end{align}$$
+## Formal Languages
+
+>[!definition]
+>Let $M=(Q,\Sigma,q_0,F,\delta)$ be a DFA. $M$ accepts $w$ if $\delta^*(q_0, w) \in F$. 
+>$$L(M)=\{w\mid\delta^*(q_0,w) \in F\}$$
+
+>**Examples.** 
+>**1.** If $F=Q$, what is $L(M)$? 
+>$\Sigma^*$
+>**2.** If $F$ is the empty set $\emptyset$, what is $L(M)$? 
+>Empty set of strings $\emptyset$
+>**3.** If $F=\{q_0\}$, what is $L(M)$?
+>$L(M)$ contains the empty string $\varepsilon$, but can't say much more
+### Regular Languages
 
 >[!definition]
 >A language $A$ is **regular** if there exists a DFA $M$ such that $L(M)=A$. That is, the problem encoded by $A$ can be solved by a finite-state automaton.
 
+## Proving Correctness
 
+How do you prove $M$ is correct—that is, that $M$ accepts a string $w$ iff $w \in A$?
 
+>**Example.** $\Sigma=\{\text{a, b}\}, A=\{w\mid\mathrm{count}(w,\mathrm a) \text { is even}\}$. Prove the correctness of our DFA $M$:
+>![](Pasted%20image%2020230831125214.png)
+>
+>To prove: For all strings $w$, $M$ accepts $w$ iff $\mathrm{count}(w, \mathrm a)$ is even
+>To prove: For all strings $w$, $\delta^*(q_0, w)=q_0$ iff $\mathrm{count}(w, \mathrm a)$ is even
 
+>[!solution]+
+>**Proof.** Induction on string length/structure
+>
+>***Base Case:*** Prove the claim for $w=\varepsilon$.
+>
+>There are no $\mathrm a$'s, which is an even number, so the DFA is correct.
+>
+>***Inductive case:*** Assume the claim holds for an arbitrary string $x$. Prove the claim for $w=x.\sigma$, where $\sigma\in \Sigma=\{\text{a, b}\}$.
+>
+>$\delta^*(q_0, x)$ can be $q_0$ or $q_1$, and $\sigma$ can be $\mathrm a$ or $\mathrm b$. We thus have 4 cases: 
+>
+>*Case 1*: $\delta^*(q_0, x)=q_0$ and $\sigma=\mathrm b$
+>By IH, $\mathrm{count}(x, \mathrm a)$ is even. We want to show $\delta^*(q_0, x.b)=q_0$ iff $\mathrm{count}(x.b, a)$ is even. $$\begin{align}
+\delta^*(q_0, x.\mathrm b)&=\delta(\delta^*(q_0, x), \mathrm b) & \text{(by defn. of } \delta^*) \\
+&=\delta(q_0, \mathrm b) & (\text{assumes }\delta^*(q_0, x)=q_0) \\
+&=q_0 & \text{(by definition of transition func.)}
+\end{align}$$
+>Adding $\mathrm b$ to a string doesn't change the number of $\mathrm a$'s, so $\mathrm{count})x.\mathrm b, \mathrm a)=\mathrm{count}(x, \mathrm a)$, which is even in this case.
+
+>**Example.** Prove the correctness of this DFA that checks if a string has at least 2 $\mathrm a$'s.
+>![](Pasted%20image%2020230905124452.png)
+
+>[!solution]- Failed Solution
+>**Proof.** Induction on string $w$.
+>
+>***Base Case:*** Show $\delta^*(q_0, \varepsilon)=q_2$ iff $2\leq \mathrm{count}(\varepsilon,\mathrm a)$.
+>$\delta^*(q_0, \varepsilon)=q_0$ by definition of $\delta^*$. $\mathrm{count}(\varepsilon, \mathrm a)=0$, and we land on $q_0$, which is correctly not accepted.
+>
+>***Induction Step:*** Assume from IH that $\delta^*(q_0, x)=q_2$ iff $2\leq \mathrm{count}(x,\mathrm a)$. Show for $\sigma\in\Sigma$ that $\delta^*(q_0, x.\sigma)=q_2$ iff $2\leq\mathrm{count}(x.\sigma,\mathrm a)$.
+>
+>*Case 1:* $\delta^*(q_0, x)=q_0$ and $\sigma=\mathrm a$
+>By IH, $2 > \mathrm{count}(x, \mathrm a)$. Show $\delta^*(q_0, x.\mathrm a)=q_2$ iff $2\leq \mathrm{count}(x.\mathrm a, \mathrm a)$. 
+>
+>The proof fails! $\mathrm{count}(x, \mathrm a)=1$ and $\delta^*(q_0, x)=q_0$ is consistent with our assumptions. Then, $\mathrm{count}(x.\mathrm a, \mathrm a)=2$, but $\delta^*(q_0, x.\mathrm a)=\delta(q_0, \mathrm a)=q_1$. Claim doesn't hold. 
+>
+>We must either prove intermediate lemmas about how we arrive in $q_0$ or make a stronger claim.
+
+>[!solution]+
+>Stronger Claim: 
+>$$\delta^*(q_0, w)=\begin{cases}
+q_0 & \text{if } \mathrm{count}(w, \mathrm a)=0\\
+q_1 & \text{if } \mathrm{count}(w, \mathrm a)=1\\
+q_2 & \text{if } 2\leq\mathrm{count}(w, \mathrm a)
+\end{cases}$$
+>***Base Case:*** $w=\varepsilon$.
+>
+>$\delta^*(q_0, \varepsilon)=q_0$. There are no $\mathrm a$'s, so we're correct.
+>
+>***Inductive Case:*** Assuming 
+>
+>$$
+\delta^*(q_0, x)=\begin{cases}
+q_0 & \text{if } \mathrm{count}(w, \mathrm a)=0\\
+q_1 & \text{if } \mathrm{count}(w, \mathrm a)=1\\
+q_2 & \text{if } 2\leq\mathrm{count}(w, \mathrm a)
+\end{cases}$$
+>
+>show 
+>$$\delta^*(q_0, x.\sigma)=\begin{cases}
+q_0 & \text{if } \mathrm{count}(w, \mathrm a)=0\\
+q_1 & \text{if } \mathrm{count}(w, \mathrm a)=1\\
+q_2 & \text{if } 2\leq\mathrm{count}(w, \mathrm a)
+\end{cases}$$
+>*Case 1*: $\delta^*(q_0, x)=q_0$ and $\sigma=\mathrm a$. $$\begin{align}
+\mathrm{count}(x, \mathrm a)&=0 & \text{(by IH)}\\
+\mathrm{count}(x.\mathrm a, \mathrm a)&=1 \\
+\delta^*(q_0, x.\mathrm a)&=\delta(q_0, \mathrm a) & (\text{by defn. of }\delta^*)\\
+&=q_1 & (\text{by defn. of } \delta)
+\end{align}$$
+>Five remaining cases are similar.
+
+>**Example.** Prove the correctness of our DFA $M$ for $A=\{w\mid w\text{ contains the substring ``ACC"}\}$, where $\Sigma=\{\text{A, C, G, T}\}$
+>![](Pasted%20image%2020230831130018.png)
+
+>[!solution]+
+>**Proof.** 
+>***IH:*** $$\delta^*(q_0, w)=\begin{cases}
+q_3 & \text{if $w$ contains the substring ``ACC"} \\
+q_2 & \text{if $w$ contains the substring ``ACC" and ends with ``AC"} \\
+q_1 & \text{if $w$ contains the substring ``ACC" and ends with ``A"} \\
+q_0 & \text{otherwise}
+\end{cases}$$ 

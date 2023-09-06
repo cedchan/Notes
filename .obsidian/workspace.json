@@ -28,9 +28,66 @@
                 "currentVersion": "1.4.5"
               }
             }
+          },
+          {
+            "id": "31a278405efb8db3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LING 2500/Syntactic Categories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7fe088684d2c798a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CIS 2620/Images/Pasted image 20230905124452.png"
+              }
+            }
+          },
+          {
+            "id": "3f5deb8dd7af9629",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring 2023/MATH 3130/Diagonalization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "988676fe8bbec37b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring 2023/CIS 1210/Directed Acyclic Graphs (DAGs).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d05b99f27242f34f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring 2023/CIS 1210/Graph Traversals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,18 +223,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5ad4b7b54761461",
+  "active": "b1c970d95d20d2d7",
   "lastOpenFiles": [
-    "CIS 2620/Introduction.md",
-    "Spring 2023/CIS 1210/Huffman Encoding.md",
-    "Spring 2023/MATH 3130/Inner Product.md",
+    "LING 2500/Syntactic Categories.md",
+    "CIS 2620/Images/Pasted image 20230905124452.png",
     "CIS 2620/Deterministic Finite Automata (DFA).md",
+    "Untitled.canvas",
+    "KORN 0001/Intro to Korean.md",
+    "Spring 2023/MATH 3130/Diagonalization.md",
+    "Spring 2023/CIS 1210/Directed Acyclic Graphs (DAGs).md",
+    "Spring 2023/CIS 1210/Graph Traversals.md",
+    "Spring 2023/CIS 1210/Strongly Connected Components.md",
+    "Spring 2023/CIS 1210/Huffman Encoding.md",
+    "Spring 2023/CIS 1210/Hashing.md",
+    "Pasted image 20230905122606.png",
+    "LING 2210/Articulatory Phonetics.md",
+    "Spring 2023/LING 2300/Distributions.md",
+    "LING 2500",
+    "CIS 2620/Introduction.md",
+    "Spring 2023/MATH 3130/Inner Product.md",
     "Glossary/Computer Science.md",
     "Summer.md",
     "Summer 2023",
     "Summer 2023/mindCORE Research Tools.md",
     "README.md",
-    "KORN 0001/Intro to Korean.md",
     "CIS 2620/Images/Pasted image 20230831131249.png",
     "CIS 2620/Images/Pasted image 20230831125626.png",
     "CIS 2620/Images/Pasted image 20230831125154.png",
@@ -186,11 +255,9 @@
     "CIS 2620/Images/Pasted image 20230831130018.png",
     "CIS 2620/Images/Pasted image 20230831125214.png",
     "Spring 2023/MATH 3130/Gram-Schmidt Process.md",
-    "LING 2210/Articulatory Phonetics.md",
     "CIS 5500/Intro (mayb).md",
     "CIS 5500",
     "Spring 2023/MATH 3130/The Fourier Series.md",
-    "Spring 2023/CIS 1210/Hashing.md",
     "KORN 0001",
     "Spring 2023/LING 5250/The DFT.md",
     "Spring 2023/LING 5250/Signals.md",
@@ -199,20 +266,10 @@
     "Spring 2023/LING 5250/Beat Tracking.md",
     "CIS 2620",
     "LING 2210",
-    "~PRIV/Orthography-to-Pronunciation.md",
     "Fall 2023",
-    "Spring 2023/MATH 3130/Convolution Product.md",
-    "~PRIV/Music ChatGPT.md",
-    "Spring 2023/CHIN 1140.md",
     "~PRIV/Pasted image 20230605142646.png",
-    "~PRIV/Amotions.md",
     "~PRIV/Pasted image 20230605144149.png",
-    "~PRIV/Pasted image 20230605143725.png",
-    "~PRIV/Pasted image 20230605143231.png",
     "Spring 2023",
-    "Untitled 1.md",
-    "~PRIV/Distributional Learning.md",
-    "~PRIV",
-    "New Text Document.txt"
+    "~PRIV"
   ]
 }
