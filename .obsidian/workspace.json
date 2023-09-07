@@ -20,6 +20,54 @@
             }
           },
           {
+            "id": "60c04fee7503c8b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LING 2210/Articulatory Phonetics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09060491db4ca87a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring 2023/MATH 3130/Inner Product.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4636fa541d103303",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 5200/Supervised Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42df2b0c4c1039d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture of the Internet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a5ad4b7b54761461",
             "type": "leaf",
             "state": {
@@ -87,7 +135,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -161,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KORN 0001/Intro to Korean.md",
+                "file": "Architecture of the Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KORN 0001/Intro to Korean.md",
+                "file": "Architecture of the Internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KORN 0001/Intro to Korean.md"
+                "file": "Architecture of the Internet.md"
               }
             }
           }
@@ -210,8 +259,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,13 +271,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1c970d95d20d2d7",
+  "active": "42df2b0c4c1039d6",
   "lastOpenFiles": [
+    "Pasted image 20230906155715.png",
+    "CIS 2620/Deterministic Finite Automata (DFA).md",
+    "Architecture of the Internet.md",
+    "CIS 5200/Supervised Learning.md",
+    "Spring 2023/MATH 3130/Transformations.md",
+    "Spring 2023/MATH 3130/Inner Product.md",
+    "LING 2210/Articulatory Phonetics.md",
+    "KORN 0001/Intro to Korean.md",
+    "CIS 5200",
     "LING 2500/Syntactic Categories.md",
     "CIS 2620/Images/Pasted image 20230905124452.png",
-    "CIS 2620/Deterministic Finite Automata (DFA).md",
     "Untitled.canvas",
-    "KORN 0001/Intro to Korean.md",
     "Spring 2023/MATH 3130/Diagonalization.md",
     "Spring 2023/CIS 1210/Directed Acyclic Graphs (DAGs).md",
     "Spring 2023/CIS 1210/Graph Traversals.md",
@@ -237,11 +292,9 @@
     "Spring 2023/CIS 1210/Huffman Encoding.md",
     "Spring 2023/CIS 1210/Hashing.md",
     "Pasted image 20230905122606.png",
-    "LING 2210/Articulatory Phonetics.md",
     "Spring 2023/LING 2300/Distributions.md",
     "LING 2500",
     "CIS 2620/Introduction.md",
-    "Spring 2023/MATH 3130/Inner Product.md",
     "Glossary/Computer Science.md",
     "Summer.md",
     "Summer 2023",
@@ -261,15 +314,11 @@
     "KORN 0001",
     "Spring 2023/LING 5250/The DFT.md",
     "Spring 2023/LING 5250/Signals.md",
-    "Spring 2023/LING 5250/Perception.md",
-    "Spring 2023/LING 5250/Fisher Linear Discriminant.md",
-    "Spring 2023/LING 5250/Beat Tracking.md",
     "CIS 2620",
     "LING 2210",
     "Fall 2023",
     "~PRIV/Pasted image 20230605142646.png",
     "~PRIV/Pasted image 20230605144149.png",
-    "Spring 2023",
-    "~PRIV"
+    "Spring 2023"
   ]
 }
