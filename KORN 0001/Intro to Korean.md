@@ -104,4 +104,14 @@ Syllable-final consonants are called 받침.
 |ㅇ|/ŋ/|
 ## Numbers
 
+### Sino-Korean Numbers
 
+Sino-Korean numbers are structured in the same way as the number system in Chinese. 
+
+#### Uses
+- Numbered items
+
+### Native Korean Numbers
+
+#### Uses
+- Counting items
