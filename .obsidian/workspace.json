@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math for Machine Learning.md",
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
                 "mode": "source",
                 "source": false
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math for Machine Learning.md",
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math for Machine Learning.md",
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math for Machine Learning.md"
+                "file": "~PRIV/Orthography-to-Pronunciation.md"
               }
             }
           }
@@ -297,8 +297,9 @@
   },
   "active": "fedf1ee7789b7af6",
   "lastOpenFiles": [
-    "KORN 0001/Intro to Korean.md",
+    "~PRIV/Distributional Learning.md",
     "Math for Machine Learning.md",
+    "KORN 0001/Intro to Korean.md",
     "Untitled.md",
     "CIS 2620/Deterministic Finite Automata (DFA).md",
     "CIS 2620/Images/Pasted image 20230907120812.png",
@@ -339,7 +340,6 @@
     "CIS 5500",
     "Spring 2023/MATH 3130/The Fourier Series.md",
     "KORN 0001",
-    "Spring 2023/LING 5250/The DFT.md",
     "CIS 2620",
     "LING 2210",
     "Fall 2023",
