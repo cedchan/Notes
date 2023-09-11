@@ -59,12 +59,12 @@ The following model simply memorizes the dataset.
 $$h_\text{mem}(x)=\begin{cases}y_i & \text{if } x=x_i \\ 1 & \text{o.w.}\end{cases}$$
 Training error will always be 0, but it can't generalize to new data, which is the point of ML models.
 
-To generalize to new data, we must assume that all data is drawn **iid (independent and identically distributed)** from some distribution $P$. 
-$$(\vec x_i, y_i) \stackrel{\mathrm{iid}}{\sim} P$$
+To generalize to new data, we must assume that all data is drawn **iid (independent and identically distributed)** from some distribution $\mathcal P$. 
+$$(\vec x_i, y_i) \stackrel{\mathrm{iid}}{\sim} \mathcal P$$
 The problem with $h_\text{mem}$ is that it samples well from $D$, the dataset, but not $P$ the overall distribution.
 
 >[!definition]
->The **empirical risk** $\hat R(h)$ is the loss on the dataset $D$ (that is, the training error). The **true risk** $R(h)$ is the expectation of loss on the true distribution $P$:
+>The **empirical risk** $\hat R(h)$ is the loss on the dataset $\mathcal D$ (that is, the training error). The **true risk** $R(h)$ is the expectation of loss on the true distribution $\mathcal P$:
 >$$\mathbb E_{(\vec x_i, y_i)\sim P}[\ell(h(x_i), y_i)]$$
 
 The key assumption is that the empirical risk is a good estimate of the true risk (by the weak law of large numbers).
@@ -80,19 +80,24 @@ $$\underbrace{R(h)-\hat R(h)}_{\substack{\text{Generalization} \\ \text{gap}}}+\
 
 #### Estimating the Generalization Gap
 
-Say I collect $\hat D=\{(\hat x_1, \hat y_1), \dots, (\hat x_m, \hat y_m)\}$. Then $\frac1m\sum_{i=1}^m\ell(h(\hat x_i), \hat y_i)\approx R(h)$.
+Say I collect $\hat{\mathcal D}=\{(\hat x_1, \hat y_1), \dots, (\hat x_m, \hat y_m)\}$. Then $\frac1m\sum_{i=1}^m\ell(h(\hat x_i), \hat y_i)\approx R(h)$.
 
-The key here is that $\hat D$ and $D$ are different. In practice, this means we take our dataset and partition it into **training** and **testing** sets (e.g., in an 80:20 split).
+The key here is that $\hat{\mathcal D}$ and $\mathcal D$ are different. In practice, this means we take our dataset and partition it into **training** and **testing** sets (e.g., in an 80:20 split).
 
 ### Classifiers
 
-What is the best possible classifier? We can take our distribution and make it into a conditional distribution.
+What is the best possible classifier? We can take our distribution and make it into a conditional distribution. We ask: Given $h$, what is the expected risk?
+
+$$\begin{align}
+\mathbb E_{P(y\mid x)}[\ell_{0/1}(h(x), y)]&=\Pr(y=-1\mid x)\mathbb 1(h(x)=+1)+\Pr(y=+1)\mathbb 1(h(x)=-1)
+\end{align}$$
+
 $$\begin{align}
 P(x, y)&=h(y\mid x)p(x) \\
-R(h)&=\mathbb E_{(x, y)\sim P}[\ell_{0/1}(h(x), y)] \\
+R(h)&=\mathbb E_{(x, y)\sim \mathcal P}[\ell_{0/1}(h(x), y)] \\
 &=\mathbb E_{y\mid x}[\ell_{0/1}(h(x), y)] \\
 &=\mathbb E_x\big[\Pr(y=1\mid x)\mathbb 1(h(x)=0)+\Pr(y=0\mid x)\mathbb 1(h(x)=1)\big] \\
-&\qquad \text{where } \mathbb 1(h(x)=0)=\begin{cases}1 & h(x)=0 \\ 0 & \text{o.w.}\end{cases}
+&\qquad \text{where } \mathbb 1(h(x)=a)=\begin{cases}1 & h(x)=a \\ 0 & \text{o.w.}\end{cases}
 \end{align}$$
 From this we get the best possible classifier: the **Bayes Optimal Classifier**
 $$h^*(x)=\begin{cases}+1 & \Pr(y=1\mid x)>0.5 \\ -1 & \text{o.w.}\end{cases}$$
