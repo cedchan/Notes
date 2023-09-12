@@ -84,23 +84,25 @@ Say I collect $\hat{\mathcal D}=\{(\hat x_1, \hat y_1), \dots, (\hat x_m, \hat y
 
 The key here is that $\hat{\mathcal D}$ and $\mathcal D$ are different. In practice, this means we take our dataset and partition it into **training** and **testing** sets (e.g., in an 80:20 split).
 
+Sometimes, the dataset is split into 3 sections: training, validation, and testing. In this case, training data is used normally, and validation data is used to test/correct the model. Then finally, test data is used to evaluate the final model.
+
 ### Classifiers
 
 What is the best possible classifier? We can take our distribution and make it into a conditional distribution. We ask: Given $h$, what is the expected risk?
 
 $$\begin{align}
-\mathbb E_{P(y\mid x)}[\ell_{0/1}(h(x), y)]&=\Pr(y=-1\mid x)\mathbb 1(h(x)=+1)+\Pr(y=+1)\mathbb 1(h(x)=-1)
+P(\vec x, y)&=h(y\mid \vec x)p(\vec x) \\
+R(h)&=\mathbb E_{(\vec x, y)\sim \mathcal P}[\ell_{0/1}(h(\vec x), y)] \\
+&=\mathbb E_{y\mid \vec x}[\ell_{0/1}(h(\vec x), y)] \\
+&=\mathbb E_{\vec x}\big[\Pr(y=1\mid \vec x)\mathbb 1(h(\vec x)=0)+\Pr(y=0\mid \vec x)\mathbb 1(h(\vec x)=1)\big] \\
+&\qquad \text{where } \mathbb 1(h(\vec x)=a)=\begin{cases}1 & h(\vec x)=a \\ 0 & \text{o.w.}\end{cases}
+\end{align}$$
+$$\begin{align}
+\mathbb E_{P(y\mid \vec x)}[\ell_{0/1}(h(\vec x), y)]&=\Pr(y=-1\mid \vec x)\mathbb 1(h(\vec x)=+1)+\Pr(y=+1)\mathbb 1(h(\vec x)=-1)
 \end{align}$$
 
-$$\begin{align}
-P(x, y)&=h(y\mid x)p(x) \\
-R(h)&=\mathbb E_{(x, y)\sim \mathcal P}[\ell_{0/1}(h(x), y)] \\
-&=\mathbb E_{y\mid x}[\ell_{0/1}(h(x), y)] \\
-&=\mathbb E_x\big[\Pr(y=1\mid x)\mathbb 1(h(x)=0)+\Pr(y=0\mid x)\mathbb 1(h(x)=1)\big] \\
-&\qquad \text{where } \mathbb 1(h(x)=a)=\begin{cases}1 & h(x)=a \\ 0 & \text{o.w.}\end{cases}
-\end{align}$$
 From this we get the best possible classifier: the **Bayes Optimal Classifier**
-$$h^*(x)=\begin{cases}+1 & \Pr(y=1\mid x)>0.5 \\ -1 & \text{o.w.}\end{cases}$$
+$$h^*(\vec x)=\begin{cases}+1 & \Pr(y=1\mid \vec x)>0.5 \\ -1 & \text{o.w.}\end{cases}$$
 
 >[!error]
 >Review what is going on here

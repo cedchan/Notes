@@ -20,12 +20,22 @@
             }
           },
           {
+            "id": "5ad72f311b0bae9e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CIS 2620/Images/Pasted image 20230912121637.png"
+              }
+            }
+          },
+          {
             "id": "42df2b0c4c1039d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture of the Internet.md",
+                "file": "CIS 2620/Deterministic Finite Automata (DFA).md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +54,29 @@
             }
           },
           {
+            "id": "75a5f1b8ff8b19a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 5200/k-Nearest Neighbors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "752972808185f066",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CIS 2620/Images/Pasted image 20230912125203.png"
+              }
+            }
+          },
+          {
+            "id": "1ec776479bd656d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -124,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -198,7 +230,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 5200/Supervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +246,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 5200/Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 5200/Supervised Learning.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -259,25 +289,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4636fa541d103303",
+  "active": "238fc620f3a7044a",
   "lastOpenFiles": [
+    "CIS 5530/Images",
+    "CIS 2620/Images/Pasted image 20230912125203.png",
+    "Untitled.md",
+    "CIS 5530",
+    "CIS 5530/Images/Pasted image 20230906155715.png",
+    "CIS 2620/Nondeterministic Finite Automata.md",
+    "CIS 2620/Images/Pasted image 20230912130637.png",
+    "CIS 2620/Images/Pasted image 20230912130217.png",
+    "CIS 2620/Images/Pasted image 20230912130209.png",
     "CIS 2620/Deterministic Finite Automata (DFA).md",
+    "CIS 5200/k-Nearest Neighbors.md",
+    "CIS 5200/Supervised Learning.md",
+    "CIS 2620/Introduction.md",
+    "CIS 5530/Architecture of the Internet.md",
     "KORN 0001/Intro to Korean.md",
+    "CIS 2620/Images/Pasted image 20230912121637.png",
+    "CIS 2620/Images/Pasted image 20230912123545.png",
+    "CIS 2620/Images/Pasted image 20230912123518.png",
+    "CIS 2620/Images/Pasted image 20230912122102.png",
+    "CIS 2620/Images/Pasted image 20230912121727.png",
     "~PRIV/Orthography-to-Pronunciation.md",
     "LING 2210/Articulatory Phonetics.md",
     "Spring 2023/MATH 3130/Inner Product.md",
-    "CIS 5200/Supervised Learning.md",
     "~PRIV/Distributional Learning.md",
-    "Math for Machine Learning.md",
-    "Untitled.md",
-    "CIS 2620/Images/Pasted image 20230907120812.png",
-    "CIS 2620/Images/Pasted image 20230907120740.png",
-    "Pasted image 20230906155715.png",
-    "Architecture of the Internet.md",
+    "CIS 5200/Math for Machine Learning.md",
     "Spring 2023/MATH 3130/Transformations.md",
     "CIS 5200",
     "LING 2500/Syntactic Categories.md",
-    "CIS 2620/Images/Pasted image 20230905124452.png",
     "Untitled.canvas",
     "Spring 2023/MATH 3130/Diagonalization.md",
     "Spring 2023/CIS 1210/Directed Acyclic Graphs (DAGs).md",
@@ -285,28 +326,17 @@
     "Spring 2023/CIS 1210/Strongly Connected Components.md",
     "Spring 2023/CIS 1210/Huffman Encoding.md",
     "Spring 2023/CIS 1210/Hashing.md",
-    "Pasted image 20230905122606.png",
     "Spring 2023/LING 2300/Distributions.md",
     "LING 2500",
-    "CIS 2620/Introduction.md",
     "Glossary/Computer Science.md",
     "Summer.md",
     "Summer 2023",
     "Summer 2023/mindCORE Research Tools.md",
-    "README.md",
-    "CIS 2620/Images/Pasted image 20230831131249.png",
-    "CIS 2620/Images/Pasted image 20230831125626.png",
-    "CIS 2620/Images/Pasted image 20230831125154.png",
     "CIS 2620/Images",
-    "CIS 2620/Images/Pasted image 20230831130423.png",
-    "CIS 2620/Images/Pasted image 20230831130018.png",
-    "Spring 2023/MATH 3130/Gram-Schmidt Process.md",
-    "CIS 5500/Intro (mayb).md",
     "CIS 5500",
     "KORN 0001",
     "CIS 2620",
     "LING 2210",
-    "Fall 2023",
-    "Spring 2023"
+    "Fall 2023"
   ]
 }
