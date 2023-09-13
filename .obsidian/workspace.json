@@ -20,6 +20,42 @@
             }
           },
           {
+            "id": "d9b8b173211c3936",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 5200/k-Nearest Neighbors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e40e89cd39d4acba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 5200/Perceptron.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33e3b4c10415ba21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring 2023/MATH 3130/Transformations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5ad72f311b0bae9e",
             "type": "leaf",
             "state": {
@@ -156,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,6 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CIS 5200/Perceptron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,6 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CIS 5200/Perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +306,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "CIS 5200/Perceptron.md"
+              }
+            }
+          },
+          {
+            "id": "df9e095f1a46032d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -289,11 +337,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238fc620f3a7044a",
+  "active": "e40e89cd39d4acba",
   "lastOpenFiles": [
+    "CIS 2620/Images/Pasted image 20230912121637.png",
+    "Spring 2023/MATH 3130/Transformations.md",
+    "Spring 2023/MATH 3130/Inner Product.md",
+    "CIS 5200/Perceptron.md",
+    "CIS 5200/k-Nearest Neighbors.md",
     "CIS 5530/Images",
     "CIS 2620/Images/Pasted image 20230912125203.png",
-    "Untitled.md",
     "CIS 5530",
     "CIS 5530/Images/Pasted image 20230906155715.png",
     "CIS 2620/Nondeterministic Finite Automata.md",
@@ -301,22 +353,18 @@
     "CIS 2620/Images/Pasted image 20230912130217.png",
     "CIS 2620/Images/Pasted image 20230912130209.png",
     "CIS 2620/Deterministic Finite Automata (DFA).md",
-    "CIS 5200/k-Nearest Neighbors.md",
     "CIS 5200/Supervised Learning.md",
     "CIS 2620/Introduction.md",
     "CIS 5530/Architecture of the Internet.md",
     "KORN 0001/Intro to Korean.md",
-    "CIS 2620/Images/Pasted image 20230912121637.png",
     "CIS 2620/Images/Pasted image 20230912123545.png",
     "CIS 2620/Images/Pasted image 20230912123518.png",
     "CIS 2620/Images/Pasted image 20230912122102.png",
     "CIS 2620/Images/Pasted image 20230912121727.png",
     "~PRIV/Orthography-to-Pronunciation.md",
     "LING 2210/Articulatory Phonetics.md",
-    "Spring 2023/MATH 3130/Inner Product.md",
     "~PRIV/Distributional Learning.md",
     "CIS 5200/Math for Machine Learning.md",
-    "Spring 2023/MATH 3130/Transformations.md",
     "CIS 5200",
     "LING 2500/Syntactic Categories.md",
     "Untitled.canvas",
@@ -336,7 +384,6 @@
     "CIS 5500",
     "KORN 0001",
     "CIS 2620",
-    "LING 2210",
-    "Fall 2023"
+    "LING 2210"
   ]
 }

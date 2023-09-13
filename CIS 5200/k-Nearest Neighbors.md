@@ -64,3 +64,11 @@ Then the volume of the cube $l^d=\frac{k}{n} \implies l=\left(\frac{k}{n}\right)
 |1|100|1000|0.9954
 
 That is, as dimensions increase, points become farther and farther away, so distance becomes less and less informative. The notion of "nearest" becomes meaningless when everything is relatively the same distance away.
+
+**Another argument.** Consider $x\sim\mathcal N(0, 1)$. When we graph $||x||^2$, we see that most of the distribution is distance 0 from the origin. But as we increase dimensions of the Gaussian, all the points get shifter further and further away. 
+
+#### Learning in High Dimensions
+
+So how, despite the curse of dimensionality, do we learn on tasks with high dimensions? The answer is that the distributions we draw from are not, in fact, typically uniformly distributed. 
+
+Instead, most datasets lie on some manifold in high-dimensional space. That is, they are locally Euclidean. 

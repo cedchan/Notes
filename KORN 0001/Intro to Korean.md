@@ -85,6 +85,8 @@ Adding another stroke to the basic vowels adds a /y/ before the vowel: ㅑ,ㅕ,�
 |날씨가 좋아요|The weather is good today|
 |읽으세요|Please read.|
 |쓰세요| Please write.|
+|보세요| Please watch/look.|
+|드르세요|Please listen.|
 |이야기하세요|Please talk. (이야기 = story)|
 |질문 있어요?|Do you have a question?|
 |잘 했어요|Great job!|
