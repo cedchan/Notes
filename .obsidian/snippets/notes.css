@@ -31,3 +31,8 @@
     --callout-color: 175, 179, 225;
     --callout-icon: star;
 }
+
+.callout[data-callout="algorithm"] {
+    --callout-color: 175, 179, 225;
+    --callout-icon: terminal;
+}

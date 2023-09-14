@@ -103,3 +103,20 @@ Let $M=(Q, \Sigma, q_0, F, \Delta)$ be an NFA.
 - Transition function of $M'$: $\delta'(S, \sigma)=\bigcup\limits_{q\in S}\Delta(q, \sigma)$
 
 This algorithm allows us to easily convert an NFA into a DFA automatically.
+
+## NFAs with $\varepsilon$-transitions
+
+>[!definition]
+>$\varepsilon$ transitions are those that can be taken with no input. 
+
+>**Example.** 
+>![](Pasted%20image%2020230914125543.png)
+>If we consider an input $\mathrm{aac}$, we'd follow these states: 
+>$$q_0\stackrel{\mathrm a}{\rightarrow}q_0\stackrel{\mathrm a}{\rightarrow}q_0\stackrel{\varepsilon}{\rightarrow}q_1\stackrel{\varepsilon}{\rightarrow}q_2\stackrel{\mathrm c}{\rightarrow}q_2$$
+>The above NFA will accept strings that have any number of $\mathrm a$'s (including $0$), followed by any number of $\mathrm b$'s and any number of $\mathrm c$'s.
+
+>[!idea]
+>$\varepsilon$-NFAs have the following:
+>- Transition function: $\Delta: Q\times (\Sigma \cup \{\varepsilon\})\rightarrow 2^Q$
+>- Transitions do not increase expressiveness ($\varepsilon$-NFAs can still be represented as DFAs)
+

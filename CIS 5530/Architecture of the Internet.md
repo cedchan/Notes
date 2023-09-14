@@ -40,4 +40,8 @@ Goal was to have an **inter-network**—that is, a network of existing networks.
 - **Multiplexing** (sharing): Shared use of a single communications channel
 - **Existing networks** (interconnection)
 
-Packet switching was chosen because it's more general and worked on top of existing networks, as well as provided slightly better multiplexin.
+Packet switching was chosen because it's more general and worked on top of existing networks, as well as provided slightly better multiplexing.
+
+### Fate-Sharing
+
+The person using the data is responsible for storing it.
