@@ -1,7 +1,6 @@
 ---
 Date:
 ---
-
 ## Product Construction
 
 >**Example.** $A_1=\{w\mid w\text{ ends with a}\}, \Sigma=\{\text{a, b}\}$. $M_1:$

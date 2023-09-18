@@ -253,7 +253,7 @@ There can be multiple DFAs that solve the same problem. How do we know what the 
 ### Distinguishable Strings
 
 >[!definition]
->Two strings $u, b$ are **distinguishable** with respect to a language $A$ if there exists a string $w$ such that only one of $u.w$ and $v.w$ is in $A$. 
+>Two strings $u, v$ are **distinguishable** with respect to a language $A$ if there exists a string $w$ such that only one of $u.w$ and $v.w$ is in $A$. 
 
 Note that this definition is language-dependent, but not machine-dependent.
 

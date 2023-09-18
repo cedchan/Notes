@@ -118,26 +118,3 @@ Sino-Korean numbers are structured in the same way as the number system in Chine
 #### Uses
 - Counting items
 
-
-### Conversation 2
-
-A: 안녕하세요? 저는 넬슨이에여
-
-A: 미국사람이에요. 사나 씨는 어니 나라 사람이에요?
-
-A: 아, 그래요? 저는 가수예요.
-
-A: 반가워요!
-
-### Conversation 3
-
-A: 안녕하세요, 저는 세트리크예요.
-
-B: 반사워요...
-
-A: 어느 나라 사람이에요?
-
-B: 호주 사람이에요
-
-A: 중국계 미국 사람이에요
-
