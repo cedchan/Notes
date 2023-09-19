@@ -118,3 +118,8 @@ Sino-Korean numbers are structured in the same way as the number system in Chine
 #### Uses
 - Counting items
 
+
+## Questions
+- 언제 vs. 며칠 
+- Does 있어요, 없어요 also not require a subject marker/
+

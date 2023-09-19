@@ -27,6 +27,8 @@ Assumes $\exists w^* \text{ s.t. } \forall i, y_iw^{*\top}x_i\geq 0$. That is, w
 >[!algorithm]
 >$$\begin{align}
 \hline
+&\text{\textbf{Perceptron Algorithm}} \\
+\hline
 &\text{$w_0\leftarrow 0$} \\
 &\text{\textbf{for} $t=1, 2, \dots$:} \\
 &\text{\quad find some $i$ so that $y_iw^\top x_i\leq 0$} \\
