@@ -120,3 +120,17 @@ This algorithm allows us to easily convert an NFA into a DFA automatically.
 >- Transition function: $\Delta: Q\times (\Sigma \cup \{\varepsilon\})\rightarrow 2^Q$
 >- Transitions do not increase expressiveness ($\varepsilon$-NFAs can still be represented as DFAs)
 
+### Determinization
+
+>**Example.**
+>![](Pasted%20image%2020230919121910.png)
+>becomes
+>![](Pasted%20image%2020230919122221.png)
+
+Let $M$ be an NFA with $\varepsilon$-transitions
+**Goal:** Construct a DFA $M'$ such that $M'$ accepts $w$ iff $M$ does.
+
+- Set of states: $Q'=2^Q$
+- Initial state: $\{q \mid q \text{ can be reached from } q_0 \text{ using 0 or more }\varepsilon\text{-labeled transitions}\}$
+- Set of accepting states: A state is accepting for $M'$ if it contains an accepting state of $M$
+- Transition function: $\delta'(S, \sigma)=\{q\mid \exists s\in S \text{ s.t. } \exists \text{ a path from }s\text{ to }q\text{ of }\sigma\text{-labeled transitions followed by 0 or more }\varepsilon\text{-transitions}\}$

@@ -104,7 +104,7 @@ More formally: Let $M_1=(Q_1, \Sigma, q_{01}, F_1, \delta_1), M_2=(Q_2, \Sigma, 
 \emptyset & \text{o.w.}
 \end{cases}
 \end{align}$$
-## Prefix Operation
+### Prefix Operation
 
 Recall the definition of the [prefix operation](Deterministic%20Finite%20Automata%20(DFA).md#Strings#String%20Operations).
 
@@ -118,3 +118,19 @@ Recall the definition of the [prefix operation](Deterministic%20Finite%20Automat
 
 >[!theorem]
 >If $A$ is regular, then so is $\mathrm{Prefix}(A)$.
+
+**Proof.** Let $M$ be a DFA for $A$. We want to construct an automaton $M'$ that accepts $\mathrm{Prefix}(A)$.
+
+Consider DFA $M'$:
+- Same states, initial state and transitions as $M$
+- A state $q$ is accepting in $M'$ if there is a path from $q$ to some accepting state of $M$
+
+## Shuffle Operation
+
+>[!definition]
+>A string $u$ is a **shuffle** of $w$ if $u$ can be obtained by permuting symbols in $w$.
+>$$\mathrm{Shuffle}(A)=\{u\mid \exists w\in A \text{ s.t. } u \text{ is a shuffle of }w\}$$
+
+>**Example.** Shuffles of $011=\{011,101,110\}$
+
+DFA's are **not** closed under the shuffle operation.
