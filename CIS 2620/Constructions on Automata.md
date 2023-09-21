@@ -88,7 +88,7 @@ That is, the concatenation of languages contains all strings that can be split i
 
 Intuitively, we follow $M_1$ first, then at some point jump to the starting point of $M_2$. The challenge is knowing whether to switch at an accepting state of $M_1$ or continue acting like $M_1$. 
 
-The solution is elegant: add $\varepsilon$-transitions from all final states of $M_1$ to the initial state of $M_2$. 
+The solution is elegant: add [$\varepsilon$-transitions](Nondeterministic%20Finite%20Automata.md#NFAs%20with%20$%20varepsilon$-transitions) from all final states of $M_1$ to the initial state of $M_2$. 
 
 More formally: Let $M_1=(Q_1, \Sigma, q_{01}, F_1, \delta_1), M_2=(Q_2, \Sigma, q_{02}, F_2, \delta_2)$. We will construct our $\varepsilon$-NFA $M$ as follows:
 - Set of states: $Q=Q_1 \cup Q_2$
@@ -124,6 +124,31 @@ Recall the definition of the [prefix operation](Deterministic%20Finite%20Automat
 Consider DFA $M'$:
 - Same states, initial state and transitions as $M$
 - A state $q$ is accepting in $M'$ if there is a path from $q$ to some accepting state of $M$
+
+### Kleene-* Operation
+
+>[!definition]
+>$$A^*=\{w\mid w \text{ can be split into multiple parts s.t. each part is in }A\}$$
+
+That is, $A^*$ is repeated concatenation, starting at $\varepsilon$.
+
+>**Example.** $A=\{w\mid \mathrm{count}(w, \mathrm a)=2\}$ What is $A^*$?
+>
+>>[!solution]+
+>>$A^*=\{w\mid w=\varepsilon \lor w \text{ contains a positive even number of a's}\}$
+
+>**Example.** $\{w\mid w \text{ consists of 0 or more b's followed by a}\}, \Sigma=\{\text{a, b, c}\}$. What is $A^*$?
+>
+>>[!solution]+
+>>$A^*=\{w\mid w \text{ doesn't contain any c and doesn't end with b}\}$
+
+>[!theorem]
+>The class of regular languages is closed under Kleene-*.
+
+**Proof.** We want to show there exists an NFA $M'$ that accepts $A^*$.
+
+Add an $\varepsilon$-transition to the initial state from all accepting states. Then create a new accepting initial state with an $\varepsilon$-transition to the original initial state.
+![](Pasted%20image%2020230921122914.png)
 
 ## Shuffle Operation
 

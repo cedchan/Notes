@@ -123,3 +123,17 @@ Sino-Korean numbers are structured in the same way as the number system in Chine
 - 언제 vs. 며칠 
 - Does 있어요, 없어요 also not require a subject marker/
 
+
+
+Interviewer: 안녕하세요?
+Interviewee: 안녕하세요?
+Interviewer: 저는 [NAME]이에요/예요. 이름이 뭐예요?
+Interviewee: 제 이름은 [NAME]이에요/예요. 
+Interviewer: 그래요. [RANDOM NAME]의 친구예요?
+Interviewee: 네, [RANDOM NAME]의 친구예요. 반갑습니다.
+Interviewer: 반갑습니다. 어느 나라사람이에요? 한국 사람이에요?
+Interviewee: 아니요, 한국사람이 아니네요. 미국 사람이에요.
+Interviewer: 전공 뭐예요?
+Interviewee: [MAJOR]이에요/예요.
+Interviewer: 생일 언제예요?
+Interviewee: [BIRTHDAY]이에요.

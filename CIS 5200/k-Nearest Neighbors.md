@@ -1,3 +1,6 @@
+
+**k-NN** is a [supervised learning](Supervised%20Learning.md) technique for classification by "closeness."
+
 Given a dataset $\mathcal D$, let
 - $N_{\vec x}$: Set of nearest neighbors in $\mathcal D$ to $\vec x$ ($N_{\vec x} \subseteq \mathcal D$).
 - $\forall \vec z_1 \in \mathcal D \setminus N_{\vec x}, \forall \vec z_2\in N_{\vec x}, \mathrm{dist}(\vec x, \vec z_1) \geq \mathrm{dist}(\vec x, \vec z_2)$ (that is, we have the closest $k$ neighbors)

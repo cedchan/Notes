@@ -1,36 +1,16 @@
-## Iteration: Kleene* Operation
-
->[!definition]
->$$A^*=\{w\mid w \text{ can be split into multiple parts s.t. each part is in }A\}$$
-
-That is, $A^*$ is repeated concatenation, starting at $\varepsilon$.
-
->**Example.** $A=\{w\mid \mathrm{count}(w, \mathrm a)=2\}$ What is $A^*$?
->
->>[!solution]+
->>$A^*=\{w\mid w=\varepsilon \lor w \text{ contains a positive even number of a's}\}$
-
->**Example.** $\{w\mid w \text{ consists of 0 or more b's followed by a}\}, \Sigma=\{\text{a, b, c}\}$. What is $A^*$?
->
->>[!solution]+
->>$A^*=\{w\mid w \text{ doesn't contain any c and doesn't end with b}\}$
-
 ## Definition
 
 1. $\varepsilon$ is a regular expression
 	Only the empty string matches this regex: $L(\varepsilon)=\{\varepsilon\}$
 
-2. $\phi$ is a regular expression
-	No string matches this regex: $L(\phi)=\emptyset$
+2. $\Phi$ is a regular expression
+	No string matches this regex: $L(\Phi)=\emptyset$
 
 3. For each symbol $\sigma\in \Sigma$, $\sigma$ is a regular expression
 	The only string matching regex $\sigma$ is $\sigma$ itself: $L(\sigma)=\{\sigma\}$
 
 4. If $r$ is a regular expression, so is $(r)$
 	Parentheses are used only for parsing: $L((r))=L(r)$
-
->[!error]
-
 
 5. If $r$ and $r'$ are regular expressions, then so is $r.r'$. 
 	A string $w$ matches $r.r'$ if it can be split into $u.v$ such that $u$ matches $r$ and $v$ matches $r'$. That is, $L(r.r')=L(r).L(r')$.
@@ -59,3 +39,41 @@ That is, $A^*$ is repeated concatenation, starting at $\varepsilon$.
 >- $\mathrm{ab\cup c=\text{(a.b)}\cup c}$
 >- $\mathrm a \cup\mathrm b=\mathrm a \cup (\mathrm b)^*$
 
+## Regular Expressions to NFAs
+
+**Goal:** Given a regular expression $r$ construct an $\varepsilon$-NFA $M(r$) that accepts the language $L(r)$.
+
+Construction by induction on the structure of $r$:
+1. $r$ equals $\varepsilon$ ![](Pasted%20image%2020230921120836.png)
+2. $r$ equals $\Phi$ ![](Pasted%20image%2020230921120927.png)
+3. $r$ equals $\sigma\in\Sigma$ ![](Pasted%20image%2020230921120958.png)
+4. $r$ equals $(p)$. $M(r)=M(p)$.
+5. $r$ equals $r1.r2$. Build $M(r)$ from $M(r1)$ and $M(r2)$ using [concatenation construction](Constructions%20on%20Automata.md#Closure%20of%20Regular%20Languages#Concatenation%20of%20Languages). (That is, draw $\varepsilon$-transitions from accepting states of $M(r1)$ to the initial state of $M(r2)$, and make those accepting states non-accepting.) ![](Pasted%20image%2020230921121846.png) 
+6. $r$ equals $r1\cup r2$. Build $M(r)$ from $M(r1)$ and $M(r2)$ by adding a new initial state. ![](Pasted%20image%2020230921121751.png)
+
+>**Example.** Construct an NFA for $\mathrm{(a b)^*(a\cup\varepsilon)}$
+>
+>>[!solution]+
+>>Constructing NFA for $\mathrm{a.b}$
+>>![](Pasted%20image%2020230921123633.png)
+>>![](Pasted%20image%2020230921123705.png)
+>>Constructing $\mathrm{(a b)^*}$
+>>![](Pasted%20image%2020230921124020.png)
+>>Constructing $(\mathrm a\cup \varepsilon)$
+>>![](Pasted%20image%2020230921124127.png)
+>>![](Pasted%20image%2020230921124220.png)
+>>Constructing $\mathrm{(a b)^*(a\cup\varepsilon)}$
+>>![](Pasted%20image%2020230921124446.png)
+
+### Compilation Summary
+
+The process for compilation of a regular expression $r$ is
+$$r\rightarrow \varepsilon\text{-NFA } M(r)\rightarrow\text{DFA } M'(r)$$
+
+The number of states in $M(r)$ is about the same as the size of $r$—that is, $O(|r|)$.
+
+Determinization using subset construction can cause the number of states to blow up, becoming $2^{|r|}$.
+
+## Sufficiency of Operators
+
+A proof in the textbook shows that all DFAs can also be converted into regular expressions (and therefore, these operators are sufficient).

@@ -7,7 +7,7 @@ $$\underbrace{F(h)}_{R(h)}=\frac1n\sum_{i=1}^n\ell(h(x_i), y_i)$$
 >The idea of **empirical risk minimization (ERM)** is to find $h^*$ that minimizes $F(h)$. $$h^*=\underset{h\in H}{\arg\min\, }F(h)$$
 #### Linear Models
 
-For linear models, we have
+For [linear models](Perceptron.md#Review%20Linear%20Models), we have
 - $h(x)=w^\top x+b$
 - $H:\{w\mid w\in \mathbb R^d\}$
 This leads us to $w^*=\arg\min_w F(w)$, where $F(w)=\frac1n\sum_{i=1}^n\ell(w^\top x_i, y_i)$.
@@ -78,5 +78,91 @@ When $H$ isn't invertible, it indicates that in some direction, the function is 
 
 In practice, we can choose to optimize the other parameters, and then choose some solution on that flat line.
 
+## When Gradient Descent Works
+
+### Convexity
+
+If $w$ and $w'$ are two points on the $x$-axis of some function $F$, any point between them can be written as $\alpha w + (1-\alpha)w'$. Similarly, we can say that any point between two points on the $y$-axis $F(w), F(w')$ can be written as $\alpha F(w)+(1-\alpha)F(w')$. 
+
+![](Pasted%20image%2020230920140732.png)
+
+We can imagine that $(w, F(w)), (w', F(w'))$ are the intersection points above, for example. 
+
+We say a function is convex when this line is always greater than or equal to the function in $[w, w']$. That is, 
+$$\alpha f(w)+(1-\alpha)f(w')\geq F(\alpha w+(1-\alpha)w')$$
+
+An alternative definition is that the tangent line is always below the function. That is,
+$$F(w)+\nabla F(w)^\top (w-v)\leq F(v)$$
+### $L$-Smoothness
+
+>[!definition] Definition 1
+>A function is **$L$-smooth** if there exists some constant $L$ such that for all $w, w'$, 
+>$$||\nabla F(w)-\nabla F(w')||\leq L||w-w'||$$
+
+- Conceptually, this means that we can always draw a tangent line that lower-bounds the function
+- A bigger $L$ is less smooth
+- If $\nabla F$ is $L$-Lipshitz, then $F$ is $L$-smooth
+
+>[!definition] Definition 2
+>A function is **$L$-smooth** if
+>$$F(w')\leq \underbrace{F(w)+\nabla F(w)^\top(w'-w)}_{\text{1st-order Taylor}}+L||w'-w||^2$$
+
+- That is, at every point we can draw a quadratic function that upper bounds the function
+- It is a "control" on the rate of growth
+
+## Proof of Convergence
+
+>[!theorem]
+>The update step of gradient descent will converge when $F$ is [convexity](Gradient%20Descent.md#When%20Gradient%20Descent%20Works#Convexity) and [smooth](Gradient%20Descent.md#When%20Gradient%20Descent%20Works#$L$-Smoothness):
+>$$w_{t+1}\leftarrow w_t-\frac1L\nabla F(w_t)$$
+
+Note that we use a step size of $\frac1L$, where $F$ is $L$-smooth.
+
+>[!lemma] Lemma 1
+>$$\forall t, F(w_{t+1})\leq F(w_t)$$
+>That is, $F(w_{t})$ is always non-increasing.
+
+**Proof.** 
+By our definition for $w$'s update,
+$$\begin{align}
+w_{t+1}&=w_t-\frac1L\nabla F(w_t)\\
+\nabla F(w_t)&=L(w_t-w_{t+1}) \\
+F(w_{t+1})&\leq F(w_t)+\nabla F(w_t)^\top(w_t)(w_{t+1}-w_t)+L||w_t-w_{t+1}||^2 \\
+&\leq F(w_t)+\underbrace{L(w_t-w_{t+1})}_{\text{Sub. line 2}}{}^\top(w_{t+1}-w_t)+\underbrace{L(w_t-w_{t+1})^\top(w_t-w_{t+1})}_{\text{Expand}} \\
+&\leq F(w_t)-L(w_t-w_{t+1})^\top\underbrace{(w_t-w_{t+1})}_{\text{Pull out neg.}}+L(w_t-w_{t+1})^\top(w_t-w_{t+1}) \\
+&\leq F(w_t)
+\end{align}$$
+
+>[!lemma] Lemma 2
+>If $\vec w$ is globally optimal, $w_t \rightsquigarrow w^*$.
+>
+
+**Proof.**
+By convexity,
+$$\begin{align}
+F(w^*)&\geq F(w_t)+\nabla F(w_t)^\top(w^*-w_t) \\
+F(w^*)&\geq F(w_t)+\underbrace{L(w_t-w_{t+1})}_{\text{From update defn.}}{}^\top(w^*-w_t) \\
+F(w_t)-F(w^*)&\leq-L(w_t+w_{t+1})^\top\underbrace{(w_t-w^*)}_{\text{Pull out neg.}} \end{align}$$
+
+Now, we do some clever manipulation to get an expression for $(w_t-w_{t+1})^\top(w_t-w^*)$.
+$$\begin{align}
+||w_{t+1}-w^*||^2&=||w_{t+1}\underbrace{-w_t+w_t}_\text{Tautology}-w^*||^2 \\
+&=||w_{t+1}-w_t||^2+||w_t-w^*||^2-2\underbrace{(w_t-w_{t+1})}_\text{Pull out neg.}{}^\top(w_t-w^*) \\
+(w_t-w_{t+1})^\top(w_t-w^*)&=\frac12\left(||w_{t+1}-w_t||^2+||w_t-w^*||^2-||w_{t+1}-w^*||^2\right) \\
+F(w_f)-F(w^*)&\leq \frac L2\left(||w_{t+1}-w_t||^2+||w_t-w^*||^2-||w_{t+1}-w^*||^2\right) \\
+F(w_{t+1})-F(w_t)&\leq-\frac L2||w_f-w_{t+1}||^2 \\
+\end{align}$$
+Adding the previous two inequalities,
+$$\begin{align}
+F(w_{t+1})-F(w^*)&\leq-\frac L2()
+\end{align}$$
+
+
+
+
+
+
 ## Things to study
 - hessian
+- L-lipshitz
+- matrix cookbook

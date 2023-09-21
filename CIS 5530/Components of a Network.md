@@ -1,6 +1,5 @@
 ## Layers of the Internet
 
-
 ### Layer 1: Physical Layer
 
 - Connects: Transmitters and receivers
@@ -170,10 +169,56 @@ There's a delay for processing with bridges and switches, while repeaters and hu
 >- If we just act like a hub, packets will get to their destinations
 >- Whenever we see a packet, we can learn something from it
 
-Self-learning switches start off knowing nothing. When they get a frame, it gets broadcasted to all other ports, except for the source.
+Self-learning switches start off knowing nothing. When they get a frame, it gets broadcasted to all other ports, except for the source. This is called **flooding**.
 
 When a frame arrives, we inspect the source MAC address, and associate the address with the incoming interface (port). We store this mapping in the switch table. We can also use a time-to-live field to eventually forget the mapping (e.g., for if the host moves to another network).
 
 >[!error] look it up!
 
-Soft-state: Just an optimization
+**Soft-state:** It's not immediately critical, and it can be regenerated (by sending to all addresses), so MAC address learning isn't a problem to the concept of availability in the internet.
+
+## Flooding
+
+**Problem:** [Flooding](Components%20of%20a%20Network.md#Devices#Bridges,%20Switches%20vs.%20Repeaters,%20Hubs#Self-Learning%20Switches) (continuously forwarding a signal to all your neighbors, except the source) can lead to forwarding loops, such as if a network contains a cycle of switches. This is sometimes called a **broadcast storm**.
+
+The easiest way to avoid this is to build a topology that doesn't have loops. That is, to make it a [spanning tree](Minimum%20Spanning%20Trees%20(MSTs).md). 
+
+While there are algorithms for finding the minimum spanning tree, the problem is that we have to do so in a distributed fashion—that is, each edge doesn't know about the whole network.
+
+### Spanning Tree Algorithm
+
+At a high level, the spanning tree algorithm first has all the nodes elect a root—the one with the lowest identifier. Then, each finds the shortest distance to the root, and each segment finds a designated bridge to forward things to the root.
+
+1. All nodes start off thinking they're the root (they don't know anything about the rest of the network). They all periodically send out advertisements (e.g., saying they're $x$ hops from what they think is the root).
+2. Every time a bridge/switch gets an advertisement, it decides whether its current knowledge matches with the advertisement, then if not, decides which to take. In ties, the node with the smaller identifier wins. 
+	1. Eventually, the node with the lowest identifier's advertisement will propagate to the whole network.
+3. Each node will find the shortest path to the root, then decide whether to set ports in a **forward state** or a **blocked state**. 
+	1. If a bridge fails, nodes will switch and accept a different advertisement.
+	2. If there's a root failure, then we must restart.
+
+This is also an instance of **soft-state**—all entries have timeout and require periodic refreshes. Unlike with [MAC address learning](Components%20of%20a%20Network.md#Devices#Bridges,%20Switches%20vs.%20Repeaters,%20Hubs#Self-Learning%20Switches), though, keeping the spanning tree intact is critical for keeping the network up.
+
+## Virtual LANs
+
+**Advantages:**
+- Group users by organizational structure, rather than physical layout
+- "Rewire" building using softwre
+- Isolate traffic by organization improves security and performance
+	- No longer have to broadcast messages everywhere
+
+We insert a VLAN tag between Ethernet header and payload. Each interface has a VLAN number, so this only works if all hosts on the same segment belong to the same VLAN. Bridges and switches track mappings from MAC addresses to VLANs.
+
+## Layer 2 Summary
+
+Switched layer 2 allows sending traffic across a network and isolating collision domains. 
+
+In theory, this can allow us to make a network across the whole world, but there are a couple of problems with this:
+- If the lowest MAC address fails, the whole internet goes down
+- The time it takes to converge on a spanning tree increases too much
+- Forwarding tables will be too large, containing all the billions of devices it can reach
+- Doesn't work across more than one L2 technology (e.g., WiFi, 3G)
+- There's isn't enough traffic control
+
+## Question
+1. so how does shortest path play a role in the spanning tree alg?
+2. 
