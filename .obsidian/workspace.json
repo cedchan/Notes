@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Regular Expressions.md",
+                "file": "CIS 2620/Nondeterministic Finite Automata.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/Regular Expressions.md",
+                "file": "CIS 2620/Nondeterministic Finite Automata.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/Regular Expressions.md",
+                "file": "CIS 2620/Nondeterministic Finite Automata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/Regular Expressions.md"
+                "file": "CIS 2620/Nondeterministic Finite Automata.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 2620/Regular Expressions.md"
+                "file": "CIS 2620/Nondeterministic Finite Automata.md"
               }
             }
           }
@@ -235,12 +235,12 @@
   },
   "active": "c9c6902c0af96baf",
   "lastOpenFiles": [
+    "CIS 2620/Regular Expressions.md",
     "CIS 2620/Constructions on Automata.md",
     "CIS 5530/Components of a Network.md",
     "CIS 2620/Images/Pasted image 20230921120836.png",
     "CIS 2620/Images/Pasted image 20230921120958.png",
     "CIS 2620/Images/Pasted image 20230921120927.png",
-    "CIS 2620/Regular Expressions.md",
     "CIS 2620/Images/Pasted image 20230921124446.png",
     "CIS 2620/Images/Pasted image 20230921124220.png",
     "CIS 2620/Images/Pasted image 20230921124127.png",
