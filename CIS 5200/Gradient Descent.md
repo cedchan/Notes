@@ -152,12 +152,29 @@ $$\begin{align}
 F(w_f)-F(w^*)&\leq \frac L2\left(||w_{t+1}-w_t||^2+||w_t-w^*||^2-||w_{t+1}-w^*||^2\right) \\
 F(w_{t+1})-F(w_t)&\leq-\frac L2||w_f-w_{t+1}||^2 \\
 \end{align}$$
-Adding the previous two inequalities,
+That last line means that every iteration, the loss decreases. Adding the previous two inequalities,
 $$\begin{align}
-F(w_{t+1})-F(w^*)&\leq-\frac L2()
+F(w_{t+1})-F(w^*)&\leq-\frac L2(||w_t-w^*||^2-||w_{t+1}-w^*||^2)
 \end{align}$$
+This means that every iteration, $w_t$ gets closer to $w^*$. (Note that on the right side, the first term is greater than the second term.)
 
+>[!lemma]
 
+Suppose we run $T$ iterations of GD. 
+
+$$\begin{align}
+\sum_{t=0}^TF(w_{t+1})-F(w^*)&\leq\frac L2\sum_{t=0}^T(||w_t-w^*||^2-||w_{t+1}-w^*||^2) \\
+&\leq\frac L2\sum_{t=0}^T(||w_t-w^*||^2) \\
+&\leq\frac L2(||w_1-w^*||^2\cancel{-||w_2-w^*||^2}) \\
+&\qquad+\frac L2(\cancel{||w_2-w^*||^2}\cancel{-||w_3-w^*||^2}) \\
+&\qquad+\dots-||w_{T+1}-w^*||^2) \\
+&\leq\frac L2(||w_1-w^*||^2-||w_{T+1}-w^*||^2) \\
+\sum_{t=0}^TF(w_{t+1})-F(w^*)&\leq\frac L2||w_1-w^*||^2 \\
+F(w_t)-F(w^*)&\geq F(w_{T+1})-F(w^*) \\
+\sum_{t=1}^T\underbrace{F(w_{T+1})-F(w^*)}_\text{Using above fact}&\leq\frac L2||w_1-w^*||^2 \\
+T(F(w_{T+1})-F(w^*))&\leq\frac L2||w_1-w^*||^2 \\
+F(w_{T+1})-F(w^*)&\leq\frac{L||w_1-w^*||^2}{2^T}
+\end{align}$$
 
 
 

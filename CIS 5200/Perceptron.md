@@ -22,7 +22,7 @@ Properties:
 
 ## Perceptron Algorithm
 
-Assumes $\exists w^* \text{ s.t. } \forall i, y_iw^{*\top}x_i\geq 0$. That is, we assume there exists some hyperplane that separates the data—the data is **linearly separable**.
+The perceptron algorithm is a [supervised](Supervised%20Learning.md) model that calculates a linear weight vector. Assumes $\exists w^* \text{ s.t. } \forall i, y_iw^{*\top}x_i\geq 0$. That is, we assume there exists some hyperplane that separates the data—the data is **linearly separable**.
 
 >[!algorithm]
 >$$\begin{align}
