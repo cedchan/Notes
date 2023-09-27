@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e0361ccadfdd8cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,7 +185,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1de5fb9b9c43e0b2",
+  "active": "1e0361ccadfdd8cd",
   "lastOpenFiles": [
     "CIS 5530/Components of a Network.md",
     "CIS 2620/Nondeterministic Finite Automata.md",
