@@ -145,3 +145,6 @@ For a periodic sine wave, 2 samples per cycle is the minimum. Thus, we must samp
 The critical information in speech signals goes up to 8 kHz, so many linguistic recordings sample at 16 kHz.
 
 The amplitude range is divided into powers of 2. The power is called the "bit" (e.g., $2^{16}$ is 16 bits).
+
+## Final Project Info
+- icphs2023.org 
