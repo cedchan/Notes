@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "ce2691b5df0aaed8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 5200/PyTorch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "122f71ee3969d3fe",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -154,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md",
+                "file": "CIS 5200/PyTorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md",
+                "file": "CIS 5200/PyTorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md"
+                "file": "CIS 5200/PyTorch.md"
               }
             }
           },
@@ -214,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md"
+                "file": "CIS 5200/PyTorch.md"
               }
             }
           }
@@ -235,10 +248,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22b555acac1093b2",
+  "active": "ce2691b5df0aaed8",
   "lastOpenFiles": [
-    "CIS 2620/Decision Problems for DFAs.md",
     "CIS 2620/Proving Non-Regularity.md",
+    "CIS 5200/PyTorch.md",
+    "CIS 2620/Decision Problems for DFAs.md",
     "CIS 2620/Deterministic Finite Automata (DFA).md",
     "CIS 5530/Intradomain Routing.md",
     "LING 2210/Articulatory Phonetics.md",
@@ -273,7 +287,6 @@
     "CIS 2620/Images/Pasted image 20230921124020.png",
     "Spring 2023/CIS 1210/Minimum Spanning Trees (MSTs).md",
     "CIS 5200/Images",
-    "Spring 2023/MATH 3130/The Fourier Series.md",
     "CIS 5530/Images",
     "CIS 5530",
     "CIS 5200",
