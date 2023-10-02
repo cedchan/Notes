@@ -137,3 +137,10 @@ Interviewer: 전공 뭐예요?
 Interviewee: [MAJOR]이에요/예요.
 Interviewer: 생일 언제예요?
 Interviewee: [BIRTHDAY]이에요.
+
+
+
+1. 침대하고 책장이 있어요. 그리고 침대도 있어요.
+2. 화장실이 없어요
+3. 침대 옆에 있어요
+4. 좋아요

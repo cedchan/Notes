@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/PyTorch.md",
+                "file": "CIS 2620/Regular Expressions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b67d331567d529f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 5200/Support Vector Machines.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -150,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "256209e4c2e36f33",
@@ -167,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 5200/PyTorch.md",
+                "file": "CIS 5200/Support Vector Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 5200/PyTorch.md",
+                "file": "CIS 5200/Support Vector Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 5200/PyTorch.md"
+                "file": "CIS 5200/Support Vector Machines.md"
               }
             }
           },
@@ -227,7 +238,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 5200/PyTorch.md"
+                "file": "CIS 5200/Support Vector Machines.md"
               }
             }
           }
@@ -248,10 +259,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce2691b5df0aaed8",
+  "active": "b67d331567d529f1",
   "lastOpenFiles": [
-    "CIS 2620/Proving Non-Regularity.md",
+    "CIS 2620/Regular Expressions.md",
+    "CIS 5200/Support Vector Machines.md",
+    "CIS 2620/Constructions on Automata.md",
+    "KORN 0001/Intro to Korean.md",
+    "Spring 2023/CIS 1210/Heaps.md",
+    "Spring 2023/CIS 1210/Quick Sort.md",
     "CIS 5200/PyTorch.md",
+    "CIS 2620/Proving Non-Regularity.md",
     "CIS 2620/Decision Problems for DFAs.md",
     "CIS 2620/Deterministic Finite Automata (DFA).md",
     "CIS 5530/Intradomain Routing.md",
@@ -272,12 +289,7 @@
     "CIS 5530/Network Performance.md",
     "Spring 2023/CIS 1210/Minimum Cut.md",
     "CIS 5530/Images/Pasted image 20230925154404.png",
-    "CIS 2620/Regular Expressions.md",
     "CIS 2620/Introduction.md",
-    "CIS 2620/Constructions on Automata.md",
-    "KORN 0001/Intro to Korean.md",
-    "CIS 5200/Supervised Learning.md",
-    "CIS 5200/Math for Machine Learning.md",
     "CIS 2620/Images/Pasted image 20230921120836.png",
     "CIS 2620/Images/Pasted image 20230921120958.png",
     "CIS 2620/Images/Pasted image 20230921120927.png",
@@ -285,7 +297,6 @@
     "CIS 2620/Images/Pasted image 20230921124220.png",
     "CIS 2620/Images/Pasted image 20230921124127.png",
     "CIS 2620/Images/Pasted image 20230921124020.png",
-    "Spring 2023/CIS 1210/Minimum Spanning Trees (MSTs).md",
     "CIS 5200/Images",
     "CIS 5530/Images",
     "CIS 5530",
