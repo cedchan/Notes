@@ -73,7 +73,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md",
+                "file": "CIS 2620/Proving Non-Regularity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76d152d2e19c33f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 5530/Intradomain Routing.md",
                 "mode": "source",
                 "source": false
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md",
+                "file": "CIS 2620/Proving Non-Regularity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md",
+                "file": "CIS 2620/Proving Non-Regularity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md"
+                "file": "CIS 2620/Proving Non-Regularity.md"
               }
             }
           },
@@ -238,7 +250,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md"
+                "file": "CIS 2620/Proving Non-Regularity.md"
               }
             }
           }
@@ -261,20 +273,29 @@
   },
   "active": "b67d331567d529f1",
   "lastOpenFiles": [
-    "CIS 2620/Regular Expressions.md",
-    "CIS 5200/Support Vector Machines.md",
     "CIS 2620/Constructions on Automata.md",
+    "CIS 2620/Deterministic Finite Automata (DFA).md",
+    "CIS 2620/Introduction.md",
+    "CIS 2620/Decision Problems for DFAs.md",
+    "CIS 2620/Nondeterministic Finite Automata.md",
+    "CIS 2620/Proving Non-Regularity.md",
+    "CIS 2620/Regular Expressions.md",
+    "CIS 5530/Interdomain Routing.md",
+    "Pasted image 20231002162803.png",
+    "Pasted image 20231002161640.png",
+    "Pasted image 20231002160409.png",
+    "CIS 5530/Intradomain Routing.md",
+    "CIS 5530/Network Performance.md",
+    "CIS 5530/Network Layer (Layer 3).md",
+    "CIS 5530/Components of a Network.md",
+    "CIS 5530/Architecture of the Internet.md",
+    "CIS 5200/Support Vector Machines.md",
     "KORN 0001/Intro to Korean.md",
     "Spring 2023/CIS 1210/Heaps.md",
     "Spring 2023/CIS 1210/Quick Sort.md",
     "CIS 5200/PyTorch.md",
-    "CIS 2620/Proving Non-Regularity.md",
-    "CIS 2620/Decision Problems for DFAs.md",
-    "CIS 2620/Deterministic Finite Automata (DFA).md",
-    "CIS 5530/Intradomain Routing.md",
     "LING 2210/Articulatory Phonetics.md",
     "CIS 5200/Perceptron.md",
-    "CIS 5530/Interdomain Routing.md",
     "CIS 5200/Logistic Regression.md",
     "CIS 5200/Images/Pasted image 20230927145441.png",
     "CIS 5200/Linear Regression.md",
@@ -282,21 +303,12 @@
     "CIS 5200/k-Nearest Neighbors.md",
     "README.md",
     "CIS 5200/Images/Pasted image 20230927141929.png",
-    "CIS 5530/Components of a Network.md",
-    "CIS 2620/Nondeterministic Finite Automata.md",
-    "CIS 5530/Architecture of the Internet.md",
-    "CIS 5530/Network Layer (Layer 3).md",
-    "CIS 5530/Network Performance.md",
     "Spring 2023/CIS 1210/Minimum Cut.md",
     "CIS 5530/Images/Pasted image 20230925154404.png",
-    "CIS 2620/Introduction.md",
     "CIS 2620/Images/Pasted image 20230921120836.png",
     "CIS 2620/Images/Pasted image 20230921120958.png",
     "CIS 2620/Images/Pasted image 20230921120927.png",
     "CIS 2620/Images/Pasted image 20230921124446.png",
-    "CIS 2620/Images/Pasted image 20230921124220.png",
-    "CIS 2620/Images/Pasted image 20230921124127.png",
-    "CIS 2620/Images/Pasted image 20230921124020.png",
     "CIS 5200/Images",
     "CIS 5530/Images",
     "CIS 5530",
