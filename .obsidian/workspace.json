@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md",
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
                 "mode": "source",
                 "source": false
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md",
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md",
+                "file": "~PRIV/Orthography-to-Pronunciation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md"
+                "file": "~PRIV/Orthography-to-Pronunciation.md"
               }
             }
           },
@@ -250,7 +250,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md"
+                "file": "~PRIV/Orthography-to-Pronunciation.md"
               }
             }
           }
@@ -273,12 +273,14 @@
   },
   "active": "b67d331567d529f1",
   "lastOpenFiles": [
+    "Spring 2023/CIS 1210/Heaps.md",
+    "Spring 2023/CIS 1210/Minimum Cut.md",
+    "CIS 2620/Proving Non-Regularity.md",
     "CIS 2620/Constructions on Automata.md",
     "CIS 2620/Deterministic Finite Automata (DFA).md",
     "CIS 2620/Introduction.md",
     "CIS 2620/Decision Problems for DFAs.md",
     "CIS 2620/Nondeterministic Finite Automata.md",
-    "CIS 2620/Proving Non-Regularity.md",
     "CIS 2620/Regular Expressions.md",
     "CIS 5530/Interdomain Routing.md",
     "Pasted image 20231002162803.png",
@@ -291,7 +293,6 @@
     "CIS 5530/Architecture of the Internet.md",
     "CIS 5200/Support Vector Machines.md",
     "KORN 0001/Intro to Korean.md",
-    "Spring 2023/CIS 1210/Heaps.md",
     "Spring 2023/CIS 1210/Quick Sort.md",
     "CIS 5200/PyTorch.md",
     "LING 2210/Articulatory Phonetics.md",
@@ -303,7 +304,6 @@
     "CIS 5200/k-Nearest Neighbors.md",
     "README.md",
     "CIS 5200/Images/Pasted image 20230927141929.png",
-    "Spring 2023/CIS 1210/Minimum Cut.md",
     "CIS 5530/Images/Pasted image 20230925154404.png",
     "CIS 2620/Images/Pasted image 20230921120836.png",
     "CIS 2620/Images/Pasted image 20230921120958.png",
