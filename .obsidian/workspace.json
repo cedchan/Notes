@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Decision Problems for DFAs.md",
+                "file": "CIS 2620/Automata/Constructions on Automata.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87bd5b02827b6e25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 2620/Turing Machines.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Proving Non-Regularity.md",
+                "file": "CIS 2620/Automata/Proving Non-Regularity.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Regular Expressions.md",
+                "file": "CIS 2620/Automata/Regular Expressions.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +85,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "CIS 5530/Interdomain Routing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f90400e43cd37e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 5530/Components of a Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Decision Problems for DFAs.md",
+                "file": "CIS 2620/Automata/Decision Problems for DFAs.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,14 +133,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Deterministic Finite Automata (DFA).md",
+                "file": "CIS 2620/Automata/Deterministic Finite Automata (DFA).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "CIS 2620/Turing Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "CIS 2620/Turing Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md"
+                "file": "CIS 2620/Turing Machines.md"
               }
             }
           },
@@ -250,7 +274,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md"
+                "file": "CIS 2620/Turing Machines.md"
               }
             }
           }
@@ -271,26 +295,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b67d331567d529f1",
+  "active": "238fc620f3a7044a",
   "lastOpenFiles": [
-    "Spring 2023/CIS 1210/Heaps.md",
-    "Spring 2023/CIS 1210/Minimum Cut.md",
-    "CIS 2620/Proving Non-Regularity.md",
-    "CIS 2620/Constructions on Automata.md",
-    "CIS 2620/Deterministic Finite Automata (DFA).md",
-    "CIS 2620/Introduction.md",
-    "CIS 2620/Decision Problems for DFAs.md",
-    "CIS 2620/Nondeterministic Finite Automata.md",
-    "CIS 2620/Regular Expressions.md",
+    "CIS 2620/Images/Pasted image 20231005124441.png",
+    "CIS 2620/Images",
+    "Computability",
+    "CIS 2620/Automata/Constructions on Automata.md",
+    "CIS 2620/Turing Machines.md",
+    "CIS 5530/Discovery.md",
+    "CIS 2620/Automata",
     "CIS 5530/Interdomain Routing.md",
-    "Pasted image 20231002162803.png",
-    "Pasted image 20231002161640.png",
-    "Pasted image 20231002160409.png",
-    "CIS 5530/Intradomain Routing.md",
-    "CIS 5530/Network Performance.md",
     "CIS 5530/Network Layer (Layer 3).md",
+    "CIS 5530/Intradomain Routing.md",
     "CIS 5530/Components of a Network.md",
     "CIS 5530/Architecture of the Internet.md",
+    "CIS 2620/Automata/Decision Problems for DFAs.md",
+    "CIS 5530/Images/Pasted image 20231002162803.png",
+    "CIS 5530/Images/Pasted image 20231002161640.png",
+    "CIS 5530/Images/Pasted image 20231002160409.png",
+    "CIS 5530/Network Performance.md",
+    "~PRIV/Orthography-to-Pronunciation.md",
+    "Spring 2023/CIS 1210/Heaps.md",
+    "Spring 2023/CIS 1210/Minimum Cut.md",
+    "CIS 2620/Automata/Proving Non-Regularity.md",
+    "CIS 2620/Automata/Deterministic Finite Automata (DFA).md",
+    "CIS 2620/Automata/Introduction.md",
+    "CIS 2620/Automata/Nondeterministic Finite Automata.md",
+    "CIS 2620/Automata/Regular Expressions.md",
     "CIS 5200/Support Vector Machines.md",
     "KORN 0001/Intro to Korean.md",
     "Spring 2023/CIS 1210/Quick Sort.md",
@@ -299,16 +330,12 @@
     "CIS 5200/Perceptron.md",
     "CIS 5200/Logistic Regression.md",
     "CIS 5200/Images/Pasted image 20230927145441.png",
-    "CIS 5200/Linear Regression.md",
-    "CIS 5200/Gradient Descent.md",
-    "CIS 5200/k-Nearest Neighbors.md",
-    "README.md",
     "CIS 5200/Images/Pasted image 20230927141929.png",
     "CIS 5530/Images/Pasted image 20230925154404.png",
-    "CIS 2620/Images/Pasted image 20230921120836.png",
-    "CIS 2620/Images/Pasted image 20230921120958.png",
-    "CIS 2620/Images/Pasted image 20230921120927.png",
-    "CIS 2620/Images/Pasted image 20230921124446.png",
+    "CIS 2620/Automata/Images/Pasted image 20230921120836.png",
+    "CIS 2620/Automata/Images/Pasted image 20230921120958.png",
+    "CIS 2620/Automata/Images/Pasted image 20230921120927.png",
+    "CIS 2620/Automata/Images/Pasted image 20230921124446.png",
     "CIS 5200/Images",
     "CIS 5530/Images",
     "CIS 5530",
@@ -316,9 +343,6 @@
     "Untitled.canvas",
     "LING 2500",
     "Summer 2023",
-    "CIS 2620/Images",
-    "CIS 5500",
-    "KORN 0001",
-    "CIS 2620"
+    "CIS 2620/Automata/Images"
   ]
 }

@@ -146,12 +146,12 @@ Routes are described using **attributes**. There are some standardized ones:
 - **ASPATH**: Vector that lists ASes in a route advertisement has traversed (in reverse order)
 - **LOCAL PREF**: local preference in choosing between AS paths (typically only in iBGP). Higher value = more preferred
 - **Multi-exit Discriminator (MED)**: Used when ASs connected via 2 or more links. Specifies how close a prefix is to the link it's announced on. Lower is better.
-- **IGP Cost**: Used for hot-potato routing. Number of "hops"
+- **iGP Cost**: Used for hot-potato routing. Number of "hops"
 
 Rules for route selection:
 ![](Pasted%20image%2020231002162803.png)
 
-## Issues with BGP
+### Issues with BGP
 
 - **Reachability**: With policy routing, even if a connection exists, there might not be connection.
 - **Policy over performance**

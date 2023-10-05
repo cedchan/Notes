@@ -22,7 +22,7 @@
 ### Layer 3: Network Layer
 
 - Connects: LANs
-	- Possibly different technologies (.g, WiFi and Ethernet)
+	- Possibly different technologies (e.g, WiFi and Ethernet, which are different L2 protocols)
 - Lower interface: A packet of data
 - Upper interface: A segment of data
 	- Same thing, but with an extra header
