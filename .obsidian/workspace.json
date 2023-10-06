@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Turing Machines.md",
+                "file": "CIS 5200/PyTorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/Turing Machines.md",
+                "file": "CIS 5200/PyTorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/Turing Machines.md",
+                "file": "CIS 5200/PyTorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/Turing Machines.md"
+                "file": "CIS 5200/PyTorch.md"
               }
             }
           },
@@ -274,7 +274,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 2620/Turing Machines.md"
+                "file": "CIS 5200/PyTorch.md"
               }
             }
           }
@@ -295,12 +295,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238fc620f3a7044a",
+  "active": "87bd5b02827b6e25",
   "lastOpenFiles": [
+    "CIS 5200/Supervised Learning.md",
+    "CIS 5200/Perceptron.md",
+    "CIS 5200/Support Vector Machines.md",
+    "CIS 2620/Automata/Constructions on Automata.md",
     "CIS 2620/Images/Pasted image 20231005124441.png",
     "CIS 2620/Images",
     "Computability",
-    "CIS 2620/Automata/Constructions on Automata.md",
     "CIS 2620/Turing Machines.md",
     "CIS 5530/Discovery.md",
     "CIS 2620/Automata",
@@ -322,12 +325,10 @@
     "CIS 2620/Automata/Introduction.md",
     "CIS 2620/Automata/Nondeterministic Finite Automata.md",
     "CIS 2620/Automata/Regular Expressions.md",
-    "CIS 5200/Support Vector Machines.md",
     "KORN 0001/Intro to Korean.md",
     "Spring 2023/CIS 1210/Quick Sort.md",
     "CIS 5200/PyTorch.md",
     "LING 2210/Articulatory Phonetics.md",
-    "CIS 5200/Perceptron.md",
     "CIS 5200/Logistic Regression.md",
     "CIS 5200/Images/Pasted image 20230927145441.png",
     "CIS 5200/Images/Pasted image 20230927141929.png",
@@ -335,7 +336,6 @@
     "CIS 2620/Automata/Images/Pasted image 20230921120836.png",
     "CIS 2620/Automata/Images/Pasted image 20230921120958.png",
     "CIS 2620/Automata/Images/Pasted image 20230921120927.png",
-    "CIS 2620/Automata/Images/Pasted image 20230921124446.png",
     "CIS 5200/Images",
     "CIS 5530/Images",
     "CIS 5530",
