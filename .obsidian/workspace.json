@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/PyTorch.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "mode": "source",
                 "source": false
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 5200/PyTorch.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 5200/PyTorch.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 5200/PyTorch.md"
+                "file": "KORN 0001/Intro to Korean.md"
               }
             }
           },
@@ -274,7 +274,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 5200/PyTorch.md"
+                "file": "KORN 0001/Intro to Korean.md"
               }
             }
           }
@@ -297,6 +297,7 @@
   },
   "active": "87bd5b02827b6e25",
   "lastOpenFiles": [
+    "CIS 5200/PyTorch.md",
     "CIS 5200/Supervised Learning.md",
     "CIS 5200/Perceptron.md",
     "CIS 5200/Support Vector Machines.md",
@@ -327,7 +328,6 @@
     "CIS 2620/Automata/Regular Expressions.md",
     "KORN 0001/Intro to Korean.md",
     "Spring 2023/CIS 1210/Quick Sort.md",
-    "CIS 5200/PyTorch.md",
     "LING 2210/Articulatory Phonetics.md",
     "CIS 5200/Logistic Regression.md",
     "CIS 5200/Images/Pasted image 20230927145441.png",
