@@ -77,6 +77,15 @@ Often, syntactic constituency is not immediately clear, so linguists have develo
 | Questions and short answers | If a string can function as a short answer to a question, it's likely a constituent. |
 | *It* clefts | A string is a constituent if it can be the focus of an *it* cleft. | 
 
+### Substitution Tests
+
+|Replacement Type | Category|
+|-|-|
+|Pronoun|DP|
+|"one"|N'|
+|"do so"|V'|
+|"so"|Adj'|
+
 ### More on *It* Clefts
 
 Sentences can typically be divided into the **ground**, presupposed background info, and the **focus**, informative info. 
@@ -87,7 +96,6 @@ Sentences can typically be divided into the **ground**, presupposed background i
 *It* clefts take this **information structure** and fit it into the sentence frame, "It is X that Y."
 
 >**Example.** "It is ordinary cats that detest the smell of citrus."
-
 
 ## Constituency
 

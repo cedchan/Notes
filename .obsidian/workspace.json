@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/Math for Machine Learning.md",
+                "file": "CIS 5530/Intradomain Routing.md",
                 "mode": "source",
                 "source": false
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 5200/Math for Machine Learning.md",
+                "file": "CIS 5530/Intradomain Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 5200/Math for Machine Learning.md",
+                "file": "CIS 5530/Intradomain Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 5200/Math for Machine Learning.md"
+                "file": "CIS 5530/Intradomain Routing.md"
               }
             }
           },
@@ -286,7 +286,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 5200/Math for Machine Learning.md"
+                "file": "CIS 5530/Intradomain Routing.md"
               }
             }
           }
@@ -307,19 +307,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "238fc620f3a7044a",
+  "active": "1dc9b2cb5b4b1df1",
   "lastOpenFiles": [
+    "CIS 5530/Interdomain Routing.md",
+    "CIS 5530/Intradomain Routing.md",
+    "LING 2500/Syntactic Categories.md",
+    "CIS 2620/Turing Machines.md",
+    "Pasted image 20231010123447.png",
+    "CIS 5530/Images/Pasted image 20231009163203.png",
+    "CIS 5530/Images/Pasted image 20231009162248.png",
+    "CIS 5200/Math for Machine Learning.md",
     "CIS 5200/Kernels.md",
     "CIS 5530/Discovery.md",
-    "Pasted image 20231009163203.png",
-    "CIS 5530/Intradomain Routing.md",
-    "CIS 2620/Turing Machines.md",
     "CIS 2620/Images/Pasted image 20231005124441.png",
     "CIS 5530/Architecture of the Internet.md",
     "CIS 5530/Network Layer (Layer 3).md",
     "CIS 5530/Network Performance.md",
-    "Pasted image 20231009162248.png",
-    "CIS 5530/Interdomain Routing.md",
     "CIS 5200/k-Nearest Neighbors.md",
     "CIS 5200/Gradient Descent.md",
     "CIS 2620/Automata/Regular Expressions.md",
@@ -342,11 +345,9 @@
     "~PRIV/Orthography-to-Pronunciation.md",
     "Spring 2023/CIS 1210/Heaps.md",
     "Spring 2023/CIS 1210/Minimum Cut.md",
-    "CIS 2620/Automata/Deterministic Finite Automata (DFA).md",
     "CIS 5200/Images/Pasted image 20230927145441.png",
     "CIS 5200/Images/Pasted image 20230927141929.png",
     "CIS 5530/Images/Pasted image 20230925154404.png",
-    "CIS 2620/Automata/Images/Pasted image 20230921120836.png",
     "CIS 5200/Images",
     "CIS 5530/Images",
     "CIS 5530",
