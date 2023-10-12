@@ -18,6 +18,8 @@ We have **host names** (e.g., URL) that are understood by humans, **IP addresses
 
 The **Domain Name System (DNS)** at a basic level translates between host-addresses and human-readable names.
 
+DNS is layers 1-7 (goes over TCP).
+
 ### History
 
 The precursor to DNS was the `hosts.txt` file, located in `/etc/hosts` that map hosts to addresses. Originally, it was maintained by the Stanford Research Institute (SRI), where people had to submit changes by email. 
@@ -86,6 +88,40 @@ This means that at the top of the hierarchy, the TTLs are usually days to weeks,
 It can take a long time for a request to fail, so **negative caching** will note that particular misspellings will result in a failure.
 ## ARP
 
-
+**ARP table:** Each IP node (host, router) on LAN has table with entries next hop <IP address; MAC address; TTL> (TTL ~20 minutes)
 
 ## DHCP
+
+### Bootstrapping Problem
+
+Host doesn't have an IP address yet, so doesn't know what source address to use. It also doesn't know who to ask for an IP address.
+
+The **Dynamic Host Configuration Protocol**, defined in RFC 2131, helps discover
+- Own IP address
+- IP of local DNS server
+- Basic routing information
+	- Gateway router
+	- Prefix length of LAN
+
+There are 3 modes for this:
+- **Dynamic mode:** pool of available addresses, handed out on demand, renew periodically
+- **Automatic:** DHCP reservation. Address permanently assigned
+- **Manual:** Client selects address and informs DHCP server.
+
+### Operation
+
+One or more local DHCP servers maintain required info: IP address pool, netmask, DNS server, etc.
+
+There are then 4 phases:
+**Phase 1:**
+- Client broadcasts DHCP discovery message
+- One or more DHCP servers responds with DHCP "offer" (proposed IP address, lease time)
+
+**Phase 2:**
+- Client broadcasts a DHCP request message
+- Selected DHCP server responds with an ACK
+
+### Stateless DHCP
+
+This exists in IPv6. The idea is that there are so many available IP addresses that you can get rid of the server. Instead, you just use Ethernet address for lower portion of address, and learn higher portion from routers.
+
