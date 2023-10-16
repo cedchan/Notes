@@ -133,3 +133,4 @@ Jitter $=|(RxA-TxA)-(RxB-TxB)|$, where $RxC, TxC$ denote the receive and transmi
 
 Jitter can also be expressed as the sum of the differences in receive and transmit times:
 $$|(RxA-TxA)-(RxB-TxB)|=|(RxA-RxB)+(TxB-TxA)|$$
+
