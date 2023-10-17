@@ -3,7 +3,7 @@ Types of question
 - Application
 - Scenarios
 
-subnet mask?
+subnet mask? (range of ips)
 
 layer 2 → forwarding table (destination → port)
 Router: Routign table, ARP, forwarding table
@@ -203,8 +203,8 @@ Link level
 - **Bandwidth:** Maximum rate (bps) sender can send data
 - **Propagation delay:** Time for signal to travel from source to destination (T = distance / speed)
 ![](Pasted%20image%2020231015001537.png)
-- **Packet transmission time:** Time it takes for sender to transmit all bits
-- **Throughput:** Total number of bits transmitted over length of time
+- **Packet transmission time:** Time it takes for sender to transmit all bits (size / bandwidth)
+- **Throughput:** Total number of bits transmitted over length of time (transfer size / time)
 - **Link utilization:** (throughput) / (link capacity)
 
 Node level
@@ -254,6 +254,7 @@ Layer 1
 - **Ether** is like a giant cable that everyone taps in and out of
 - Originally connected with vampire taps
 - Wires: Twisted, coaxial, optical networks
+- Network adapters connect nodes and links, convert to/from bits
 - Wireless
 - Repeaters
 - Hubs: Multi-port receivers
@@ -264,6 +265,7 @@ Layer 2
 	- Blocks assigned to vendors, adapters assigned by vendors to devices
 	- Broadcast Address FF:FF:FF:FF:FF:FF
 	- Promiscuous mode reads all, not just intended messages
+	- CSMA/CD (Carrier Sense, Multiple Access with Collision Detect): try using port with exponential wait (min 46 bytes, max 1500)
 - Demux key: Preconfigured code that says what protocol something is
 - Framing problem: How do we know when a frame ends?
 	- Byte count: Start each frame with length field. Problem: if has one error, hard to resynchronize
@@ -281,7 +283,7 @@ Bridges/Switches vs. Hubs/Repeaters
 	- Solution: cut-through switching (just look up destination and forward without error detection)
 
 Flooding
-- Spanning tree to avoid
+- Spanning tree to avoid (L2 protocol)
 	1. Everyone advertises self as root w dist 0 (A, A, 0), (B, B, 0)
 	2. If receive advertisement with lower root identifier, that becomes new root, take new dist
 	3. If nodes on ends of ports are closer to root than you, stop broadcasting there
@@ -296,6 +298,8 @@ Layer 3
 - IP → 32 bits
 - Private IP addresses: 10.0.0.0-10.255.255.255, 192.168.0.0-192.168.255.255
 - Public IP addresses: Hierarchical under IANA → regional bodies (RIRs) → companies (later, DHCP)
+- TCP (transport control protocol): Reliable byte stream delivery
+- UDP (user datagram protocol): unreliable datagram delivery
 
 Classless Interdomain Routing (CIDR)
 - XXX.XXX.XXXX.XXXX/y, y is prefix length
@@ -310,22 +314,29 @@ Ipv6
 - No checksum
 - To solve Ipv6/4 compatibility: **tunneling**, make Ipv6 datagram payload of ipv4 packet between ipv4 routers, then unwrap
 
-NATs
-- Convert private IP to public (from outside, looks like all going to different ports of same device)
-- Use L4 demux key to distinguish on both sides
+NATs (L3-L4)
+- Convert private IP to public (from outside, looks like all going to different ports of same device), key and val are both tuples with IP and L4 demux key
+- From host perspective, just use priv. IP
+- Use L4 demux key to distinguish on both sides (uniquely IDs)
 - Advantages: Control over many hosts, rapid deployment path
 - Disads: Breaks connectivity, relies on specific L4 protocol, breaks e2e principle
+- Subnet is breaking net into smaller parts
+	- Hosts given subnet mask and ip address
+	- All hosts in subnet have same mask
+	- Subnet mask bitwise AND ip address = subnet number
 
 ## Intradomain Routing
+- Domain: region under single enterprise, ISP, etc
 - Doing better than spanning tree: Shortest path from each
 - Shortest paths form a sink tree
-- Forwarding = L2, through learning, maps MAC to port; routing = L3, through routing protocol, maps IP to next hop IP
+- Forwarding = L2, through learning, maps MAC to port (L1); routing = L3, through routing protocol, maps IP to next hop IP
 
 DV
 - Routing Information Protocol (RIP) based on Bellman-Ford
 - Maintain distance vector to all destinations, periodically broadcast
 - Good news fast, bad news slow
-- Poisoned reverse (on loops <4)
+- Poisoned reverse (on loops <4): Set to infinity
+- Split horizon: Don't send information in direction it comes from
 - Limited Infinity (e.g., 16 hops)
 - Minimal overhead, but slow convergence
 
@@ -336,10 +347,186 @@ LS
 - Solutions: Sequence numbers, acknowledgments, TTL
 - High overhead, fast convergence
 
+|Issue|LS | DV|
+|-|-|-|
+|Storage|Store all links (entire network)|Entry for each possible destination/hop|
+|Convergence|Reacts more quickly, in bounded time, to connectivity changes|Count-to-infinity problem. Slower convergence. Bounded path length (16)|
+|Global policies|Able to impose global policies in a globally consistent way|Harder, since don't have complete network topology.|
+
+Link state used typically
+## Interdomain Routing
+
+>[!definition]
+>- **End hosts**, **clients**, or **users**: Run layers 1-7
+>- **Autonomous systems (AS)** or **domains**: Region of a network under a single administrative entity (e.g., Penn)
+>	- Every AS is assigned a unique number
+>- **Border routers**: Routers that are on the edges of ASs to talk to other border routers.
+>- **Interior routers**: Regular routers that connect layer 3 devices
+>- **Route** or **path**: Path of routers and devices
+
+Internet hierarchy over time
+- Pre-1995: All go through ARPANET (gov)
+- Circa-1995: Strict hierarchy with gov-funded backbones on top
+	- Tier 1: AT&T, Lumen, etc
+	- Tier 2: Peers with some, but still purchases transit sometimes
+	- Tier 3: Only purchases
+- Today: More complex, lines blurred, hierarchy "flattened"
+
+BGP (application layer)
+- Want (1) freedom in picking routes, (2) autonomy in policy, and (3) privacy
+- Choose DV, but extended into Border Gateway Protocol (BGP) for more policy control
+- Same as DV, but stores entire path (i.e., extra storage, but same computation)
+	- Format: IP prefix : route attributes
+- Can make policy choices based on routers in path, can avoid loops
+- Routers can be in multiple BGP sessions
+- Start with all routes (50-200k), then only advertise changes
+- Message types
+	- Open: Establish session with TCP
+	- Update: Inform neighbor of newly open (announcement) / closed (withdrawal) routes
+	- Keepalive: Inform neighbor route is still fine
+- Types of BGP
+	- **eBGP**: Between border routers in different ASes
+	- **iBGP**: Sessions between border routers and other routers within the same AS (also used by backbones).
+	- **IGP (Interior Gateway Protocol):** Traditional intra-domain routing protocol.
+- Route attributes
+	- **ASPATH**: Vector that lists ASes in a route advertisement has traversed (in reverse order)
+	- **LOCAL PREF**: local preference in choosing between AS paths (typically only in iBGP). Higher value = more preferred
+	- **Multi-exit Discriminator (MED)**: Used when ASs connected via 2 or more links. Specifies how close a prefix is to the link it's announced on. Lower is better.
+	- **iGP Cost**: Used for hot-potato routing. Number of "hops"
+![](Pasted%20image%2020231015210601.png)
+
+- Issues: Policy > performance, doesn't guarantee reachability, 20% of internet inflated by $\geq$ 5 hops, security, convergence
+
+Policy
+- Dictates selection (which path to use) and export (which paths to advertise)
+![](Pasted%20image%2020231015205137.png)
+- Customers pay providers, peers don't pay each other
+- Internet exchange points now allow ISPs to easily peer
+- Peers don't provide transit between peers (i.e., only if they get paid by someone)
+- Multi-homing: Connect to multiple providers for reliability, less control over how rest of internet reaches us
+
+Gao-Rexford Rules
+- AS policy graphs are DAGs and are valley-free
+- Selection policy (high → low priority):
+	- Make money
+	- Performance (shortest path)
+	- Minimize use of own bandwidth (hot potato)
+- Typical **export policy**:
+
+|Destination prefix advertised by|Export route to|
+|-|-|
+|Customer|Everyone (providers, peers, customers)|
+|Peer|Customers|
+|Provider|Customers|
+
+BGP vs DV
+1. **Doesn't pick shortest path:** BGP selects based on policy.
+2. **Path-vector routing:** Advertise entire path
+3. **Selective route advertisement:** May choose not to advertise everything.
+>[!note]
+>This means that reachability is not guaranteed.
+4. **BGP may aggregate routes**: Not common today because of security, but possible for scalability.
+
+## Discovery
+
+### DNS (L7)
+- Host name (e.g., cis.upenn.edu): for humans, hierarchical, based on org
+- IP address: for routers, hierarchical, based on org and topology
+- MAC Address: for adapters, non-hierarchical
+
+DNS goals
+- Used to be sored on /etc/hosts file, couldn't handle as internet grew
+- Uniqueness: no naming conflicts
+- Scalable
+- Distributed, autonomous admin
+- Perfect consistency is a non-goal
+- 3 hierarchies: Namespace, administration, servers
+
+Hierarchical namespace
+- Top level domains on top (edu, com, gov, mil, org, net)
+- Subtrees
+
+Hierarchical Administration
+- Zone is portion of hierarchy an administration controls. (e.g., Penn controls `*.upenn.edu`)
+
+Hierarchical Servers
+- 13 root servers (top), labeled A-N
+	- Location hardwired into other servers
+	- TLDs belong to root
+- Each zone as authoritative name server
+- Anycast to replicate 13 roots
+	- Routing chooses shortest path 
+	- If several locations have same address, choose closest
+
+Iterative DNS 
+![](Pasted%20image%2020231015212327.png)
+- Local DNS server to cache things
+
+Recursive DNS (not used)
+![](Pasted%20image%2020231015212343.png)
+- Excess overhead in root (has to keep track of all requests)
+- Allows reflection attack (target IP with huge payload, all root servers attack)
+
+Resource records
+- Distributed database storing with RRs
+- RR format: (name, value, type, ttf)
+- Type A: Name is hostname, value is IP address
+- Type NS: Name is domain (e.g., foo.com), value is hostname of authoritative name server for this domain
+- Type CNAME: Name is alias (e.g., ibm.com), value is canonical name (servereast.backup2.ibm.com)
+- Type MX: Value is the name of mailserver associated with name
+
+Reliability and speed
+- Root and authoritative servers replicated, can ask alternates and reask
+- Caching saves time
+	- TTL: Small = fast response to change, large = higher cache hit rate
+	- Top of hierarchy: days to weeks TTL
+	- Bottom: Seconds to hours
+- Negative caching: cache lookups that should fail (failure takes long time to find)
+
+### ARP (L2)
+
+How to find interface IP given MAC?
+Address resolution protocol
+- Each IP node (host, router) has ARP table `<IP; MAC; TTL>`
+	- TTL ~20 min
+- A wants to send to B, but doesn't have B in ARP table. A broadcasts (to all) ARP query packet with B's IP. B responds with B's MAC (unicast)
+- Soft state
+
+### DHCP (L7, but interacts with L2)
+- Dynamic host configuration protocol
+- Gets: Local IP, DNS IP, gateway IP, prefix length
+- Host uses to discover
+	- Own IP
+	- Local DNS server IP
+	- Basic routing info (gateway router IP, LAN prefix length)
+- Modes
+	- Dynamic: Pool of addresses, handed out by demand, renewed periodically
+	- Automatic: DHCP reservation, permanently assigned to client
+	- Manual: Address selected by client, who informs DHCP
+- DHCP server maintains all info (IP pool, netmask, DNS servers)
+
+Phases
+1. Broadcast DHCP discovery message (L2, to FFFF:FF...). DHCP server(s) responds with "offer" (proposed IP, lease time, etc.)
+2. Broadcast DHCP request message, accepts one offer. Selected server responds with ACK
+
+Stateless DHCP (IPv6): Use ethernet for lower portion, then learn higher portion of address from router
+
+## Putting it All Together
+
+- Traceroute: Sends packets with increasing TTL to target using ICMP (L3) packet (debugging). Will receive ping timeout response from each packet, telling how far that router is along the path to destination
+
 ## Look at Review Qs
 - Lec 5
 - Lec 6 slide 10 (DBD?)
 - Lec 7 (192.168.1.128?)
-
+- Lec 8
+- Lec 9
+- Lec 10
+	
+**read 3.3, 4.1**
+- look at path vector order prac exam <<<<
 ## Questions
 - For NATs why do we need L4 demux key for priv addresses? Aren't they alr unique in LAN?
+- When/why is iBGP used within an AS vs RIP/DV
+- Spanning tree vs RIP/DV
+- In practice test, why does router have 2 mac addresses
