@@ -169,8 +169,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5530/Review.md",
-                "mode": "source",
+                "file": "CIS 5530/Discovery.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -248,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -403,8 +403,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7da36ba74aa33a64",
+  "active": "9dc424f36a06e81f",
   "lastOpenFiles": [
+    "CIS 5530/Discovery.md",
+    "CIS 5530/Review.md",
     "CIS 2620/Generalized Turing Machines.md",
     "CIS 2620/Turing Machines.md",
     "CIS 2620/Images/Pasted image 20231017122313.png",
@@ -418,10 +420,8 @@
     "CIS 5530/Images/Pasted image 20231015000019.png",
     "CIS 5530/Images/Pasted image 20231012220901.png",
     "Untitled.md",
-    "CIS 5530/Review.md",
     "CIS 5530/Putting it Together.md",
     "CIS 5530/Interdomain Routing.md",
-    "CIS 5530/Discovery.md",
     "CIS 5530/Components of a Network.md",
     "CIS 5530/Intradomain Routing.md",
     "CIS 5530/Architecture of the Internet.md",
