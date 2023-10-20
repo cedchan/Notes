@@ -113,7 +113,7 @@ $$F(w)+\nabla F(w)^\top (w-v)\leq F(v)$$
 ## Proof of Convergence
 
 >[!theorem]
->The update step of gradient descent will converge when $F$ is [convexity](Gradient%20Descent.md#When%20Gradient%20Descent%20Works#Convexity) and [smooth](Gradient%20Descent.md#When%20Gradient%20Descent%20Works#$L$-Smoothness):
+>The update step of gradient descent will converge when $F$ is [convex](Gradient%20Descent.md#When%20Gradient%20Descent%20Works#Convexity) and [smooth](Gradient%20Descent.md#When%20Gradient%20Descent%20Works#$L$-Smoothness):
 >$$w_{t+1}\leftarrow w_t-\frac1L\nabla F(w_t)$$
 
 Note that we use a step size of $\frac1L$, where $F$ is $L$-smooth.
