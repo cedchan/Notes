@@ -181,9 +181,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LING 2500/Syntactic Categories.md",
+                "file": "CIS 5200/Support Vector Machines.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "133c8a2f41ec4e9e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
               }
             }
           },
@@ -308,7 +318,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -382,7 +392,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LING 2500/Syntactic Categories.md",
+                "file": "CIS 5200/Support Vector Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -399,7 +409,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LING 2500/Syntactic Categories.md",
+                "file": "CIS 5200/Support Vector Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -422,7 +432,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LING 2500/Syntactic Categories.md"
+                "file": "CIS 5200/Support Vector Machines.md"
               }
             }
           },
@@ -442,7 +452,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "LING 2500/Syntactic Categories.md"
+                "file": "CIS 5200/Support Vector Machines.md"
               }
             }
           }
@@ -463,10 +473,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d5cb52eb457c5d0",
+  "active": "133c8a2f41ec4e9e",
   "lastOpenFiles": [
-    "CIS 2620/Recognizable Languages.md",
     "LING 2500/Syntactic Categories.md",
+    "CIS 2620/Recognizable Languages.md",
     "CIS 2620/Turing Machines.md",
     "CIS 2620/Recursive Languages.md",
     "Untitled.md",
