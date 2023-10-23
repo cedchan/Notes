@@ -191,9 +191,11 @@
             "id": "133c8a2f41ec4e9e",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "CIS 5200/Kernels.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -392,7 +394,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md",
+                "file": "CIS 5200/Kernels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -409,7 +411,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md",
+                "file": "CIS 5200/Kernels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -432,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md"
+                "file": "CIS 5200/Kernels.md"
               }
             }
           },
@@ -452,7 +454,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 5200/Support Vector Machines.md"
+                "file": "CIS 5200/Kernels.md"
               }
             }
           }
@@ -475,13 +477,15 @@
   },
   "active": "133c8a2f41ec4e9e",
   "lastOpenFiles": [
+    "CIS 5200/Support Vector Machines.md",
+    "CIS 5200/Gradient Descent.md",
+    "CIS 5200/k-Nearest Neighbors.md",
     "LING 2500/Syntactic Categories.md",
     "CIS 2620/Recognizable Languages.md",
     "CIS 2620/Turing Machines.md",
     "CIS 2620/Recursive Languages.md",
     "Untitled.md",
     "CIS 2620/Generalized Turing Machines.md",
-    "CIS 5200/Gradient Descent.md",
     "CIS 5530/Review.md",
     "CIS 5530/Discovery.md",
     "CIS 2620/Images/Pasted image 20231017122313.png",
@@ -501,7 +505,6 @@
     "CIS 5530/Architecture of the Internet.md",
     "CIS 5530/Network Performance.md",
     "CIS 5530/Network Layer (Layer 3).md",
-    "CIS 5200/k-Nearest Neighbors.md",
     "CIS 5200/Linear Regression.md",
     "KORN 0001/Intro to Korean.md",
     "CIS 2620/Automata/Constructions on Automata.md",
@@ -510,7 +513,6 @@
     "CIS 5200/Kernels.md",
     "Glossary/Computer Science.md",
     "CIS 5200/Math for Machine Learning.md",
-    "CIS 2620/Automata/Regular Expressions.md",
     "CIS 2620/Images",
     "Computability",
     "CIS 2620/Automata",
