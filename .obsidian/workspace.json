@@ -193,7 +193,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/Kernels.md",
+                "file": "CIS 2620/Generalized Turing Machines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cffc8f0adf9c2823",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 2620/Decision Problems for Turing Machines.md",
                 "mode": "source",
                 "source": false
               }
@@ -320,7 +332,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -394,7 +406,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 5200/Kernels.md",
+                "file": "CIS 2620/Decision Problems for Turing Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -411,7 +423,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 5200/Kernels.md",
+                "file": "CIS 2620/Decision Problems for Turing Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,7 +446,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 5200/Kernels.md"
+                "file": "CIS 2620/Decision Problems for Turing Machines.md"
               }
             }
           },
@@ -454,7 +466,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 5200/Kernels.md"
+                "file": "CIS 2620/Decision Problems for Turing Machines.md"
               }
             }
           }
@@ -475,17 +487,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "133c8a2f41ec4e9e",
+  "active": "238fc620f3a7044a",
   "lastOpenFiles": [
-    "CIS 5200/Support Vector Machines.md",
+    "Archive",
+    "CIS 2620/Generalized Turing Machines.md",
+    "CIS 2620/Decision Problems for Turing Machines.md",
     "CIS 5200/Gradient Descent.md",
+    "CIS 5200/Kernels.md",
+    "CIS 5200/Support Vector Machines.md",
     "CIS 5200/k-Nearest Neighbors.md",
     "LING 2500/Syntactic Categories.md",
     "CIS 2620/Recognizable Languages.md",
     "CIS 2620/Turing Machines.md",
     "CIS 2620/Recursive Languages.md",
     "Untitled.md",
-    "CIS 2620/Generalized Turing Machines.md",
     "CIS 5530/Review.md",
     "CIS 5530/Discovery.md",
     "CIS 2620/Images/Pasted image 20231017122313.png",
@@ -510,9 +525,6 @@
     "CIS 2620/Automata/Constructions on Automata.md",
     "CIS 2620/Automata/Deterministic Finite Automata (DFA).md",
     "CIS 2620/Automata/Decision Problems for DFAs.md",
-    "CIS 5200/Kernels.md",
-    "Glossary/Computer Science.md",
-    "CIS 5200/Math for Machine Learning.md",
     "CIS 2620/Images",
     "Computability",
     "CIS 2620/Automata",
@@ -522,7 +534,7 @@
     "CIS 5200",
     "Untitled.canvas",
     "LING 2500",
-    "Summer 2023",
+    "Archive/Summer 2023",
     "CIS 2620/Automata/Images"
   ]
 }
