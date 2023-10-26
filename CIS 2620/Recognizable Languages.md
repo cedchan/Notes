@@ -93,3 +93,43 @@ $$\begin{align}
 \end{align}$$
 
 $M$ is halting, and $L(M)=A_1.A_2$
+
+## Unrecognizability
+
+### Countable Sets
+
+Recall the set of natural numbers $\mathbb N=\{1, 2, 3, \dots\}$.
+
+>[!definition]
+>A set $S$ is **countable** if there exists a one-to-one function $f:S\rightarrow \mathbb N$.
+
+>**Examples.**
+>- All finite sets 
+>- The set $\mathbb Z$ of integers also is (e.g., enumerating as 0, +1, -1, +2, -2, +3, -3, ...)
+>- $\mathbb N^2$. In general, if $S, S'$ are both countable, so is $S\times S'$
+>- Set of all strings $\Sigma^*$: Enumerate by length
+>- Set of all Turing machines: Yes, since they can be encoded as strings
+>- Set of recognizable languages: Recognizable languages can be encoding with Turing machines
+
+### Uncountable Sets
+
+>**Example.** $2^{\mathbb N}$, the set of all subsets of $\mathbb N$ (the powerset of $\mathbb N$). 
+>
+>Suppose $2^{\mathbb N}$ is countable. Consider the enumeration $S_1, S_2, S_3, \dots$. Define the following subset of $\mathbb N: S_d=\{i\mid i\notin S_i\}$. 
+
+Similarly, the set of all languages over an alphabet is uncountable.
+
+### Counting Turing Machines
+
+>[!definition]
+>A **characteristic vector** is an infinite vector of $0/1$s, where the $i$-th element is $1$ if $w_i\in A$ and $0$ otherwise. 
+
+Note that we can number all strings $w_i\in\Sigma^*$ because $\Sigma^*$ is countable. Similarly, because Turing machines can be counted, we can create an infinite matrix $C$, where the $i$-th row is the characteristic vector of $M_i$. That is, $C_{ij}=1\iff$ $M_i$ accepts $w_j$.
+
+### Diagonalization Construction
+
+Consider the infinite vector of diagonal entries of $C$. Flip all its bits. The language $A_d=\{w_i\mid w_i\notin L(M_i)\}$, which corresponds to this flipped diagonal vector, is unrecognizable. 
+
+
+
+

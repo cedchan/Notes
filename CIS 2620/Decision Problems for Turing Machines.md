@@ -111,3 +111,4 @@ By construction, $<D>\;\in L(D)$ iff $D$ is a TM that doesn't accept $<D>$.
 Thus $<D>\;\in L(D)\iff <D>\;\notin L(D)$. Contradiction. 
 
 Intuitively, this tells us that if a machine is universal (i.e., can simulate other machines), then its own behavior can't be analyzed by other machines. That is, a machine can't tell if it is itself making an error, sech as entering an infinite loop.
+

@@ -11,15 +11,50 @@
             "id": "cffc8f0adf9c2823",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "CIS 2620/Images/Pasted image 20231024130043.png"
+              }
+            }
+          },
+          {
+            "id": "7f11a4805d2ed421",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Decision Problems for Turing Machines.md",
+                "file": "CIS 5200/Decision Trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4573ae79c49e6854",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 2620/Generalized Turing Machines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbfc2415f5ae2a09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 2620/Problem Classification.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/Decision Problems for Turing Machines.md",
+                "file": "CIS 2620/Problem Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/Decision Problems for Turing Machines.md",
+                "file": "CIS 2620/Problem Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/Decision Problems for Turing Machines.md"
+                "file": "CIS 2620/Problem Classification.md"
               }
             }
           },
@@ -153,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 2620/Decision Problems for Turing Machines.md"
+                "file": "CIS 2620/Problem Classification.md"
               }
             }
           }
@@ -174,16 +209,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cffc8f0adf9c2823",
+  "active": "bbfc2415f5ae2a09",
   "lastOpenFiles": [
-    "Pasted image 20231024130043.png",
-    "Pasted image 20231024124237.png",
-    "LING 2210/Articulatory Phonetics.md",
-    "CIS 2620/Decision Problems for Turing Machines.md",
     "CIS 2620/Generalized Turing Machines.md",
-    "CIS 5200/Support Vector Machines.md",
+    "CIS 2620/Problem Classification.md",
+    "CIS 2620/Recursive Languages.md",
     "CIS 2620/Turing Machines.md",
+    "CIS 2620/Recognizable Languages.md",
+    "CIS 2620/Decision Problems for Turing Machines.md",
+    "CIS 5200/Images/Pasted image 20231025144634.png",
+    "CIS 5200/Images/Pasted image 20231025144123.png",
+    "CIS 5200/Decision Trees.md",
+    "CIS 5200/Supervised Learning.md",
+    "CIS 5200/Perceptron.md",
+    "CIS 5200/Math for Machine Learning.md",
     "CIS 5200/Gradient Descent.md",
+    "CIS 2620/Images/Pasted image 20231024130043.png",
+    "CIS 2620/Images/Pasted image 20231024124237.png",
+    "Untitled.md",
+    "LING 2210/Articulatory Phonetics.md",
+    "CIS 5200/Support Vector Machines.md",
     "CIS 5530/Intradomain Routing.md",
     "CIS 5530/Discovery.md",
     "CIS 5200/k-Nearest Neighbors.md",
@@ -193,11 +238,8 @@
     "CIS 2620/Automata/Proving Non-Regularity.md",
     "CIS 5200/Linear Regression.md",
     "LING 2500/Syntactic Categories.md",
-    "CIS 2620/Recursive Languages.md",
-    "CIS 2620/Recognizable Languages.md",
     "Archive",
     "CIS 5200/Kernels.md",
-    "Untitled.md",
     "CIS 5530/Review.md",
     "CIS 2620/Images/Pasted image 20231017122313.png",
     "CIS 2620/Images/Pasted image 20231017122356.png",
@@ -205,14 +247,7 @@
     "CIS 5530/Images/Pasted image 20231015212343.png",
     "CIS 5530/Images/Pasted image 20231015212327.png",
     "CIS 5530/Images/Pasted image 20231015205137.png",
-    "CIS 5530/Images/Pasted image 20231015002712.png",
-    "CIS 5530/Images/Pasted image 20231015001537.png",
-    "CIS 5530/Images/Pasted image 20231015000019.png",
     "CIS 5530/Putting it Together.md",
-    "CIS 5530/Architecture of the Internet.md",
-    "CIS 5530/Network Performance.md",
-    "CIS 5530/Network Layer (Layer 3).md",
-    "KORN 0001/Intro to Korean.md",
     "CIS 2620/Images",
     "Computability",
     "CIS 2620/Automata",
