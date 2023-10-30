@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Recognizable Languages.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/Recognizable Languages.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/Recognizable Languages.md",
+                "file": "KORN 0001/Intro to Korean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/Recognizable Languages.md"
+                "file": "KORN 0001/Intro to Korean.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 2620/Recognizable Languages.md"
+                "file": "KORN 0001/Intro to Korean.md"
               }
             }
           }
@@ -211,10 +211,10 @@
   },
   "active": "bbfc2415f5ae2a09",
   "lastOpenFiles": [
+    "CIS 2620/Recognizable Languages.md",
     "CIS 2620/Recursive Languages.md",
     "CIS 2620/Generalized Turing Machines.md",
     "CIS 2620/Decision Problems for Turing Machines.md",
-    "CIS 2620/Recognizable Languages.md",
     "CIS 2620/Turing Machines.md",
     "LING 2500/Syntactic Categories.md",
     "Archive/Spring 2023/MATH 3130/Inner Product.md",
