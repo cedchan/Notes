@@ -17,7 +17,7 @@ This language is halting:
 >The machine that solves this problem, $P$, is *not* a DFA, but is rather a TM. It is [decidable](Recursive%20Languages.md) (it's halting), but not [regular](Deterministic%20Finite%20Automata%20(DFA).md#Formal%20Languages#Regular%20Languages).
 
 ### Emptiness Problem for DFAs
-$$E_{\rm DFA}=\{\langle M>\rangle \mid M\text{ is a DFA and $L(M)$ is empty}\}$$
+$$E_{\rm DFA}=\{\langle M\rangle \mid M\text{ is a DFA and $L(M)$ is empty}\}$$
 **Problem:** Is this language decidable?
 
 The halting TM $P$ for $E_{\rm DFA}$:

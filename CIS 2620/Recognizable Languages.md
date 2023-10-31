@@ -61,7 +61,7 @@ $$\begin{align}
 
 ### Closure Under Complementation
 
->[theorem]
+>[!theorem]
 >Recognizable languages are **not** closed under complementation.
 
 Consider the solution we used for [recursive languages](Recursive%20Languages.md#Closure#Closure%20Under%20Complement), where we flip $q_a$ and $q_r$.
@@ -129,7 +129,4 @@ Note that we can number all strings $w_i\in\Sigma^*$ because $\Sigma^*$ is count
 ### Diagonalization Construction
 
 Consider the infinite vector of diagonal entries of $C$. Flip all its bits. The language $A_d=\{w_i\mid w_i\notin L(M_i)\}$, which corresponds to this flipped diagonal vector, is unrecognizable. 
-
-
-
 

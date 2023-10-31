@@ -52,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f955201d64dc3d19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIS 2620/Problem Classification.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KORN 0001/Intro to Korean.md",
+                "file": "CIS 2620/Problem Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KORN 0001/Intro to Korean.md",
+                "file": "CIS 2620/Problem Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KORN 0001/Intro to Korean.md"
+                "file": "CIS 2620/Problem Classification.md"
               }
             }
           },
@@ -188,7 +200,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "KORN 0001/Intro to Korean.md"
+                "file": "CIS 2620/Problem Classification.md"
               }
             }
           }
@@ -209,13 +221,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bbfc2415f5ae2a09",
+  "active": "f955201d64dc3d19",
   "lastOpenFiles": [
     "CIS 2620/Recognizable Languages.md",
-    "CIS 2620/Recursive Languages.md",
-    "CIS 2620/Generalized Turing Machines.md",
-    "CIS 2620/Decision Problems for Turing Machines.md",
     "CIS 2620/Turing Machines.md",
+    "CIS 2620/Problem Classification.md",
+    "CIS 2620/Decision Problems for Turing Machines.md",
+    "CIS 2620/Generalized Turing Machines.md",
+    "CIS 2620/Recursive Languages.md",
+    "KORN 0001/Intro to Korean.md",
+    "Untitled.md",
+    "Random Forests.md",
     "LING 2500/Syntactic Categories.md",
     "Archive/Spring 2023/MATH 3130/Inner Product.md",
     "Archive/Spring 2023/MATH 3130/LU Decomposition.md",
@@ -224,7 +240,6 @@
     "Archive/Spring 2023/MATH 3130/QR Decomposition.md",
     "Archive/Spring 2023/MATH 3130/Gram-Schmidt Process.md",
     "Archive/Spring 2023/MATH 3130/Complex Matrices.md",
-    "CIS 2620/Problem Classification.md",
     "CIS 5200/Images/Pasted image 20231025144634.png",
     "CIS 5200/Images/Pasted image 20231025144123.png",
     "CIS 5200/Decision Trees.md",
@@ -234,13 +249,10 @@
     "CIS 5200/Gradient Descent.md",
     "CIS 2620/Images/Pasted image 20231024130043.png",
     "CIS 2620/Images/Pasted image 20231024124237.png",
-    "Untitled.md",
     "LING 2210/Articulatory Phonetics.md",
     "CIS 5200/Support Vector Machines.md",
     "CIS 5530/Intradomain Routing.md",
     "CIS 5530/Discovery.md",
-    "CIS 5200/k-Nearest Neighbors.md",
-    "CIS 5530/Components of a Network.md",
     "Archive",
     "CIS 2620/Images/Pasted image 20231017122313.png",
     "CIS 2620/Images/Pasted image 20231017122356.png",
