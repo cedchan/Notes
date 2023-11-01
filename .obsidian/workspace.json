@@ -59,14 +59,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Problem Classification.md",
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0129e2231fd99a51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gradient Boosting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -140,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/Problem Classification.md",
+                "file": "Gradient Boosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/Problem Classification.md",
+                "file": "Gradient Boosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/Problem Classification.md"
+                "file": "Gradient Boosting.md"
               }
             }
           },
@@ -200,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 2620/Problem Classification.md"
+                "file": "Gradient Boosting.md"
               }
             }
           }
@@ -221,16 +233,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f955201d64dc3d19",
+  "active": "0129e2231fd99a51",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Gradient Boosting.md",
+    "~PRIV/Untitled 1.md",
+    "KORN 0001/Intro to Korean.md",
+    "CIS 2620/Problem Classification.md",
     "CIS 2620/Recognizable Languages.md",
     "CIS 2620/Turing Machines.md",
-    "CIS 2620/Problem Classification.md",
     "CIS 2620/Decision Problems for Turing Machines.md",
     "CIS 2620/Generalized Turing Machines.md",
     "CIS 2620/Recursive Languages.md",
-    "KORN 0001/Intro to Korean.md",
-    "Untitled.md",
     "Random Forests.md",
     "LING 2500/Syntactic Categories.md",
     "Archive/Spring 2023/MATH 3130/Inner Product.md",
@@ -251,8 +265,6 @@
     "CIS 2620/Images/Pasted image 20231024124237.png",
     "LING 2210/Articulatory Phonetics.md",
     "CIS 5200/Support Vector Machines.md",
-    "CIS 5530/Intradomain Routing.md",
-    "CIS 5530/Discovery.md",
     "Archive",
     "CIS 2620/Images/Pasted image 20231017122313.png",
     "CIS 2620/Images/Pasted image 20231017122356.png",
