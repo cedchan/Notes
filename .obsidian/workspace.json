@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gradient Boosting.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gradient Boosting.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gradient Boosting.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gradient Boosting.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Gradient Boosting.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -235,8 +235,8 @@
   },
   "active": "0129e2231fd99a51",
   "lastOpenFiles": [
-    "Untitled.md",
     "Gradient Boosting.md",
+    "Untitled.md",
     "~PRIV/Untitled 1.md",
     "KORN 0001/Intro to Korean.md",
     "CIS 2620/Problem Classification.md",
