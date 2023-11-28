@@ -162,6 +162,18 @@
             }
           },
           {
+            "id": "709c529d9a173471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Principal Component Analysis (PCA).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e57dbeb1109e60b0",
             "type": "leaf",
             "state": {
@@ -174,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -248,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/The Class NP.md",
+                "file": "Principal Component Analysis (PCA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/The Class NP.md",
+                "file": "Principal Component Analysis (PCA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/The Class NP.md"
+                "file": "Principal Component Analysis (PCA).md"
               }
             }
           },
@@ -308,7 +320,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CIS 2620/The Class NP.md"
+                "file": "Principal Component Analysis (PCA).md"
               }
             }
           }
@@ -329,10 +341,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6bc93e7db05fd23",
+  "active": "709c529d9a173471",
   "lastOpenFiles": [
-    "CIS 2620/The class EXPTIME.md",
+    "Archive/Spring 2023/MATH 3130/Principal Component Analysis.md",
+    "Principal Component Analysis (PCA).md",
     "CIS 2620/The Class NP.md",
+    "CIS 2620/The class EXPTIME.md",
     "~PRIV/Orthography-to-Pronunciation.md",
     "CIS 5200/Performance Metrics.md",
     "CIS 2620/The Class P.md",
@@ -359,8 +373,6 @@
     "KORN 0001/Intro to Korean.md",
     "~PRIV/Untitled 1.md",
     "CIS 2620/Computability/Turing Machines.md",
-    "CIS 2620/Computability/Recursive Languages.md",
-    "LING 2500/Syntactic Categories.md",
     "CIS 5200/Images/Pasted image 20231025144634.png",
     "CIS 5200/Images/Pasted image 20231025144123.png",
     "CIS 2620/Computability/Images/Pasted image 20231024130043.png",
