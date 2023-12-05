@@ -174,6 +174,18 @@
             }
           },
           {
+            "id": "7fcc58bfe92e5c59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SAT and NP-Completeness.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e57dbeb1109e60b0",
             "type": "leaf",
             "state": {
@@ -186,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -260,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Principal Component Analysis (PCA).md",
+                "file": "SAT and NP-Completeness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Principal Component Analysis (PCA).md",
+                "file": "SAT and NP-Completeness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +312,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Principal Component Analysis (PCA).md"
+                "file": "SAT and NP-Completeness.md"
               }
             }
           },
@@ -320,7 +332,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Principal Component Analysis (PCA).md"
+                "file": "SAT and NP-Completeness.md"
               }
             }
           }
@@ -341,10 +353,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "709c529d9a173471",
+  "active": "7fcc58bfe92e5c59",
   "lastOpenFiles": [
-    "Archive/Spring 2023/MATH 3130/Principal Component Analysis.md",
     "Principal Component Analysis (PCA).md",
+    "SAT and NP-Completeness.md",
+    "Archive/Spring 2023/MATH 3130/Principal Component Analysis.md",
     "CIS 2620/The Class NP.md",
     "CIS 2620/The class EXPTIME.md",
     "~PRIV/Orthography-to-Pronunciation.md",
@@ -372,7 +385,6 @@
     "CIS 2620/Computability/Problem Classification.md",
     "KORN 0001/Intro to Korean.md",
     "~PRIV/Untitled 1.md",
-    "CIS 2620/Computability/Turing Machines.md",
     "CIS 5200/Images/Pasted image 20231025144634.png",
     "CIS 5200/Images/Pasted image 20231025144123.png",
     "CIS 2620/Computability/Images/Pasted image 20231024130043.png",
