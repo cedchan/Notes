@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "~PRIV/LING 2210.md",
                 "mode": "source",
                 "source": false
               }
@@ -198,6 +198,18 @@
             }
           },
           {
+            "id": "59615541c6aec6c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~PRIV/Speech Prosody Abstract Draft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e57dbeb1109e60b0",
             "type": "leaf",
             "state": {
@@ -210,7 +222,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -284,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Space Complexity.md",
+                "file": "~PRIV/Speech Prosody Abstract Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +313,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Space Complexity.md",
+                "file": "~PRIV/Speech Prosody Abstract Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -324,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Space Complexity.md"
+                "file": "~PRIV/Speech Prosody Abstract Draft.md"
               }
             }
           },
@@ -344,7 +356,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Space Complexity.md"
+                "file": "~PRIV/Speech Prosody Abstract Draft.md"
               }
             }
           }
@@ -365,10 +377,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2f93acf0bc2abed",
+  "active": "59615541c6aec6c0",
   "lastOpenFiles": [
-    "SAT and NP-Completeness.md",
+    "~PRIV/Tears.md",
+    "~PRIV/Speech Prosody Abstract Draft.md",
+    "~PRIV/LING 2210.md",
     "Space Complexity.md",
+    "SAT and NP-Completeness.md",
     "Principal Component Analysis (PCA).md",
     "Archive/Spring 2023/MATH 3130/Principal Component Analysis.md",
     "CIS 2620/The Class NP.md",
@@ -387,7 +402,6 @@
     "CIS 5200/Model Debugging.md",
     "CIS 5200/Images/Pasted image 20231113144526.png",
     "CIS 5200/Images/IMG_6705.jpg",
-    "Untitled.md",
     "CIS 5200/Linear Regression.md",
     "CIS 5200/Math for Machine Learning.md",
     "CIS 5200/Logistic Regression.md",
@@ -395,8 +409,6 @@
     "CIS 2620/Computability/Recognizable Languages.md",
     "CIS 5200/Adaboost.md",
     "CIS 5200/Random Forests.md",
-    "CIS 2620/Computability/Problem Classification.md",
-    "KORN 0001/Intro to Korean.md",
     "CIS 5200/Images/Pasted image 20231025144634.png",
     "CIS 5200/Images/Pasted image 20231025144123.png",
     "CIS 2620/Computability/Images/Pasted image 20231024130043.png",
