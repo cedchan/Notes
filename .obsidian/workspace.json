@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~PRIV/Speech Prosody Abstract Draft.md",
+                "file": "CIS 2620/Computability/Problem Classification.md",
                 "mode": "source",
                 "source": false
               }
@@ -296,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "~PRIV/Speech Prosody Abstract Draft.md",
+                "file": "CIS 2620/Computability/Problem Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -313,7 +313,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "~PRIV/Speech Prosody Abstract Draft.md",
+                "file": "CIS 2620/Computability/Problem Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "~PRIV/Speech Prosody Abstract Draft.md"
+                "file": "CIS 2620/Computability/Problem Classification.md"
               }
             }
           },
@@ -356,7 +356,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "~PRIV/Speech Prosody Abstract Draft.md"
+                "file": "CIS 2620/Computability/Problem Classification.md"
               }
             }
           }
@@ -379,8 +379,11 @@
   },
   "active": "59615541c6aec6c0",
   "lastOpenFiles": [
-    "~PRIV/Tears.md",
+    "CIS 2620/Computability/Recursive Languages.md",
+    "CIS 2620/Computability/Recognizable Languages.md",
+    "CIS 2620/Computability/Problem Classification.md",
     "~PRIV/Speech Prosody Abstract Draft.md",
+    "~PRIV/Tears.md",
     "~PRIV/LING 2210.md",
     "Space Complexity.md",
     "SAT and NP-Completeness.md",
@@ -406,9 +409,6 @@
     "CIS 5200/Math for Machine Learning.md",
     "CIS 5200/Logistic Regression.md",
     "CIS 5200/Variance and Bias.md",
-    "CIS 2620/Computability/Recognizable Languages.md",
-    "CIS 5200/Adaboost.md",
-    "CIS 5200/Random Forests.md",
     "CIS 5200/Images/Pasted image 20231025144634.png",
     "CIS 5200/Images/Pasted image 20231025144123.png",
     "CIS 2620/Computability/Images/Pasted image 20231024130043.png",
