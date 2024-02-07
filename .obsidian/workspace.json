@@ -1,242 +1,160 @@
 {
   "main": {
-    "id": "be0dc1b3e6ef7bf5",
+    "id": "4589235b11cb14ea",
     "type": "split",
     "children": [
       {
-        "id": "34a286731285b119",
+        "id": "6b865fd3ad274634",
         "type": "tabs",
         "children": [
           {
-            "id": "cffc8f0adf9c2823",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "CIS 2620/Computability/Images/Pasted image 20231024130043.png"
-              }
-            }
-          },
-          {
-            "id": "7f11a4805d2ed421",
+            "id": "238a114b3cfa7dab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/Decision Trees.md",
+                "file": "CIS 3200/Master Theorem.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4573ae79c49e6854",
+            "id": "5fe3ef65ebf0eff9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/Computability/Generalized Turing Machines.md",
+                "file": "CIS 3200/Faster Sorting.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bbfc2415f5ae2a09",
+            "id": "be45505328f634bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KORN 0001/Intro to Korean.md",
+                "file": "STAT 4300/Conditional Probability.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f955201d64dc3d19",
+            "id": "ba778e6dbbc95dfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~PRIV/LING 2210.md",
+                "file": "CIS 3200/Convex Hull.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0129e2231fd99a51",
+            "id": "5b4003c14e3c1cd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/Random Forests.md",
+                "file": "CIS 3200/Fast Matrix Multiplication.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0be9d4354e34680f",
+            "id": "2653096849d9272b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/Gradient Boosting.md",
+                "file": "Praat Scripting.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ce65962cc52322c2",
+            "id": "9d01e5a1972d8540",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/Model Debugging.md",
+                "file": "CIS 3200/Selection Algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "09d23bfd6cc95c75",
+            "id": "786197d4e4676d88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 5200/Supervised Learning.md",
+                "file": "STAT 4300/Conditional Probability.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6e973cea9fbf76b4",
+            "id": "cd1e2b7661869ef1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/The Class P.md",
+                "file": "SOCI 1000.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e7426a7c35a86550",
+            "id": "a802c49ddecdf97c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~PRIV/Orthography-to-Pronunciation.md",
+                "file": "Praat Scripting.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1bf2a14fd0c1e91b",
+            "id": "8eae91722d0c91f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 2620/The Class NP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6bc93e7db05fd23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 2620/The Class NP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "709c529d9a173471",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Principal Component Analysis (PCA).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fcc58bfe92e5c59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SAT and NP-Completeness.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2f93acf0bc2abed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Space Complexity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59615541c6aec6c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 2620/Computability/Problem Classification.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e57dbeb1109e60b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 2620/Computability/Generalized Turing Machines.md",
+                "file": "SOCI 1000.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4e15a431815b2bf0",
+    "id": "eee38ac4e30d6f9c",
     "type": "split",
     "children": [
       {
-        "id": "7a1ed35edeeecacf",
+        "id": "10a8b4b00a97d136",
         "type": "tabs",
         "children": [
           {
-            "id": "238fc620f3a7044a",
+            "id": "ea32f80e028f1c54",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -246,30 +164,22 @@
             }
           },
           {
-            "id": "6502dd2f1c833d14",
+            "id": "f338d12f39230f6d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "0ef9afc6229fcb04",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "cc3c29f062bf90ef",
+            "id": "3022d2d533b65366",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -283,21 +193,21 @@
     "width": 200
   },
   "right": {
-    "id": "256209e4c2e36f33",
+    "id": "a786b5bdb79b6f1f",
     "type": "split",
     "children": [
       {
-        "id": "2aeaa33ae75b0916",
+        "id": "14125401d4fb2fec",
         "type": "tabs",
         "children": [
           {
-            "id": "dd9a7c4ccda11998",
+            "id": "20387f84903941ec",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 2620/Computability/Problem Classification.md",
-                "collapseAll": false,
+                "file": "CIS 3200/Fast Matrix Multiplication.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -308,55 +218,35 @@
             }
           },
           {
-            "id": "799805fb0e2a7076",
+            "id": "78cfd9485cd1e16f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 2620/Computability/Problem Classification.md",
+                "file": "CIS 3200/Fast Matrix Multiplication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a0b8b96dc1b51f9a",
+            "id": "94dee9d8f6944d45",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
           },
           {
-            "id": "5e1393ba38d905a9",
+            "id": "d3f9a7159588b23e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 2620/Computability/Problem Classification.md"
-              }
-            }
-          },
-          {
-            "id": "df9e095f1a46032d",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          },
-          {
-            "id": "b9a7478a56215c39",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "CIS 2620/Computability/Problem Classification.md"
+                "file": "CIS 3200/Fast Matrix Multiplication.md"
               }
             }
           }
@@ -374,57 +264,47 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "59615541c6aec6c0",
+  "active": "5b4003c14e3c1cd2",
   "lastOpenFiles": [
-    "CIS 2620/Computability/Recursive Languages.md",
-    "CIS 2620/Computability/Recognizable Languages.md",
-    "CIS 2620/Computability/Problem Classification.md",
+    "CIS 3200/Images/截屏2024-01-31 下午4.37.30.png",
+    "CIS 3200/Convex Hull.md",
+    "CIS 3200/Fast Matrix Multiplication.md",
+    "CIS 3200/Faster Sorting.md",
+    "Untitled 1.md",
+    "STAT 4300/Independence.md",
+    "STAT 4300/Conditional Probability.md",
+    "CIS 3500/JavaScript.md",
+    "CIS 3500/Git.md",
+    "CIS 3200/Master Theorem.md",
+    "CIS 3200/Selection Algorithm.md",
+    "CIS 3200/Substitution Method.md",
+    "CIS 3200/Convex Hull.md.sb-5d12bac8-3hMgX6",
+    "Praat Scripting.md",
+    "SOCI 1000.md",
+    "STAT 4300/Probability and Counting.md",
     "~PRIV/Speech Prosody Abstract Draft.md",
     "~PRIV/Tears.md",
-    "~PRIV/LING 2210.md",
-    "Space Complexity.md",
-    "SAT and NP-Completeness.md",
-    "Principal Component Analysis (PCA).md",
-    "Archive/Spring 2023/MATH 3130/Principal Component Analysis.md",
-    "CIS 2620/The Class NP.md",
-    "CIS 2620/The class EXPTIME.md",
     "~PRIV/Orthography-to-Pronunciation.md",
-    "CIS 5200/Performance Metrics.md",
-    "CIS 2620/The Class P.md",
-    "CIS 5200/Gradient Boosting.md",
-    "CIS 2620/Computability/Generalized Turing Machines.md",
-    "CIS 5200/Supervised Learning.md",
-    "CIS 2620/Computability/Decision Problems for Turing Machines.md",
-    "CIS 2620/Images",
-    "CIS 2620/Computability",
-    "CIS 5200/k-Nearest Neighbors.md",
-    "CIS 5200/Decision Trees.md",
-    "CIS 5200/Model Debugging.md",
-    "CIS 5200/Images/Pasted image 20231113144526.png",
-    "CIS 5200/Images/IMG_6705.jpg",
-    "CIS 5200/Linear Regression.md",
-    "CIS 5200/Math for Machine Learning.md",
-    "CIS 5200/Logistic Regression.md",
-    "CIS 5200/Variance and Bias.md",
-    "CIS 5200/Images/Pasted image 20231025144634.png",
-    "CIS 5200/Images/Pasted image 20231025144123.png",
-    "CIS 2620/Computability/Images/Pasted image 20231024130043.png",
-    "CIS 2620/Computability/Images/Pasted image 20231024124237.png",
-    "Archive",
-    "CIS 2620/Computability/Images/Pasted image 20231017122313.png",
-    "CIS 2620/Computability/Images/Pasted image 20231017122356.png",
-    "CIS 2620/Computability/Images/Pasted image 20231017122333.png",
-    "CIS 5530/Images/Pasted image 20231015212343.png",
-    "CIS 2620/Computability/Images",
-    "CIS 2620/Computability",
-    "CIS 2620/Automata",
-    "CIS 5200/Images",
-    "CIS 5530/Images",
-    "CIS 5530",
-    "CIS 5200",
-    "Untitled.canvas"
+    "CIS 3200/Images",
+    "Archive/Fall 2023/CIS 5200/Math for Machine Learning.md",
+    "Archive/Fall 2023/CIS 5200/Gradient Boosting.md",
+    "Archive/Fall 2023/CIS 5200/Decision Trees.md",
+    "Archive/Fall 2023/CIS 5200/Random Forests.md",
+    "Archive/Fall 2023/CIS 5200/PyTorch.md",
+    "Archive/Fall 2023/Performance Metrics.md",
+    "Archive/Fall 2023/CIS 5200/Logistic Regression.md",
+    "Archive/Fall 2023/CIS 5200/k-Nearest Neighbors.md",
+    "Archive/Spring 23/CIS 1210",
+    "Archive/Spring 23",
+    "CIS 3200",
+    "STAT 4300",
+    "CIS 5500",
+    "CIS 3500",
+    "Archive/Fall 2023/CIS 2620/Complexity",
+    "Archive/Fall 2023"
   ]
 }
