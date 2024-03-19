@@ -94,10 +94,3 @@ Note that conditional independence doesn't imply independence, and vice versa.
 >Are $F$ and $M$ conditionally independent, given $A$?
 >- $\Pr(F\mid M^\complement, A)=1$
 >- $\Pr(F\mid A)$ is presumably less than 1
-
->[!hint]
->In summary:
->
-$$\begin{align}
-
-\end{align}$$

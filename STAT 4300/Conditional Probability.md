@@ -49,6 +49,12 @@ From the [conditional multiplication rule](Probability%20and%20Counting.md#Condi
 >[!theorem]
 >If $\Pr(A, E)>0, \Pr(B,E)>0$, $$\Pr(A\mid B,E)=\frac{\Pr(B\mid A,E)\cdot\Pr(A\mid E)}{\Pr(B\mid E)}$$
 
+**Proof.**
+$$\begin{align}
+\Pr(A\mid B,E)&=\frac{\Pr(A,B,E)}{\Pr(B,E)} \\
+&=\frac{\Pr(E)\cdot\Pr(A\mid E)\cdot\Pr(B\mid A,E)}{\Pr(B\mid E)\cdot\Pr(E)} \\
+&=\frac{\Pr(B\mid A,E)\cdot\Pr(A\mid E)}{\Pr(B\mid E)}
+\end{align}$$
 ## Law of Total Probability (LOTP)
 
 The law of total probability is a "divide and conquer" result.
@@ -102,6 +108,20 @@ This allows us to define the general LOTP:
 \Pr(I\mid T_+)&=\boxed{\frac12}
 \end{align}$$
 >>The unintuitive result found here is known as the **base rate fallacy**.
+
+### Extra Conditioning
+
+>[!theorem]
+>$$\Pr(A\mid B)=\Pr(A\mid B,E)\cdot\Pr(E\mid B)+\Pr(A\mid B,E^\complement)\cdot\Pr(E^\complement\mid B)$$
+
+**Proof.**
+$$\begin{align}
+{\rm RHS}&=\frac{\Pr(A,B,E)}{\Pr(B,E)}\cdot\frac{\Pr(E,B)}{\Pr(B)}+\frac{\Pr(A,B,E^\complement)}{\Pr(E^\complement\mid B)}\cdot\frac{\Pr(E^\complement,B)}{\Pr(B)} \\
+&=\frac{\Pr(A,B,E)}{\Pr(B)}+\frac{\Pr(A,B,E^\complement)}{\Pr(B)} \\
+&=\frac{\Pr(A,B,E)+\Pr(A,B,E^\complement)}{\Pr(B)} \\
+&=\frac{\Pr(A,B)}{\Pr(B)} \\
+&=\Pr(A\mid B)={\rm LHS}
+\end{align}$$
 
 ## Conditional Probability Functions
 
