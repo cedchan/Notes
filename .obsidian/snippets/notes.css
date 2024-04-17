@@ -1,0 +1,4 @@
+.callout[data-callout="callout type"] {
+    --callout-color: some-color;
+    --callout-icon: lucide-icon;
+}

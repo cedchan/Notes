@@ -56,9 +56,7 @@ $$\mathbb E(g(X))=\mathbb E(Y)=\sum_yy\Pr(Y=y)$$
 This works, but we'd have to calculate the PMF of $Y$ in order to solve this equation. LOTUS provides another method:
 
 >[!theorem]
->$$\mathbb E(g(X))=\sum_xg(X)\Pr(X=x)$$
-
-
+>$$\mathbb E(g(X))=\sum_xg(x)\Pr(X=x)$$
 
 ## Variance
 
@@ -92,3 +90,28 @@ $$\begin{align}
 >$${\rm SD}(X)=\sqrt{{\rm Var}(X)}$$
 
 In applications, the standard deviation is typically easier to interpret than the variance. 
+
+### Properties
+1. ${\rm Var}(X)\ge0$. In fact, ${\rm Var}(X)>0$ unless $X$ is constant
+2. ${\rm Var}(X+c)={\rm Var}(X)$
+3. ${\rm Var}(cX)=c^2{\rm Var}(X)$
+4. $X\perp Y\implies{\rm Var}(X+Y)={\rm Var}(X)+{\rm Var}(Y)$
+
+### Variance of a Sum
+
+Using [covariance](Joint%20Distributions.md#Covariance), we can create a general formula for the variance of the sum of two random variables.
+
+>[!theorem]
+>$$\Var(X+Y)=\Var(X)+\Var(Y)+2\Cov(X,Y)$$
+
+**Proof.**
+$$\begin{align}
+\Var(X+Y)&=\E((X+Y-\E[X+Y])^2) \\
+&=\E\paren{\paren{[X_\E(X)]+[Y-\E(Y)]}^2} \\
+&=\underbrace{\E([X=\E(X)]^2)}_{\Var(X)}+\underbrace{\E([Y-\E(Y)]^2)}_{\Var(Y)}+2\underbrace{\E([X-\E(X)][Y-\E(Y)])}_{\Cov(X,Y)} \\
+&\qed
+\end{align}$$
+
+**Corrollaries:**
+- $\Var(X-Y)=\Var(X)+\Var(Y)-2\Cov(X,Y)$
+- $X\perp Y\implies\Var(X+Y)=\Var(X)+\Var(Y)$

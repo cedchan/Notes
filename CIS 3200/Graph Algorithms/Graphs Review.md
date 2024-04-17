@@ -37,6 +37,7 @@ Based on these axioms, we can define a distance function $d_G$ for graphs.
 
 This is the classic problem solved by the **breadth-first search (BFS)** algorithm.
 
+The more general problem for weighted graphs with positive edge weights is solved by [Dijkstra's algorithm](Dijkstra's%20Algorithm.md), and for negative weights we have the [Bellman-Ford algorithm](Bellman-Ford%20Algorithm.md).
 ### Algorithm
 
 We maintain several pieces of data that will make analysis easier:

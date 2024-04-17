@@ -67,7 +67,7 @@ D(v)&\le D(u)+w(u,v)\\
 Assume for contradiction that $D(v)>\delta(s,v)$. 
 $$\begin{align}
 D(v)&>\delta(s,v) \\
-&=\delta(s,v)+\delta(z,v)\\
+&=\delta(s,z)+\delta(z,v)\\
 &=D(z)+\delta(z,v) \\
 &\geq D(z)
 \end{align}$$
@@ -76,3 +76,5 @@ D(v)&>\delta(s,v) \\
 We do $n$ extract-min operations, each of which requires $O(\log n)$. Further, we do $m$ decrease key operations, which also take $O(\log n)$ time.
 
 Using a Fibonacci heap, the decrease key operations can be sped up to $O(1)$ amortized time.
+
+

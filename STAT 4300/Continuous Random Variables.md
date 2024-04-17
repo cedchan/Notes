@@ -40,6 +40,10 @@ $$\int_a^uf(t)dt=F(u)-F(a)$$
 Finally, taking the limit as $a\to-\infty$, we have
 $$\int_{-\infty}^uf(t)dt=F(u)-\lim_{a\to-\infty}F(a)=F(u)-0=F(u)$$
 
+>[!hint]
+>A shortcut:
+>$$\int_a^x\frac1{b-a}dt=\frac{x-a}{b-a}$$
+
 ### Finding Probabilities
 
 To estimate the probability that $X$ lies in some interval $[a,b],(a,b],[a,b),(a,b)$, we can use the PDF or the CDF (probability can be thought of as the area under the curve). Note that the endpoints don't matter (that is, the probability that $X$ lies in any of those four intervals is equal) because $\Pr(X=a)=\Pr(X=b)=0$. 
@@ -79,3 +83,20 @@ x=\infty&\to-\infty \\
 &=e^{-2}-\lim_{u\to-\infty}e^u \\
 &=e^{-2}
 \end{align}$$
+
+## Expectation
+
+Expectation for continuous random variables follows the same basic idea as with [discrete ones](Expectation.md). but again because $\Pr(X=x)=0$, for any value of $x$, we imagine dividing the real line into tiny intervals of length $\epsilon$. Taking the limit as $\epsilon\to0$, we get the formula for expectation.
+
+>[!definition]
+>If $X$ is a continuous random variable with PDF $f$, then the **expectation** of $X$ is $$\mathbb E(X)=\int_{-\infty}^\infty x\cdot f(x)dx$$
+>if the integral converges absolutely (that is, $\int_{-\infty}^\infty|x|\cdot f(x)dx$ is finite).
+
+Note that although the definition of expectation is different, the definition for [variance](Expectation.md#Variance) remains the same in the continuous case.
+### Continuous Law of the Unconscious Statistician (LOTUS)
+
+>[!definition]
+>Suppose $X$ is a continuous random variable with PDF $f_X$, $Y=g(X)$, where $g:\mathbb R\to\mathbb R$.
+>$$\mathbb E(g(X))=\int_{-\infty}^\infty g(x)\cdot f_X(x)dx$$
+
+This can help us find ${\rm Var}(X)=\mathbb E(X^2)-[\mathbb E(X)]^2$. 

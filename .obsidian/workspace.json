@@ -4,35 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6b865fd3ad274634",
+        "id": "5ca84187066133c7",
         "type": "tabs",
         "children": [
           {
-            "id": "238a114b3cfa7dab",
+            "id": "37224f008ff89e65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STAT 4300/Random Variables.md",
+                "file": "CIS 3200/Graph Algorithms/Matching Problem.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9a6c5bb4651117e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~PRIV/Homework 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10f5636d01094902",
+            "id": "26d979ba6762488c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,91 +32,55 @@
             }
           },
           {
-            "id": "2ddb5baaf3664100",
+            "id": "4e3ee4642138f73d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 3200/Greedy Algorithms/Greedy Algorithms.md",
+                "file": "LaTex Custom Commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a9c2f884463d5ded",
+            "id": "22f4d089b0e028ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 3200/Divide and Conquer/Selection Algorithm.md",
+                "file": "CIS 3200/Graph Algorithms/Network Flows.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8392162a19653e76",
+            "id": "aff68c24d29b64ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 3200/Greedy Algorithms/Picking Jobs Problem.md",
+                "file": "STAT 4300/Discrete Distributions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "519b36ee9c3c8699",
+            "id": "cec19a49c9f4ffeb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/Spring 2023/CIS 1210/Directed Acyclic Graphs (DAGs).md",
+                "file": "STAT 4300/Joint Distributions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "be39814f255036d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/Spring 2023/CIS 1210/Graph Traversals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64fae69c837da84d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STAT 4300/Random Variables.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e8bd5106e4d63d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 3200/Graph Algorithms/Minimum Spanning Tree Problem.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dccc4e1587403127",
+            "id": "fe1ff4231828d38f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -140,161 +92,54 @@
             }
           },
           {
-            "id": "3d3c477583eef6e2",
+            "id": "6331dd17c1f836c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/Fall 2023/CIS 5200/Kernels.md",
+                "file": "STAT 4300/Continuous Random Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "235a71adcfddbc97",
+            "id": "df03eea8e63b0291",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 3200/Graph Algorithms/Dijkstra's Algorithm.md",
+                "file": "STAT 4300/Random Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "790111f081aa3fa1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-02-19 15.58.47.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "2684a29ba93ba4c6",
+            "id": "6ae53eaf86f53a9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 3200/Dynamic Programming/Weighted Activity Selection.md",
+                "file": "STAT 4300/Moment Generating Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f98916590beed1c5",
+            "id": "8dbab5d2b5d8dfee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CIS 3200/Dynamic Programming/Dynamic Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eace376eefd115cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 3200/Dynamic Programming/K-Center on Real Line.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d126f955fc5be2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STAT 4300/Conditional Probability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "caa4b6d7a8d7043e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~PRIV/Exam Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f2286c194cf039d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "~PRIV/Exam Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d01e5a1972d8540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIS 3200/Divide and Conquer/Selection Algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd1e2b7661869ef1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SOCI 1000.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a802c49ddecdf97c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Praat Scripting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8eae91722d0c91f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SOCI 1000.md",
+                "file": "LaTex Custom Commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 200
   },
   "right": {
     "id": "a786b5bdb79b6f1f",
@@ -360,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CIS 3200/Graph Algorithms/Dijkstra's Algorithm.md",
+                "file": "CIS 3200/Graph Algorithms/Matching Problem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -377,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CIS 3200/Graph Algorithms/Dijkstra's Algorithm.md",
+                "file": "CIS 3200/Graph Algorithms/Matching Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -400,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CIS 3200/Graph Algorithms/Dijkstra's Algorithm.md"
+                "file": "CIS 3200/Graph Algorithms/Matching Problem.md"
               }
             }
           }
@@ -423,36 +268,42 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "235a71adcfddbc97",
+  "active": "37224f008ff89e65",
   "lastOpenFiles": [
-    "CIS 3200/Graph Algorithms/Graphs Review.md",
-    "CIS 3200/Graph Algorithms/Minimum Spanning Tree Problem.md",
-    "CIS 3200/Graph Algorithms/Dijkstra's Algorithm.md",
-    "Archive/Fall 2023/CIS 5200/Kernels.md",
-    "STAT 4300/Continuous Random Variables.md",
-    "SOCI 1000.md",
-    "CIS 3200/Greedy Algorithms/Picking Jobs Problem.md",
-    "CIS 3200/Greedy Algorithms/Huffman Coding—A Greedy Look.md",
-    "CIS 3200/Greedy Algorithms/Greedy Algorithms.md",
-    "Language Theory.md",
-    "class P.md",
-    "Excalidraw/Drawing 2024-03-14 14.43.02.excalidraw.md",
-    "STAT 4300/Random Variables.md",
+    "STAT 4300/Joint Distributions.md",
     "STAT 4300/Expectation.md",
-    "Archive/Spring 2023/CHIN 1140.md",
-    "STAT 4300/Probability and Counting.md",
+    "LaTex Custom Commands.md",
+    "STAT 4300/Continuous Random Variables.md",
+    "CIS 3200/Graph Algorithms/Network Flows.md",
     "STAT 4300/Independence.md",
+    "Archive/Spring 2023/CIS 1210/Shortest Path.md",
+    "LING 0500/Language Theory.md",
+    "CIS 3200/Graph Algorithms/Matching Problem.md",
+    "Archive/Spring 2023/CIS 1210/Heaps.md",
+    "STAT 4300/Moment Generating Functions.md",
+    "STAT 4300/Discrete Distributions.md",
+    "STAT 4300/Continuous Distributions.md",
+    "STAT 4300/Random Variables.md",
     "STAT 4300/Conditional Probability.md",
-    "Archive/Spring 2023/CIS 1210/Directed Acyclic Graphs (DAGs).md",
-    "Archive/Spring 2023/CIS 1210/Graph Traversals.md",
-    "CIS 3200/Divide and Conquer/Selection Algorithm.md",
+    "STAT 4300/Probability and Counting.md",
+    "Praat Scripting.md",
+    "hi.md",
+    "CIS 3200/Graph Algorithms/Floyd-Warshall Algorithm.md",
+    "CIS 3200/Graph Algorithms/Graphs Review.md",
+    "CIS 3200/Graph Algorithms/Images/Drawing 2024-03-27 16.31.28.excalidraw.md",
+    "CIS 3200/Graph Algorithms/Images/Drawing 2024-04-08 16.34.24.excalidraw.md",
+    "~PRIV/Drawing 2024-04-03 19.03.56.excalidraw.md",
+    "Archive/Spring 2023/CIS 1210/Minimum Spanning Trees (MSTs).md",
+    "CIS 3200/Graph Algorithms/Minimum Spanning Tree Problem.md",
+    "CIS 3200/Graph Algorithms/Images/Drawing 2024-03-25 16.26.03.excalidraw.md",
+    "LING 0500/截屏2024-03-26 上午11.00.46.png",
+    "LING 0500",
+    "Untitled",
+    "LING 0500/截屏2024-03-26 上午10.33.09.png",
+    "STAT 4300.zip",
+    "CIS 3200/Graph Algorithms/Images",
     "CIS 3200/Graph Algorithms",
     "CIS 3200/Divide and Conquer/Images/截屏2024-01-31 下午4.37.30.png",
-    "Archive/Fall 2023/CIS 2620/Automata/Nondeterministic Finite Automata.md",
-    "Archive/Fall 2023/CIS 2620/Automata/Introduction.md",
-    "Archive/Fall 2023/CIS 2620/Automata/Decision Problems for DFAs.md",
-    "Archive/Fall 2023/CIS 2620/Automata/Proving Non-Regularity.md",
-    "Archive/Fall 2023/CIS 2620/Automata/Regular Expressions.md",
     "Archive/Fall 2023/CIS 2620.zip",
     "CIS 3200/Greedy Algorithms",
     "CIS 3200/Dynamic Programming",
@@ -462,10 +313,6 @@
     "Untitled Diagram.drawio (3).svg",
     "Untitled Diagram.drawio (2).svg",
     "Untitled Diagram.drawio (1).svg",
-    "Excalidraw",
-    "CIS 3200/Convex Hull.md.sb-5d12bac8-3hMgX6",
-    "CIS 3200/Divide and Conquer/Images",
-    "Archive/Spring 23/CIS 1210",
-    "Archive/Spring 23"
+    "Excalidraw"
   ]
 }
