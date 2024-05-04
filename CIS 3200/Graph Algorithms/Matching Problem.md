@@ -84,6 +84,14 @@ This shows that the number of iterations we need is at most $O(n)$.
 
 The key observation made is at iteration $\sqrt n$. From the above claims, $\sqrt n\le d(f)\le\frac nk$. Rearranging the terms, we get that $k\le \sqrt n$.
 
+>[!claim]
+>In $O(m)$ time, we can find the maximal set of vertex-disjoint paths in $G_f$ of length $d(f)$.
+
+**Algorithm:**
+1. Compute $d(f)$ using BFS
+2. Greedily start DFS from unmatched $u\in L_1$. 
+	1. DFS reaches $t$ in $d(f)$ steps. Remove vertices on path $P_1$.
+	2. If DFS backtracks on an edge, remove it.
 
 
 

@@ -1,4 +1,4 @@
-## Bernoulli Distribution
+: ## Bernoulli Distribution
 
 >[!definition]
 >A random variable $X$ has the **Bernoulli distribution** with parameter $p\in (0,1)$ if $\Pr(X=1)=p$ and $\Pr(X=0)=1-p$ 

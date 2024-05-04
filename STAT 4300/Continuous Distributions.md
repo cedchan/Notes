@@ -287,3 +287,76 @@ $$\begin{align}
 >As it turns out, the $\Expo(\lambda)$ distributions are the only memoryless continuous distributions.
 >
 >Further, while this is realistic for some waiting times, like radioactive decay, it's not for others, like human lifetimes.
+
+## Multivariate Normal Distribution
+
+### Motivation
+
+The multivariate normal (MVN) is a [joint distributions](Joint%20Distributions.md) that generalizes the normal. The MVN distribution is important in statistical inference (e.g., confidence intervals, significance tests, etc.).
+
+For example, suppose $\hat\beta_1,\dots,\hat\beta_7$ are the estimated coefficients of a regression model, and we need to approximate the distribution of $\hat\beta_3-\hat\beta_4$. 
+
+### Definition
+
+>[!definition]
+>A **random vector** is a vector $(X_1,\dots,X_k)$ of random variables where the order is meaningful.
+
+>**Example.** If $X,Y$ are random variables, $(X,Y)$ is a random 2-dimensional vector. 
+
+>[!definition]
+>A random vector $(X_1,\dots,X_k)$ have the **Multivariate Normal** joint distribution **(MVN)** if every linear combination of the $X_j$'s has a normal distribution.
+>
+>That is, for every $t_1,\dots,t_k$, $$t_1X_1+\dots+t_kX_k$$
+>has a normal distribution or is constant.
+
+There are a couple situations where the "constant" exception is required:
+1. The coefficients are all zero: $0\cdot X_1+\dots+0\cdot X_k=0$.
+2. We divide everyone into categories (e.g., each represents the proportion of people in a particular disjoint group). Then $X_1+\dots+X_k=1$.
+
+The parameters of a MVN distribution are:
+- The means of $X_1,\dots,X_k$
+- The variances of $X_1,\dots,X_k$
+- The covariances or correlations between each pair of random variables among $X_1,\dots,X_k$
+
+The variance and covariance parameters are often listed in a $k\times k$ **covariance matrix**. 
+
+Another definition of the MVN distribution is using its PDF:
+$$f_{\bf X}(x_1,\dots,x_k)=\frac{\exp\left(-\frac12(\mathbf x-{\bf\mu})^\top\mathbf\Sigma^{-1}(\mathbf{x}-\mathbf\mu) \right)}{\sqrt{(2\pi)^k|\mathbf\Sigma|}}$$
+where $\mathbf\Sigma$ is the covariance matrix and $\mu$ is the mean (note that it is a vector).
+### Properties
+
+>[!theorem]
+>If $(X_1,\dots,X_k)$ is multivariate normal, then each of the individual random variables $X_j$ is normal. The converse is not necessarily true, however.
+
+>**Example.** A non-example of the MVN
+>
+>Suppose $X\sim\N(0,1)$. Flip a coin, independently of $X$. Let $Y=X$ if heads, and $Y=-X$ if tails. Then, $Y\sim\N(0,1)$.
+>
+>Using LOTP, we can find the CDF of $Y$. 
+>$$\begin{align}
+F_Y(y)&=\Pr(Y\le y) \\
+&=\Pr(Y\le y\mid H)\cdot\frac12+\Pr(Y\le y\mid T)\cdot\frac12 \\
+&=\Pr(X\le y\mid H)\cdot\frac12+\Pr(-X\le y\mid T)\cdot\frac12 \\
+&=\Pr(X\le y)\cdot\frac12+\Pr(X\le y)\cdot\frac12 \\
+&=\Phi(y)\cdot\frac12+\Phi(y)\cdot\frac12 \\
+&=\Phi(y)
+\end{align}$$
+>We now show that $(X,Y)$ is not MVN. Particularly, $X+Y$ is a non-normal linear combination of $X$ and $Y$. 
+>$$\begin{align}
+\Pr(X+Y=0)&=\Pr(X+Y=0\mid H)\cdot\frac12+\Pr(X+Y=0\mid T)\cdot\frac12 \\
+&=\Pr(X=0\mid H)\cdot\frac12+\Pr(X-X=0\mid T) \\
+&=0+1\cdot\frac12 \\
+&=\frac12
+\end{align}$$
+>This implies that $X+Y$ doesn't follow the normal distribution because the probability of any value being any random variable being a particular value is 0.
+>
+>Aside: $X+Y$ is interesting because it's a hybrid between discrete and continuous. It has a massive probability of being a particular value, but the rest of the time it's similar to the normal.
+
+>[!theorem]
+>If $X_1,\dots,X_k$ are mutually independent normal random variables, then $(X_1,\dots,X_k)$ is multivariate normal.
+
+**Proof.** Consider any linear combination $t_1X_1+\dots +t_kX_k$. The sum of independent normals is normal. 
+
+>[!theorem]
+>If $(X,Y)$ is bivariate normal and $\Cov(X,Y)=0$, then $X, Y$ are independent.
+
